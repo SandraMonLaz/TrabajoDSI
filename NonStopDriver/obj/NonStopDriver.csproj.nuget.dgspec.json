@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Desarrollo de Videojuegos\\2 CURSO\\DSI\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj": {}
+    "D:\\GitHub\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj": {}
   },
   "projects": {
-    "F:\\Desarrollo de Videojuegos\\2 CURSO\\DSI\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj": {
+    "D:\\GitHub\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Desarrollo de Videojuegos\\2 CURSO\\DSI\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj",
+        "projectUniqueName": "D:\\GitHub\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj",
         "projectName": "NonStopDriver",
-        "projectPath": "F:\\Desarrollo de Videojuegos\\2 CURSO\\DSI\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj",
-        "packagesPath": "C:\\Users\\PcCom\\.nuget\\packages\\",
-        "outputPath": "F:\\Desarrollo de Videojuegos\\2 CURSO\\DSI\\TrabajoDSI\\NonStopDriver\\obj\\",
+        "projectPath": "D:\\GitHub\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\TrabajoDSI\\NonStopDriver\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\PcCom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

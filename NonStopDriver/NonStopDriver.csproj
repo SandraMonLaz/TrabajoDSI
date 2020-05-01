@@ -130,6 +130,10 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\addToGroup.PNG" />
+    <Content Include="Assets\ButtonUser.PNG" />
+    <Content Include="Assets\LogoText.png" />
+    <Content Include="Assets\lowPolyCar.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

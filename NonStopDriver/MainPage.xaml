@@ -8,7 +8,87 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid> <!-- Grid general-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1" Grid.Column="1">   <!-- Grid central-->
+
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="5*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid>  <!-- Grid botones centrales-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="thiefButton" Content="Thief" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175"/>
+                <Button x:Name="policeButton" Content="Police" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175"/>
+            </Grid>
+          
+            <Image HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png" />
+        </Grid>
+        
+        <Image HorizontalAlignment="Stretch" Grid.Column="1" VerticalAlignment="Stretch" Source="/Assets/LogoText.png"/>
+
+        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+
+            <StackPanel x:Name="User1SP" Width="120" Height="120" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="/Assets/ButtonUser.PNG"/>
+                </StackPanel.Background>
+                <Button x:Name="User1B" Width="120" Height="120" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/ButtonUser.PNG"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <StackPanel x:Name="User2SP" Width="120" Height="120" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
+                </StackPanel.Background>
+                <Button x:Name="User2B" Width="120" Height="120" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <StackPanel x:Name="User3SP" Width="120" Height="120" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
+                </StackPanel.Background>
+                <Button x:Name="User3B" Width="120" Height="120" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+
+            <StackPanel x:Name="User4SP" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
+                </StackPanel.Background>
+                <Button x:Name="User4B" Width="120" Height="120" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>
