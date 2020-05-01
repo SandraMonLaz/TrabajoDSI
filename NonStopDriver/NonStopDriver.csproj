@@ -132,6 +132,7 @@
   <ItemGroup>
     <Content Include="Assets\Barra.png" />
     <Content Include="Assets\BolsaDinero.png" />
+    <Content Include="Assets\Fondo.png" />
     <Content Include="Assets\Minimapa.png" />
     <Content Include="Assets\Velometro.png" />
     <Content Include="Properties\Default.rd.xml" />

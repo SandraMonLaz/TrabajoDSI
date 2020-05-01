@@ -40,6 +40,9 @@
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\BolsaDinero.png">
       <PackagePath>Assets\BolsaDinero.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\Fondo.png">
+      <PackagePath>Assets\Fondo.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\Minimapa.png">
       <PackagePath>Assets\Minimapa.png</PackagePath>
     </AppxPackagedFile>
