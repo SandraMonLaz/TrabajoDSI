@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="White">
+    Background="CornflowerBlue">
 
     <Grid>
 
@@ -21,19 +21,27 @@
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
-        <Image x:ConnectionId='2' x:Name="map" Source="Assets/mapa.png" Stretch="UniformToFill" Grid.Row="0" Grid.Column="1" Margin="62,37,62,34" />
-        
-        <TextBlock  Text="Posiciona tu coche" FontSize="35" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="6,0,0,0"/>
-        
-        <Button x:ConnectionId='3' x:Name="button" Content="Desplegar" Grid.Row="1" Grid.Column = "1" Margin="334,0,0,0" Height="58" Width="215" Background="LightBlue"/>
 
-        <ListView x:ConnectionId='4' x:Name="Fruits" SelectionMode="Multiple" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" Margin="0,300,0,0" >
-            <x:String>Apricot</x:String>
-            <x:String>Banana</x:String>
-            <x:String>Cherry</x:String>
-            <x:String>Orange</x:String>
-            <x:String>Strawberry</x:String>
-        </ListView>
+        <Image x:ConnectionId='2' x:Name="map" Source="Assets/mapa.png" Stretch="UniformToFill" Grid.Row="0" Margin="130,45,130,10" Grid.ColumnSpan="2" />
+
+        <Button x:ConnectionId='3' x:Name="button"  Grid.Row="1" Grid.Column = "1"  Margin="334,0,0,0" Height="58" Width="215">
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/BotonDesplegar.png"/>
+            </Button.Background>
+        </Button>
+
+        <StackPanel Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Bottom" Background="LightBlue" Height="221" Margin="30,0,30,0">
+
+            <TextBlock  Text="Posiciona tu coche" FontSize="25" HorizontalAlignment="Center"/>
+
+            <ListView x:ConnectionId='4' x:Name="Lugares" SelectionMode="Multiple" HorizontalAlignment="Center">
+                <x:String>(A)Callejón los Antonios</x:String>
+                <x:String>(B)Entrada trasera</x:String>
+                <x:String>(C)Mesón Paco</x:String>
+                <x:String>(D)Boca de metro</x:String>
+            </ListView>
+
+        </StackPanel>
 
     </Grid>
 </Page>
