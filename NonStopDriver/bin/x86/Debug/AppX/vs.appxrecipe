@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-1NP0EBO</Machine>
+    <WindowsUser>Sandra</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>4e066fc8-d79b-4044-8f70-fba393967085</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Sandra</PackageIdentityPublisher>
+    <IntermediateOutputPath>F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>155ACFE33E3A878BC132DA4121384FB4791E21A03C9BE895FF09A899159741FD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>4e066fc8-d79b-4044-8f70-fba393967085_1.0.0.0_x86__hmjcwastsqny0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>4e066fc8-d79b-4044-8f70-fba393967085_hmjcwastsqny0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>4e066fc8-d79b-4044-8f70-fba393967085</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Sandra</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-01T14:02:23.790</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.exe">
+      <PackagePath>entrypoint\NonStopDriver.exe</PackagePath>
+      <Modified>2020-05-01T14:02:23.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T13:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T16:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Boton.png">
+      <PackagePath>Assets\Garaje\Boton.png</PackagePath>
+      <Modified>2020-05-01T10:31:43.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\BotonPRS.png">
+      <PackagePath>Assets\Garaje\BotonPRS.png</PackagePath>
+      <Modified>2020-05-01T11:39:07.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\BtonSelec.png">
+      <PackagePath>Assets\Garaje\BtonSelec.png</PackagePath>
+      <Modified>2020-05-01T10:32:31.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Estadistica.png">
+      <PackagePath>Assets\Garaje\Estadistica.png</PackagePath>
+      <Modified>2020-05-01T13:47:49.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\flecha.png">
+      <PackagePath>Assets\Garaje\flecha.png</PackagePath>
+      <Modified>2020-05-01T10:41:01.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\flechaL.png">
+      <PackagePath>Assets\Garaje\flechaL.png</PackagePath>
+      <Modified>2020-05-01T12:59:57.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\fondo.png">
+      <PackagePath>Assets\Garaje\fondo.png</PackagePath>
+      <Modified>2020-05-01T12:51:08.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\lowPolyCar.png">
+      <PackagePath>Assets\Garaje\lowPolyCar.png</PackagePath>
+      <Modified>2020-05-01T13:03:04.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\panel.png">
+      <PackagePath>Assets\Garaje\panel.png</PackagePath>
+      <Modified>2020-05-01T13:17:59.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-04-30T15:01:09.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.xr.xml">
+      <PackagePath>NonStopDriver.xr.xml</PackagePath>
+      <Modified>2020-05-01T14:01:59.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-05-01T13:06:50.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\Garaje.xbf">
+      <PackagePath>Garaje.xbf</PackagePath>
+      <Modified>2020-05-01T14:02:23.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-05-01T13:06:50.656</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T15:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-05-01T13:18:11.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\NonStopDriver.exe">
+      <PackagePath>NonStopDriver.exe</PackagePath>
+      <Modified>2020-05-01T14:02:23.786</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
