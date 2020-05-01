@@ -10,14 +10,30 @@
 
     <Grid>
 
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="3*"/>
             <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
 
-        <Image x:Name="map" Source="Assets/mapa.png" Stretch="UniformToFill" Grid.Row="0" Margin="62,37,62,34" />
-        <TextBlock  x:Name="text" Text="Poiciona tu coche" FontSize="25" Grid.Row="0" Margin="523,483,742,351" />
-        <Button x:Name="button" Content="Desplegar" Grid.Row="1" Margin="610,0,0,0" Height="58" Width="215" Background="LightBlue"/>
-      
+        <Image x:Name="map" Source="Assets/mapa.png" Stretch="UniformToFill" Grid.Row="0" Grid.Column="1" Margin="62,37,62,34" />
+        
+        <TextBlock  Text="Posiciona tu coche" FontSize="35" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="6,0,0,0"/>
+        
+        <Button x:Name="button" Content="Desplegar" Grid.Row="1" Grid.Column = "1" Margin="334,0,0,0" Height="58" Width="215" Background="LightBlue"/>
+
+        <ListView x:Name="Fruits" SelectionMode="Multiple" Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" Margin="0,300,0,0" >
+            <x:String>Apricot</x:String>
+            <x:String>Banana</x:String>
+            <x:String>Cherry</x:String>
+            <x:String>Orange</x:String>
+            <x:String>Strawberry</x:String>
+        </ListView>
+
     </Grid>
 </Page>
