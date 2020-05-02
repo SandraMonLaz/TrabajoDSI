@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="NonStopDriver.SeleccionCoche"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NonStopDriver"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <!--Todo el contenido de la izquierda-->
+        <StackPanel x:Name="ContenidoIzquierda" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center">
+
+            <!--Iconos de todos los jugadores-->
+            <Grid x:Name="IconosJugadores" Height="100" >
+                <Grid.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelCoches.png"/>
+                </Grid.Background>
+                <!--LADRONES-->
+                <StackPanel x:Name="JugadoresLadrones"  Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Image x:Name="Player1" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+                    <Image x:Name="Player2" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+                    <Image x:Name="Player3" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+                    <Image x:Name="Player4" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+
+                </StackPanel>
+                <StackPanel x:Name="JugadoresPolicias" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Image x:Name="Player5" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"/>
+                    <Image x:Name="Player6" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"/>
+
+                </StackPanel>
+                <!--POLICIAS-->
+            </Grid>
+            <ListView x:Name="IconosCoches" Height="500">
+                <ListView.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelCoches.png"/>
+                </ListView.Background>
+            </ListView>
+
+        </StackPanel>
+    </Grid>
+</Page>
