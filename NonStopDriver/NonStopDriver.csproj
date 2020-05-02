@@ -137,9 +137,12 @@
     <Content Include="Assets\PostPartida\BandoPolicias.png" />
     <Content Include="Assets\PostPartida\BotonMenu.png" />
     <Content Include="Assets\PostPartida\BotonRematch.png" />
+    <Content Include="Assets\PostPartida\ContenedorInfoLadrones.png" />
+    <Content Include="Assets\PostPartida\ContenedorInfopolicias.png" />
     <Content Include="Assets\PostPartida\DineroLadrones.png" />
     <Content Include="Assets\PostPartida\DineroPolicias.png" />
     <Content Include="Assets\PostPartida\fondo.png" />
+    <Content Include="Assets\PostPartida\FondoIcono.png" />
     <Content Include="Assets\PostPartida\Icono1.png" />
     <Content Include="Assets\PostPartida\Icono2.png" />
     <Content Include="Assets\PostPartida\Icono3.png" />
