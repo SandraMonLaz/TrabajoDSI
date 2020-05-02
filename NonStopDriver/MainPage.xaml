@@ -42,10 +42,10 @@
         </Canvas>
 
         <!--Boton-->
-        <Button x:Name="button"  Grid.Row="1" Grid.Column = "1" Margin="300,0,0,0" Height="58" Width="215">
-            <Button.Background>
-                <ImageBrush ImageSource="Assets/Boton.png"/>
-            </Button.Background>
+        <Button x:Name="button"  Grid.Row="1" Grid.Column = "1" Margin="275,0,0,0" Height="58" Width="188" PointerEntered="button_PointerEntered" PointerExited="button_PointerExited">
+            <StackPanel Margin="-36,-6,-35,-8">
+                <Image Source="Assets/Boton.png" Height="58"/>
+            </StackPanel>
         </Button>
 
         <!--Lista de lugares-->

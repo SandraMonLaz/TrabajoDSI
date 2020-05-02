@@ -26,5 +26,16 @@ namespace NonStopDriver
         {
             this.InitializeComponent();
         }
+
+
+        private void button_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            button.Opacity = 0.5;
+        }
+
+        private void button_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            button.Opacity = 1;
+        }
     }
 }
