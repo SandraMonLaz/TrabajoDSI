@@ -12,12 +12,20 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="5*"></ColumnDefinition>
             <ColumnDefinition Width="4*"></ColumnDefinition>
-
         </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/background.jpg"/>
+        </Grid.Background>
 
         <!--Todo el contenido de la izquierda-->
         <StackPanel x:Name="ContenidoIzquierda" Grid.Column="0" Orientation="Vertical" VerticalAlignment="Center">
 
+            <!--INFORMACION DEL BANDO EN EL QUE TE ENCUENTRAS-->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image  Source="ms-appx:///Assets/SeleccionCoche/bandoladrones.png" Width="150" ></Image>
+                <Image Source="ms-appx:///Assets/SeleccionCoche/TituloLadrones.png" Width="300" Margin="0,0,0,0" ></Image>
+            </StackPanel>
+            
             <!--Iconos de todos los jugadores-->
             <Grid x:Name="IconosJugadores" Height="100" >
                 <Grid.Background>
@@ -43,7 +51,29 @@
                     <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelCoches.png"/>
                 </ListView.Background>
             </ListView>
-
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/BotónConfirmar.png"/>
+            </StackPanel.Background>
+                <Button x:Name="ConfirmButton" Width="100" Height="100">
+                </Button>
         </StackPanel>
+        </StackPanel>
+
+        <!--Contenido de la derecha-->
+        <StackPanel Grid.Column="1">
+            
+            <!--Contenedor del pentagrama y las estadisticas del coche actual-->
+        <StackPanel VerticalAlignment="Top" Width="400" Height="400">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PentagramaStats.png"/>
+            </StackPanel.Background>
+            <!--Imagen de las stats del coche-->
+                <Image Source="ms-appx:///Assets/SeleccionCoche/StatsCar1.png"></Image>
+        </StackPanel>
+
+            <Image Source="ms-appx:///Assets/SeleccionCoche/lowPolyCar.png" Margin="0,-150,0,0"></Image>
+        </StackPanel>
+        
     </Grid>
 </Page>

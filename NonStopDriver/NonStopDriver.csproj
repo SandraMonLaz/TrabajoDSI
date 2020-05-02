@@ -133,11 +133,26 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\SeleccionCoche\background.jpg" />
+    <Content Include="Assets\SeleccionCoche\BandoLadrones.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche1.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche2.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche3.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche4.png" />
     <Content Include="Assets\SeleccionCoche\BotónConfirmar.png" />
+    <Content Include="Assets\SeleccionCoche\lowPolyCar.png" />
+    <Content Include="Assets\SeleccionCoche\lowPolyCar2.png" />
+    <Content Include="Assets\SeleccionCoche\lowPolyCar3.png" />
     <Content Include="Assets\SeleccionCoche\PanelCoches.png" />
     <Content Include="Assets\SeleccionCoche\PanelIconosJugadores.png" />
+    <Content Include="Assets\SeleccionCoche\PentagramaStats.png" />
     <Content Include="Assets\SeleccionCoche\PlayerConnected.png" />
     <Content Include="Assets\SeleccionCoche\PlayerDisConnected.png" />
+    <Content Include="Assets\SeleccionCoche\StatsCar1.png" />
+    <Content Include="Assets\SeleccionCoche\StatsCar2.png" />
+    <Content Include="Assets\SeleccionCoche\StatsCar3.png" />
+    <Content Include="Assets\SeleccionCoche\StatsCar4.png" />
+    <Content Include="Assets\SeleccionCoche\TituloLadrones.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
