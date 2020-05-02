@@ -8,7 +8,103 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid >
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fondo.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--PARTE SUPERIOR DE LA PANTALLA-->
+        <StackPanel x:Name="dineroLadrones"  Height="200" Margin="0,0,0,0" Grid.Column="0" VerticalAlignment="Top">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/DineroLadrones.png"/>
+            </StackPanel.Background>
+        <TextBlock x:Name="DineroLadrones" Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
+        </StackPanel>
+
+        <StackPanel x:Name="dineroPolicias"  Height="200" Margin="0,0,0,0" Grid.Column="2" VerticalAlignment="Top">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/DineroPolicias.png"/>
+            </StackPanel.Background>
+            <TextBlock x:Name="Dineropolicias"  Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
+        </StackPanel>
+
+
+
+        <StackPanel x:Name="ButtonsMenuRematch" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
+            <StackPanel x:Name="menuButton" Width="260" Height="80" Margin="20,0,0,40" >
+                <Button x:Name="MenuB" Width="240" Height="70" Margin="0,0,0,0">
+                    <Button.Background>
+                        <ImageBrush ImageSource="ms-appx:///Assets/BotonMenu.png"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+            <StackPanel x:Name="rematchButton" Width="240" Height="70" Margin="0,0,0,0" >
+                <Button x:Name="rematchB" Width="200" Height="50" Margin="20,0,0,0">
+                    <Button.Background>
+                        <ImageBrush ImageSource="ms-appx:///Assets/BotonRematch.png"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+            <!--<Button x:Name="MenuPrincipalButton" Margin="30,0,0,15" Width="200" Content="Menu"></Button>
+            <Button x:Name="RematchButton" Margin="30,15,0,0" Width="200" Content="Rematch"></Button>-->
+        </StackPanel>
+
+
+        <!--Jugadores del bando de los ladrones-->
+        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+            <StackPanel x:Name="Player1" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
+                        Orientation="Horizontal" >
+                <Image></Image>
+                <TextBlock x:Name="PlayerName" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
+                <TextBlock x:Name="PlayerCar" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="PlayerMoney" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
+            </StackPanel>
+            <StackPanel x:Name="Player2" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
+                        Orientation="Horizontal" >
+                <Image></Image>
+                <TextBlock x:Name="Player2Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
+                <TextBlock x:Name="Player2Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="Player2Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
+            </StackPanel>
+            <StackPanel x:Name="Player3" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
+                        Orientation="Horizontal" >
+                <Image></Image>
+                <TextBlock x:Name="Player3Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
+                <TextBlock x:Name="Player3Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="Player3Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
+            </StackPanel>
+            <StackPanel x:Name="Player4" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
+                        Orientation="Horizontal" >
+                <Image></Image>
+                <TextBlock x:Name="Player4Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
+                <TextBlock x:Name="Player4Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:Name="Player4Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
+            </StackPanel>
+
+        </StackPanel>
+
+        <!--Jugadores del bando de los policias-->
+        <StackPanel Grid.Column="2" VerticalAlignment="Center">
+            <StackPanel x:Name="Player5" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">
+                <TextBlock x:Name="DineroJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
+                <TextBlock x:Name="CocheJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
+                <TextBlock x:Name="NombreJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
+                <Image Source="Assets/BotonMenu.png"></Image>
+            </StackPanel>
+
+            <StackPanel x:Name="Player6" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">
+                <TextBlock x:Name="DineroJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
+                <TextBlock x:Name="CocheJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
+                <TextBlock x:Name="NombreJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
+                <Image></Image>
+            </StackPanel>
+        </StackPanel>
+
 
     </Grid>
 </Page>
