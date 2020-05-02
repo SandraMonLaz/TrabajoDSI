@@ -25,8 +25,9 @@
             </StackPanel.Background>
         <TextBlock x:Name="DineroLadrones" Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
         </StackPanel>
-        <StackPanel Grid.Column="1">
-            
+        <StackPanel x:Name="BandoGanador" Grid.Column="1">
+            <Image x:Name="IconoGanador" Width ="200" Source="ms-appx:///Assets/PostPartida/TituloLadrones.png"></Image>
+            <Image x:Name="NombreGanador" Height="200" Source="ms-appx:///Assets/PostPartida/BandoLadrones.png"></Image>
         </StackPanel>
         
         <StackPanel x:Name="dineroPolicias"  Height="200" Margin="0,0,0,0" Grid.Column="2" VerticalAlignment="Top">
@@ -63,28 +64,28 @@
         <StackPanel Grid.Column="0" VerticalAlignment="Center">
             <StackPanel x:Name="Player1" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
                         Orientation="Horizontal" >
-                <Image></Image>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono1.png"></Image>
                 <TextBlock x:Name="PlayerName" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
                 <TextBlock x:Name="PlayerCar" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
                 <TextBlock x:Name="PlayerMoney" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
             </StackPanel>
             <StackPanel x:Name="Player2" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
                         Orientation="Horizontal" >
-                <Image></Image>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono2.png"></Image>
                 <TextBlock x:Name="Player2Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
                 <TextBlock x:Name="Player2Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
                 <TextBlock x:Name="Player2Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
             </StackPanel>
             <StackPanel x:Name="Player3" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
                         Orientation="Horizontal" >
-                <Image></Image>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono3.png"></Image>
                 <TextBlock x:Name="Player3Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
                 <TextBlock x:Name="Player3Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
                 <TextBlock x:Name="Player3Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
             </StackPanel>
             <StackPanel x:Name="Player4" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
                         Orientation="Horizontal" >
-                <Image></Image>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono4.png"></Image>
                 <TextBlock x:Name="Player4Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
                 <TextBlock x:Name="Player4Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
                 <TextBlock x:Name="Player4Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
@@ -95,17 +96,17 @@
         <!--Jugadores del bando de los policias-->
         <StackPanel Grid.Column="2" VerticalAlignment="Center">
             <StackPanel x:Name="Player5" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">
-                <TextBlock x:Name="DineroJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
-                <TextBlock x:Name="CocheJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
+                <TextBlock x:Name="DineroJugador5" VerticalAlignment="Center" Margin="0,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
+                <TextBlock x:Name="CocheJugador5" VerticalAlignment="Center" Margin="0,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
                 <TextBlock x:Name="NombreJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
-                <Image Source="Assets/PostPartida/BotonMenu.png"></Image>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono5.png"></Image>
             </StackPanel>
 
             <StackPanel x:Name="Player6" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">
-                <TextBlock x:Name="DineroJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
-                <TextBlock x:Name="CocheJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
+                <TextBlock x:Name="DineroJugador6" VerticalAlignment="Center" Margin="0,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
+                <TextBlock x:Name="CocheJugador6" VerticalAlignment="Center" Margin="0,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
                 <TextBlock x:Name="NombreJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
-                <Image></Image>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono6.png"></Image>
             </StackPanel>
         </StackPanel>
 

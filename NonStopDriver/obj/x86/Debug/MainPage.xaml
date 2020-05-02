@@ -23,35 +23,36 @@
             <StackPanel.Background>
                 <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroLadrones.png"/>
             </StackPanel.Background>
-        <TextBlock x:ConnectionId='34' x:Name="DineroLadrones" Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
+        <TextBlock x:ConnectionId='37' x:Name="DineroLadrones" Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
         </StackPanel>
-        <StackPanel Grid.Column="1">
-            
+        <StackPanel x:ConnectionId='3' x:Name="BandoGanador" Grid.Column="1">
+            <Image x:ConnectionId='35' x:Name="IconoGanador" Width ="200" Source="ms-appx:///Assets/PostPartida/TituloLadrones.png"></Image>
+            <Image x:ConnectionId='36' x:Name="NombreGanador" Height="200" Source="ms-appx:///Assets/PostPartida/BandoLadrones.png"></Image>
         </StackPanel>
         
-        <StackPanel x:ConnectionId='3' x:Name="dineroPolicias"  Height="200" Margin="0,0,0,0" Grid.Column="2" VerticalAlignment="Top">
+        <StackPanel x:ConnectionId='4' x:Name="dineroPolicias"  Height="200" Margin="0,0,0,0" Grid.Column="2" VerticalAlignment="Top">
             <StackPanel.Background>
                 <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroPolicias.png"/>
             </StackPanel.Background>
-            <TextBlock x:ConnectionId='33' x:Name="Dineropolicias"  Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
+            <TextBlock x:ConnectionId='34' x:Name="Dineropolicias"  Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
         </StackPanel>
 
 
 
         <!--BOTONES--> 
-        <StackPanel x:ConnectionId='4' x:Name="ButtonsMenuRematch" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-            <StackPanel x:ConnectionId='29' x:Name="menuButton" Width="260" Height="80" Margin="20,0,0,40" >
-                <Button x:ConnectionId='32' x:Name="MenuB" Width="240" Height="70" Margin="0,0,0,0">
-                    <Button.Background>
+        <StackPanel x:ConnectionId='5' x:Name="ButtonsMenuRematch" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
+            <StackPanel x:ConnectionId='30' x:Name="menuButton" Width="260" Height="80" Margin="20,0,0,40" >
+                    <StackPanel.Background>
                         <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonMenu.png"/>
-                    </Button.Background>
+                    </StackPanel.Background>
+                <Button x:ConnectionId='33' x:Name="MenuB" Width="240" Height="70" Margin="0,0,0,0">
                 </Button>
             </StackPanel>
-            <StackPanel x:ConnectionId='30' x:Name="rematchButton" Width="240" Height="70" Margin="0,0,0,0" >
-                <Button x:ConnectionId='31' x:Name="rematchB" Width="200" Height="50" Margin="20,0,0,0">
-                    <Button.Background>
+            <StackPanel x:ConnectionId='31' x:Name="rematchButton" Width="240" Height="70" Margin="0,0,0,0" >
+                    <StackPanel.Background>
                         <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonRematch.png"/>
-                    </Button.Background>
+                    </StackPanel.Background>
+                <Button x:ConnectionId='32' x:Name="rematchB" Width="200" Height="50" Margin="20,0,0,0">
                 </Button>
             </StackPanel>
             <!--<Button x:Name="MenuPrincipalButton" Margin="30,0,0,15" Width="200" Content="Menu"></Button>
@@ -61,51 +62,51 @@
 
         <!--Jugadores del bando de los ladrones-->
         <StackPanel Grid.Column="0" VerticalAlignment="Center">
-            <StackPanel x:ConnectionId='13' x:Name="Player1" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
+            <StackPanel x:ConnectionId='14' x:Name="Player1" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
                         Orientation="Horizontal" >
-                <Image></Image>
-                <TextBlock x:ConnectionId='26' x:Name="PlayerName" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
-                <TextBlock x:ConnectionId='27' x:Name="PlayerCar" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
-                <TextBlock x:ConnectionId='28' x:Name="PlayerMoney" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono1.png"></Image>
+                <TextBlock x:ConnectionId='27' x:Name="PlayerName" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
+                <TextBlock x:ConnectionId='28' x:Name="PlayerCar" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:ConnectionId='29' x:Name="PlayerMoney" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
             </StackPanel>
-            <StackPanel x:ConnectionId='14' x:Name="Player2" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
+            <StackPanel x:ConnectionId='15' x:Name="Player2" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
                         Orientation="Horizontal" >
-                <Image></Image>
-                <TextBlock x:ConnectionId='23' x:Name="Player2Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
-                <TextBlock x:ConnectionId='24' x:Name="Player2Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
-                <TextBlock x:ConnectionId='25' x:Name="Player2Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono2.png"></Image>
+                <TextBlock x:ConnectionId='24' x:Name="Player2Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
+                <TextBlock x:ConnectionId='25' x:Name="Player2Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:ConnectionId='26' x:Name="Player2Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
             </StackPanel>
-            <StackPanel x:ConnectionId='15' x:Name="Player3" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
+            <StackPanel x:ConnectionId='16' x:Name="Player3" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
                         Orientation="Horizontal" >
-                <Image></Image>
-                <TextBlock x:ConnectionId='20' x:Name="Player3Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
-                <TextBlock x:ConnectionId='21' x:Name="Player3Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
-                <TextBlock x:ConnectionId='22' x:Name="Player3Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono3.png"></Image>
+                <TextBlock x:ConnectionId='21' x:Name="Player3Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
+                <TextBlock x:ConnectionId='22' x:Name="Player3Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:ConnectionId='23' x:Name="Player3Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
             </StackPanel>
-            <StackPanel x:ConnectionId='16' x:Name="Player4" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
+            <StackPanel x:ConnectionId='17' x:Name="Player4" Height="60" Background="MediumPurple" BorderBrush="Red" BorderThickness="10"
                         Orientation="Horizontal" >
-                <Image></Image>
-                <TextBlock x:ConnectionId='17' x:Name="Player4Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
-                <TextBlock x:ConnectionId='18' x:Name="Player4Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
-                <TextBlock x:ConnectionId='19' x:Name="Player4Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono4.png"></Image>
+                <TextBlock x:ConnectionId='18' x:Name="Player4Name" Text="Yukilled" Foreground="White" Margin="50,0,50,0" FontSize="30"></TextBlock>
+                <TextBlock x:ConnectionId='19' x:Name="Player4Car" Text="Audi-R8" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock x:ConnectionId='20' x:Name="Player4Money" Text="20000" Foreground="White" Margin="50,0,50,0" FontSize="30" HorizontalAlignment="Right"></TextBlock>
             </StackPanel>
 
         </StackPanel>
 
         <!--Jugadores del bando de los policias-->
         <StackPanel Grid.Column="2" VerticalAlignment="Center">
-            <StackPanel x:ConnectionId='5' x:Name="Player5" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">
-                <TextBlock x:ConnectionId='10' x:Name="DineroJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
-                <TextBlock x:ConnectionId='11' x:Name="CocheJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
-                <TextBlock x:ConnectionId='12' x:Name="NombreJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
-                <Image Source="Assets/PostPartida/BotonMenu.png"></Image>
+            <StackPanel x:ConnectionId='6' x:Name="Player5" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">
+                <TextBlock x:ConnectionId='11' x:Name="DineroJugador5" VerticalAlignment="Center" Margin="0,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
+                <TextBlock x:ConnectionId='12' x:Name="CocheJugador5" VerticalAlignment="Center" Margin="0,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
+                <TextBlock x:ConnectionId='13' x:Name="NombreJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono5.png"></Image>
             </StackPanel>
 
-            <StackPanel x:ConnectionId='6' x:Name="Player6" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">
-                <TextBlock x:ConnectionId='7' x:Name="DineroJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
-                <TextBlock x:ConnectionId='8' x:Name="CocheJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
-                <TextBlock x:ConnectionId='9' x:Name="NombreJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
-                <Image></Image>
+            <StackPanel x:ConnectionId='7' x:Name="Player6" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">
+                <TextBlock x:ConnectionId='8' x:Name="DineroJugador6" VerticalAlignment="Center" Margin="0,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
+                <TextBlock x:ConnectionId='9' x:Name="CocheJugador6" VerticalAlignment="Center" Margin="0,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
+                <TextBlock x:ConnectionId='10' x:Name="NombreJugador6" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
+                <Image Source="ms-appx:///Assets/PostPartida/Icono6.png"></Image>
             </StackPanel>
         </StackPanel>
 

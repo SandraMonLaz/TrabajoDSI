@@ -140,6 +140,13 @@
     <Content Include="Assets\PostPartida\DineroLadrones.png" />
     <Content Include="Assets\PostPartida\DineroPolicias.png" />
     <Content Include="Assets\PostPartida\fondo.png" />
+    <Content Include="Assets\PostPartida\Icono1.png" />
+    <Content Include="Assets\PostPartida\Icono2.png" />
+    <Content Include="Assets\PostPartida\Icono3.png" />
+    <Content Include="Assets\PostPartida\Icono4.png" />
+    <Content Include="Assets\PostPartida\Icono5.png" />
+    <Content Include="Assets\PostPartida\Icono6.png" />
+    <Content Include="Assets\PostPartida\TituloLadrones.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
