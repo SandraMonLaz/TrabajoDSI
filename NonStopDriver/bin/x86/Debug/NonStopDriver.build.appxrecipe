@@ -34,17 +34,38 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\A.png">
+      <PackagePath>Assets\A.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\Boton.png">
       <PackagePath>Assets\Boton.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\C.png">
+      <PackagePath>Assets\C.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\D.png">
+      <PackagePath>Assets\D.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\DestinoIcono.png">
+      <PackagePath>Assets\DestinoIcono.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\fondo.png">
       <PackagePath>Assets\fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\IconoBanco.png">
+      <PackagePath>Assets\IconoBanco.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\Jugador.png">
+      <PackagePath>Assets\Jugador.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\mapa.png">
       <PackagePath>Assets\mapa.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\Panel.png">
       <PackagePath>Assets\Panel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\PoliciaIcono.png">
+      <PackagePath>Assets\PoliciaIcono.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

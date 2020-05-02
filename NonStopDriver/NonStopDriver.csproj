@@ -133,10 +133,17 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\A.png" />
     <Content Include="Assets\Boton.png" />
+    <Content Include="Assets\C.png" />
+    <Content Include="Assets\D.png" />
+    <Content Include="Assets\DestinoIcono.png" />
     <Content Include="Assets\fondo.png" />
+    <Content Include="Assets\IconoBanco.png" />
+    <Content Include="Assets\Jugador.png" />
     <Content Include="Assets\mapa.png" />
     <Content Include="Assets\Panel.png" />
+    <Content Include="Assets\PoliciaIcono.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
