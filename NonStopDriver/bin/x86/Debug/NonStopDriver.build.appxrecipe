@@ -37,14 +37,47 @@
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\addToGroup.PNG">
       <PackagePath>Assets\addToGroup.PNG</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\ajustesIcono.png">
+      <PackagePath>Assets\ajustesIcono.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\bocadillo.png">
+      <PackagePath>Assets\bocadillo.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\ButtonUser.PNG">
       <PackagePath>Assets\ButtonUser.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Connected.png">
+      <PackagePath>Assets\Connected.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Disconnected.png">
+      <PackagePath>Assets\Disconnected.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\fondo.png">
+      <PackagePath>Assets\fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Friend1.png">
+      <PackagePath>Assets\Friend1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Friend2.png">
+      <PackagePath>Assets\Friend2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Friend3.png">
+      <PackagePath>Assets\Friend3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Friend4.png">
+      <PackagePath>Assets\Friend4.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\LogoText.png">
       <PackagePath>Assets\LogoText.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\lowPolyCar.png">
       <PackagePath>Assets\lowPolyCar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\playAs.png">
+      <PackagePath>Assets\playAs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bocadillo.png">
+      <PackagePath>bocadillo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

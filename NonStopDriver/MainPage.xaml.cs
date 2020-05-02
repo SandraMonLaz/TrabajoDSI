@@ -26,5 +26,27 @@ namespace NonStopDriver
         {
             this.InitializeComponent();
         }
+
+        private void FriendsSV_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            FriendsSV.IsPaneOpen = true;
+            SearchFriendsTextBox.Visibility = Visibility.Visible;
+        }
+
+        private void FriendsSV_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            FriendsSV.IsPaneOpen = false;
+            SearchFriendsTextBox.Visibility = Visibility.Collapsed;
+        }
+
+        private void Image_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            //Imagen brilli brilli coche
+        }
+
+        private void Image_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            //Quitar brilli brilli coche
+        }
     }
 }

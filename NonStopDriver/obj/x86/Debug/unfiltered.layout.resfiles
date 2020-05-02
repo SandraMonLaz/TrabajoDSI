@@ -1,9 +1,19 @@
 WinMetadata\Windows.winmd
 Assets\addToGroup.PNG
+Assets\ajustesIcono.png
+Assets\bocadillo.png
 Assets\ButtonUser.PNG
+Assets\Connected.png
+Assets\Disconnected.png
+Assets\fondo.png
+Assets\Friend1.png
+Assets\Friend2.png
+Assets\Friend3.png
+Assets\Friend4.png
 Assets\LockScreenLogo.scale-200.png
 Assets\LogoText.png
 Assets\lowPolyCar.png
+Assets\playAs.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
@@ -13,4 +23,5 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 MainPage.xbf
 NonStopDriver.xr.xml
+bocadillo.png
 Properties\Default.rd.xml

@@ -5,14 +5,17 @@
     xmlns:local="using:NonStopDriver"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    mc:Ignorable="d">
 
-    <Grid> <!-- Grid general-->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/fondo.png"/>
+        </Grid.Background>
+        <!-- Grid general-->
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
             <ColumnDefinition Width="4*"></ColumnDefinition>
-            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
@@ -21,75 +24,185 @@
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="1" Grid.Column="1">   <!-- Grid central-->
+        <StackPanel Orientation="Horizontal" Width="250" Height="100" Background="DarkOliveGreen">
+            <Image Source="/Assets/Friend4.png" HorizontalAlignment="Left" Width="100" Height="100"></Image>
+            <TextBlock Text="AloneFCP" FontSize="30" VerticalAlignment="Center"></TextBlock>
+        </StackPanel>
 
-            
+        <SplitView x:ConnectionId='2' x:Name="FriendsSV" DisplayMode="CompactOverlay" Grid.Row="1" IsPaneOpen="False"                                                                                  >
+            <SplitView.PaneBackground>
+                <SolidColorBrush Color="#FF8B0856" ></SolidColorBrush>
+            </SplitView.PaneBackground>
+
+            <SplitView.Pane>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Friends" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="78,0,0,0"></TextBlock>
+                    <StackPanel Grid.Row="1" Orientation="Vertical" Width="250" HorizontalAlignment="Left">
+                        <TextBox x:ConnectionId='16' x:Name="SearchFriendsTextBox" Width="250" HorizontalAlignment="Left" Visibility="Collapsed"/>
+                        <StackPanel Orientation="Horizontal" Width="250">
+                            <Image Width="50" Height="50" Source="/Assets/Friend1.png"/>
+                            <TextBlock Text="Yukilled" Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                            <StackPanel x:ConnectionId='21' x:Name="Bocadillo1" Width="50" Height="50">
+                                <StackPanel.Background>
+                                    <ImageBrush ImageSource="/Assets/bocadillo.png"/>
+                                </StackPanel.Background>
+                                <Button x:ConnectionId='22' x:Name="Bocadillo1b" Width="50" Height="50">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="/Assets/bocadillo.png"/>
+                                    </Button.Background>
+                                </Button>
+                            </StackPanel>
+                            <Image Width="50" Height="50" Source="/Assets/Connected.png"></Image>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Width="250">
+                            <Image Width="50" Height="50" Source="/Assets/Friend2.png"/>
+                            <TextBlock Text="PaulkMV" Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                            <StackPanel x:ConnectionId='19' x:Name="Bocadillo2" Width="50" Height="50">
+                                <StackPanel.Background>
+                                    <ImageBrush ImageSource="/Assets/bocadillo.png"/>
+                                </StackPanel.Background>
+                                <Button x:ConnectionId='20' x:Name="Bocadillo2b" Width="50" Height="50">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="/Assets/bocadillo.png"/>
+                                    </Button.Background>
+                                </Button>
+                            </StackPanel>
+                            <Image Width="50" Height="50" Source="/Assets/Connected.png"></Image>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Width="250">
+                            <Image Width="50" Height="50" Source="/Assets/Friend3.png"/>
+                            <TextBlock Text="PertGam" Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                            <StackPanel x:ConnectionId='17' x:Name="Bocadillo3" Width="50" Height="50">
+                                <StackPanel.Background>
+                                    <ImageBrush ImageSource="/Assets/bocadillo.png"/>
+                                </StackPanel.Background>
+                                <Button x:ConnectionId='18' x:Name="Bocadillo3b" Width="50" Height="50">
+                                    <Button.Background>
+                                        <ImageBrush ImageSource="/Assets/bocadillo.png"/>
+                                    </Button.Background>
+                                </Button>
+                            </StackPanel>
+
+                            <Image Width="50" Height="50" Source="/Assets/Connected.png"></Image>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </SplitView.Pane>
+        </SplitView>
+
+        <StackPanel x:ConnectionId='3' x:Name="AjustesPanel" Grid.Column="3" Width="120" Height="120">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="/Assets/ajustesIcono.png"/>
+            </StackPanel.Background>
+            <Button x:ConnectionId='15' x:Name="AjustesButton" Width="120" Height="120" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/ajustesIcono.png"/>
+                </Button.Background>
+            </Button>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <!-- Grid central-->
+
             <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
                 <RowDefinition Height="1*"></RowDefinition>
                 <RowDefinition Height="5*"></RowDefinition>
             </Grid.RowDefinitions>
 
-            <Grid>  <!-- Grid botones centrales-->
+
+
+            <Grid Grid.Row="1">
+                <!-- Grid botones centrales-->
                 <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
                     <ColumnDefinition Width="1*"></ColumnDefinition>
                     <ColumnDefinition Width="1*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Button x:ConnectionId='10' x:Name="thiefButton" Content="Thief" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175"/>
-                <Button x:ConnectionId='11' x:Name="policeButton" Content="Police" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175"/>
+                <Button x:ConnectionId='13' x:Name="thiefButton" Content="Thief" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175" FontFamily="Impact" FontSize="20" FocusVisualPrimaryBrush="#FFF3F3F3" Foreground="White" FocusVisualSecondaryBrush="#99535353">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#FFE61111" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button x:ConnectionId='14' x:Name="policeButton" Content="Police" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175" FontFamily="Impact" FontSize="20" FocusVisualPrimaryBrush="#FF28953C">
+                    <Button.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="Black"/>
+                            <GradientStop Color="#E51AEE10" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
             </Grid>
-          
-            <Image HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png" />
+            
+            <Image x:ConnectionId='12' HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png"                                                                           />
+            <Image Width="1000" Height="200" VerticalAlignment="Center" Source="/Assets/playAs.png" />
         </Grid>
-        
+
         <Image HorizontalAlignment="Stretch" Grid.Column="1" VerticalAlignment="Stretch" Source="/Assets/LogoText.png"/>
 
-        <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center">
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
 
-            <StackPanel x:ConnectionId='2' x:Name="User1SP" Width="120" Height="120" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <StackPanel x:ConnectionId='4' x:Name="User1SP" Grid.Column="1" Width="120" Height="120">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="/Assets/ButtonUser.PNG"/>
                 </StackPanel.Background>
-                <Button x:ConnectionId='9' x:Name="User1B" Width="120" Height="120" >
+                <Button x:ConnectionId='11' x:Name="User1B" Width="120" Height="120">
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/ButtonUser.PNG"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
 
-            <StackPanel x:ConnectionId='3' x:Name="User2SP" Width="120" Height="120" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <StackPanel x:ConnectionId='5' x:Name="User2SP" Grid.Column="2" Width="120" Height="120">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
                 </StackPanel.Background>
-                <Button x:ConnectionId='8' x:Name="User2B" Width="120" Height="120" >
+                <Button x:ConnectionId='10' x:Name="User2B" Width="120" Height="120" >
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
 
-            <StackPanel x:ConnectionId='4' x:Name="User3SP" Width="120" Height="120" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <StackPanel x:ConnectionId='6' x:Name="User3SP" Grid.Column="3" Width="120" Height="120">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
                 </StackPanel.Background>
-                <Button x:ConnectionId='7' x:Name="User3B" Width="120" Height="120" >
+                <Button x:ConnectionId='9' x:Name="User3B" Width="120" Height="120" >
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
 
-            <StackPanel x:ConnectionId='5' x:Name="User4SP" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <StackPanel x:ConnectionId='7' x:Name="User4SP" Grid.Column="4" Width="120" Height="120">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
                 </StackPanel.Background>
-                <Button x:ConnectionId='6' x:Name="User4B" Width="120" Height="120" >
+                <Button x:ConnectionId='8' x:Name="User4B" Width="120" Height="120" >
                     <Button.Background>
                         <ImageBrush ImageSource="/Assets/addToGroup.PNG"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
-        </StackPanel>
+        </Grid>
     </Grid>
 </Page>
 
