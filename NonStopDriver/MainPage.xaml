@@ -20,9 +20,9 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="30*"/>
         </Grid.ColumnDefinitions>
 
         <!--Fondo-->
@@ -35,7 +35,7 @@
         <Image Source="Assets/Velometro.png" Grid.Column="2" Grid.Row="3"/>
 
         <!--Minimapa-->
-        <Image  Source="Assets/Minimapa.png" Grid.Column="0" Grid.Row="3" />
+        <Image  Source="Assets/Minimapa.png" Grid.Column="0" Grid.Row="2" Margin="-40,100,0,0" Grid.RowSpan="2" />
 
         <!--Dinero y minimapa-->
         <StackPanel Grid.Row="2" Grid.Column="0" Margin="27,26,0,0">
