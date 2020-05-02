@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-01T14:39:33.163</Modified>
+      <Modified>2020-05-02T16:46:26.084</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.exe">
       <PackagePath>entrypoint\NonStopDriver.exe</PackagePath>
-      <Modified>2020-05-01T14:39:32.389</Modified>
+      <Modified>2020-05-02T16:46:25.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,13 +46,21 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\BotonDesplegar.PNG">
-      <PackagePath>Assets\BotonDesplegar.PNG</PackagePath>
-      <Modified>2020-05-01T13:19:45.790</Modified>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\Boton.png">
+      <PackagePath>Assets\Boton.png</PackagePath>
+      <Modified>2020-05-02T14:51:44.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\fondo.png">
+      <PackagePath>Assets\fondo.png</PackagePath>
+      <Modified>2020-05-02T16:31:54.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\mapa.png">
       <PackagePath>Assets\mapa.png</PackagePath>
-      <Modified>2020-04-30T22:49:41.927</Modified>
+      <Modified>2020-05-02T14:27:42.565</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\Panel.png">
+      <PackagePath>Assets\Panel.png</PackagePath>
+      <Modified>2020-05-02T15:52:47.676</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -94,19 +102,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.xr.xml">
       <PackagePath>NonStopDriver.xr.xml</PackagePath>
-      <Modified>2020-05-01T14:39:32.123</Modified>
+      <Modified>2020-05-02T16:23:05.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-01T11:20:22.807</Modified>
+      <Modified>2020-05-02T14:55:35.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-01T14:39:32.130</Modified>
+      <Modified>2020-05-02T16:46:24.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\Posicionamiento.xbf">
       <PackagePath>Posicionamiento.xbf</PackagePath>
-      <Modified>2020-05-01T11:20:22.809</Modified>
+      <Modified>2020-05-02T14:55:35.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -114,11 +122,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-01T13:21:02.639</Modified>
+      <Modified>2020-05-02T16:23:06.252</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\NonStopDriver.exe">
       <PackagePath>NonStopDriver.exe</PackagePath>
-      <Modified>2020-05-01T14:39:33.154</Modified>
+      <Modified>2020-05-02T16:46:26.076</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
