@@ -133,11 +133,13 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\BotonMenu.png" />
-    <Content Include="Assets\BotonRematch.png" />
-    <Content Include="Assets\DineroLadrones.png" />
-    <Content Include="Assets\DineroPolicias.png" />
-    <Content Include="Assets\fondo.png" />
+    <Content Include="Assets\PostPartida\BandoLadrones.png" />
+    <Content Include="Assets\PostPartida\BandoPolicias.png" />
+    <Content Include="Assets\PostPartida\BotonMenu.png" />
+    <Content Include="Assets\PostPartida\BotonRematch.png" />
+    <Content Include="Assets\PostPartida\DineroLadrones.png" />
+    <Content Include="Assets\PostPartida\DineroPolicias.png" />
+    <Content Include="Assets\PostPartida\fondo.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

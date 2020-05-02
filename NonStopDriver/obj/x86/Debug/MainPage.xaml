@@ -10,7 +10,7 @@
 
     <Grid >
         <Grid.Background>
-            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/fondo.png" AlignmentY="Top" AlignmentX="Center"/>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/PostPartida/fondo.png" AlignmentY="Top" AlignmentX="Center"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -19,21 +19,38 @@
         </Grid.ColumnDefinitions>
 
         <!--PARTE SUPERIOR DE LA PANTALLA-->
-        <Image x:ConnectionId='2' x:Name="ImagenDineroLadrones" Grid.Column="0" VerticalAlignment="Top" Source="ms-appx:///Assets/DineroLadrones.png"></Image>
-        <Image x:ConnectionId='3' x:Name="ImagenDineroPolicias" Grid.Column="2" VerticalAlignment="Top" Source="ms-appx:///Assets/DineroPolicias.png"></Image>
+        <StackPanel x:ConnectionId='2' x:Name="dineroLadrones"  Height="200" Margin="0,0,0,0" Grid.Column="0" VerticalAlignment="Top">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroLadrones.png"/>
+            </StackPanel.Background>
+        <TextBlock x:ConnectionId='34' x:Name="DineroLadrones" Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            
+        </StackPanel>
+        
+        <StackPanel x:ConnectionId='3' x:Name="dineroPolicias"  Height="200" Margin="0,0,0,0" Grid.Column="2" VerticalAlignment="Top">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroPolicias.png"/>
+            </StackPanel.Background>
+            <TextBlock x:ConnectionId='33' x:Name="Dineropolicias"  Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
+        </StackPanel>
 
+
+
+        <!--BOTONES--> 
         <StackPanel x:ConnectionId='4' x:Name="ButtonsMenuRematch" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
             <StackPanel x:ConnectionId='29' x:Name="menuButton" Width="260" Height="80" Margin="20,0,0,40" >
                 <Button x:ConnectionId='32' x:Name="MenuB" Width="240" Height="70" Margin="0,0,0,0">
                     <Button.Background>
-                        <ImageBrush ImageSource="ms-appx:///Assets/BotonMenu.png"/>
+                        <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonMenu.png"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
             <StackPanel x:ConnectionId='30' x:Name="rematchButton" Width="240" Height="70" Margin="0,0,0,0" >
                 <Button x:ConnectionId='31' x:Name="rematchB" Width="200" Height="50" Margin="20,0,0,0">
                     <Button.Background>
-                        <ImageBrush ImageSource="ms-appx:///Assets/BotonRematch.png"/>
+                        <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonRematch.png"/>
                     </Button.Background>
                 </Button>
             </StackPanel>
@@ -81,7 +98,7 @@
                 <TextBlock x:ConnectionId='10' x:Name="DineroJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="20000"></TextBlock>
                 <TextBlock x:ConnectionId='11' x:Name="CocheJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Audi-R8"></TextBlock>
                 <TextBlock x:ConnectionId='12' x:Name="NombreJugador5" VerticalAlignment="Center" Margin="50,0,50,0" FontSize="30" Foreground="White" Text="Yukilled"></TextBlock>
-                <Image Source="Assets/BotonMenu.png"></Image>
+                <Image Source="Assets/PostPartida/BotonMenu.png"></Image>
             </StackPanel>
 
             <StackPanel x:ConnectionId='6' x:Name="Player6" Background="Blue" BorderBrush="Red"  BorderThickness="10" Height="60" Orientation="Horizontal">

@@ -34,20 +34,26 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\BotonMenu.png">
-      <PackagePath>Assets\BotonMenu.png</PackagePath>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\BandoLadrones.png">
+      <PackagePath>Assets\PostPartida\BandoLadrones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\BotonRematch.png">
-      <PackagePath>Assets\BotonRematch.png</PackagePath>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\BandoPolicias.png">
+      <PackagePath>Assets\PostPartida\BandoPolicias.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\DineroLadrones.png">
-      <PackagePath>Assets\DineroLadrones.png</PackagePath>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\BotonMenu.png">
+      <PackagePath>Assets\PostPartida\BotonMenu.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\DineroPolicias.png">
-      <PackagePath>Assets\DineroPolicias.png</PackagePath>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\BotonRematch.png">
+      <PackagePath>Assets\PostPartida\BotonRematch.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\fondo.png">
-      <PackagePath>Assets\fondo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\DineroLadrones.png">
+      <PackagePath>Assets\PostPartida\DineroLadrones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\DineroPolicias.png">
+      <PackagePath>Assets\PostPartida\DineroPolicias.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\fondo.png">
+      <PackagePath>Assets\PostPartida\fondo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
