@@ -133,6 +133,9 @@
     <Content Include="Assets\addToGroup.PNG" />
     <Content Include="Assets\ajustesIcono.png" />
     <Content Include="Assets\bocadillo.png" />
+    <Content Include="Assets\botonThief.PNG" />
+    <Content Include="Assets\botonThiefPress.PNG" />
+    <Content Include="Assets\brilloCoche.png" />
     <Content Include="Assets\ButtonUser.PNG" />
     <Content Include="Assets\Connected.png" />
     <Content Include="Assets\Disconnected.png" />
@@ -144,6 +147,8 @@
     <Content Include="Assets\LogoText.png" />
     <Content Include="Assets\lowPolyCar.png" />
     <Content Include="Assets\playAs.png" />
+    <Content Include="Assets\PoliceButon.PNG" />
+    <Content Include="Assets\PoliceButonPress.PNG" />
     <Content Include="bocadillo.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

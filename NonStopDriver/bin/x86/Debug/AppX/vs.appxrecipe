@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-02T17:44:23.873</Modified>
+      <Modified>2020-05-03T11:05:06.703</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.exe">
       <PackagePath>entrypoint\NonStopDriver.exe</PackagePath>
-      <Modified>2020-05-02T17:44:23.462</Modified>
+      <Modified>2020-05-03T11:05:06.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -48,59 +48,79 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\addToGroup.PNG">
       <PackagePath>Assets\addToGroup.PNG</PackagePath>
-      <Modified>2020-05-01T12:53:29.668</Modified>
+      <Modified>2020-05-03T10:22:45.358</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\ajustesIcono.png">
       <PackagePath>Assets\ajustesIcono.png</PackagePath>
-      <Modified>2020-05-01T17:01:24.967</Modified>
+      <Modified>2020-05-03T10:22:45.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\bocadillo.png">
       <PackagePath>Assets\bocadillo.png</PackagePath>
-      <Modified>2020-05-02T17:14:37.468</Modified>
+      <Modified>2020-05-03T10:22:45.410</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\botonThief.PNG">
+      <PackagePath>Assets\botonThief.PNG</PackagePath>
+      <Modified>2020-05-03T10:27:38.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\botonThiefPress.PNG">
+      <PackagePath>Assets\botonThiefPress.PNG</PackagePath>
+      <Modified>2020-05-03T10:27:38.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\brilloCoche.png">
+      <PackagePath>Assets\brilloCoche.png</PackagePath>
+      <Modified>2020-05-03T11:00:48.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\ButtonUser.PNG">
       <PackagePath>Assets\ButtonUser.PNG</PackagePath>
-      <Modified>2020-05-01T12:51:48.944</Modified>
+      <Modified>2020-05-03T10:22:45.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Connected.png">
       <PackagePath>Assets\Connected.png</PackagePath>
-      <Modified>2020-05-02T16:42:32.006</Modified>
+      <Modified>2020-05-03T10:22:45.432</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Disconnected.png">
       <PackagePath>Assets\Disconnected.png</PackagePath>
-      <Modified>2020-05-02T16:42:51.415</Modified>
+      <Modified>2020-05-03T10:22:45.436</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\fondo.png">
       <PackagePath>Assets\fondo.png</PackagePath>
-      <Modified>2020-05-02T14:23:11.597</Modified>
+      <Modified>2020-05-03T10:22:45.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Friend1.png">
       <PackagePath>Assets\Friend1.png</PackagePath>
-      <Modified>2020-05-02T16:54:29.940</Modified>
+      <Modified>2020-05-03T10:22:45.450</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Friend2.png">
       <PackagePath>Assets\Friend2.png</PackagePath>
-      <Modified>2020-05-02T16:55:07.146</Modified>
+      <Modified>2020-05-03T10:22:45.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Friend3.png">
       <PackagePath>Assets\Friend3.png</PackagePath>
-      <Modified>2020-05-02T16:56:00.999</Modified>
+      <Modified>2020-05-03T10:22:45.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\Friend4.png">
       <PackagePath>Assets\Friend4.png</PackagePath>
-      <Modified>2020-05-02T17:24:26.096</Modified>
+      <Modified>2020-05-03T10:22:45.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\LogoText.png">
       <PackagePath>Assets\LogoText.png</PackagePath>
-      <Modified>2020-05-02T14:25:02.914</Modified>
+      <Modified>2020-05-03T10:22:45.475</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\lowPolyCar.png">
       <PackagePath>Assets\lowPolyCar.png</PackagePath>
-      <Modified>2020-05-01T12:37:37.183</Modified>
+      <Modified>2020-05-03T10:22:45.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\playAs.png">
       <PackagePath>Assets\playAs.png</PackagePath>
-      <Modified>2020-05-02T15:39:45.820</Modified>
+      <Modified>2020-05-03T10:22:45.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\PoliceButon.PNG">
+      <PackagePath>Assets\PoliceButon.PNG</PackagePath>
+      <Modified>2020-05-03T10:27:38.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\PoliceButonPress.PNG">
+      <PackagePath>Assets\PoliceButonPress.PNG</PackagePath>
+      <Modified>2020-05-03T10:27:38.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bocadillo.png">
       <PackagePath>bocadillo.png</PackagePath>
@@ -146,15 +166,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.xr.xml">
       <PackagePath>NonStopDriver.xr.xml</PackagePath>
-      <Modified>2020-05-02T17:43:05.690</Modified>
+      <Modified>2020-05-03T10:39:22.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-02T17:08:41.347</Modified>
+      <Modified>2020-05-03T11:05:06.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-02T17:44:23.295</Modified>
+      <Modified>2020-05-03T11:05:06.006</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -162,11 +182,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-02T17:29:00.086</Modified>
+      <Modified>2020-05-03T11:05:06.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\NonStopDriver.exe">
       <PackagePath>NonStopDriver.exe</PackagePath>
-      <Modified>2020-05-02T17:44:23.867</Modified>
+      <Modified>2020-05-03T11:05:06.698</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

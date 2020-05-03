@@ -125,25 +125,12 @@
                     <ColumnDefinition Width="1*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Button x:Name="thiefButton" Content="Thief" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175" FontFamily="Impact" FontSize="20" FocusVisualPrimaryBrush="#FFF3F3F3" Foreground="White" FocusVisualSecondaryBrush="#99535353">
-                    <Button.Background>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black"/>
-                            <GradientStop Color="#FFE61111" Offset="1"/>
-                        </LinearGradientBrush>
-                    </Button.Background>
-                </Button>
-                <Button x:Name="policeButton" Content="Police" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175" FontFamily="Impact" FontSize="20" FocusVisualPrimaryBrush="#FF28953C">
-                    <Button.Background>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black"/>
-                            <GradientStop Color="#E51AEE10" Offset="1"/>
-                        </LinearGradientBrush>
-                    </Button.Background>
-                </Button>
+                <Image x:Name="thiefButton" Height="48" Width="175" Source="/Assets/botonThief.png" Grid.Column="1" PointerEntered="thiefButton_PointerEntered" PointerExited="thiefButton_PointerExited"></Image>
+
+                <Image x:Name="policeButton" Height="48" Width="175" Source="/Assets/PoliceButon.png" Grid.Column="2" PointerEntered="policeButton_PointerEntered" PointerExited="policeButton_PointerExited"></Image>
             </Grid>
             
-            <Image HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png" PointerEntered="Image_PointerEntered" PointerExited="Image_PointerExited" />
+            <Image x:Name="CarImage" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png" PointerEntered="Image_PointerEntered" PointerExited="Image_PointerExited" PointerPressed="Image_PointerPressed" />
             <Image Width="1000" Height="200" VerticalAlignment="Center" Source="/Assets/playAs.png" />
         </Grid>
 

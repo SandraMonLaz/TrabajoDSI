@@ -2,6 +2,9 @@ WinMetadata\Windows.winmd
 Assets\addToGroup.PNG
 Assets\ajustesIcono.png
 Assets\bocadillo.png
+Assets\botonThief.PNG
+Assets\botonThiefPress.PNG
+Assets\brilloCoche.png
 Assets\ButtonUser.PNG
 Assets\Connected.png
 Assets\Disconnected.png
@@ -14,6 +17,8 @@ Assets\LockScreenLogo.scale-200.png
 Assets\LogoText.png
 Assets\lowPolyCar.png
 Assets\playAs.png
+Assets\PoliceButon.PNG
+Assets\PoliceButonPress.PNG
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png

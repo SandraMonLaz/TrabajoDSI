@@ -43,6 +43,15 @@
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\bocadillo.png">
       <PackagePath>Assets\bocadillo.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\botonThief.PNG">
+      <PackagePath>Assets\botonThief.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\botonThiefPress.PNG">
+      <PackagePath>Assets\botonThiefPress.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\brilloCoche.png">
+      <PackagePath>Assets\brilloCoche.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\ButtonUser.PNG">
       <PackagePath>Assets\ButtonUser.PNG</PackagePath>
     </AppxPackagedFile>
@@ -75,6 +84,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\playAs.png">
       <PackagePath>Assets\playAs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\PoliceButon.PNG">
+      <PackagePath>Assets\PoliceButon.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\Assets\PoliceButonPress.PNG">
+      <PackagePath>Assets\PoliceButonPress.PNG</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\NonStopDriver\bocadillo.png">
       <PackagePath>bocadillo.png</PackagePath>

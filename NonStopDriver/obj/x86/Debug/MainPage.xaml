@@ -125,25 +125,12 @@
                     <ColumnDefinition Width="1*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Button x:ConnectionId='13' x:Name="thiefButton" Content="Thief" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175" FontFamily="Impact" FontSize="20" FocusVisualPrimaryBrush="#FFF3F3F3" Foreground="White" FocusVisualSecondaryBrush="#99535353">
-                    <Button.Background>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black"/>
-                            <GradientStop Color="#FFE61111" Offset="1"/>
-                        </LinearGradientBrush>
-                    </Button.Background>
-                </Button>
-                <Button x:ConnectionId='14' x:Name="policeButton" Content="Police" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Height="48" Width="175" FontFamily="Impact" FontSize="20" FocusVisualPrimaryBrush="#FF28953C">
-                    <Button.Background>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black"/>
-                            <GradientStop Color="#E51AEE10" Offset="1"/>
-                        </LinearGradientBrush>
-                    </Button.Background>
-                </Button>
+                <Image x:ConnectionId='13' x:Name="thiefButton" Height="48" Width="175" Source="/Assets/botonThief.png" Grid.Column="1"                                                                                      ></Image>
+
+                <Image x:ConnectionId='14' x:Name="policeButton" Height="48" Width="175" Source="/Assets/PoliceButon.png" Grid.Column="2"                                                                                        ></Image>
             </Grid>
             
-            <Image x:ConnectionId='12' HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png"                                                                           />
+            <Image x:ConnectionId='12' x:Name="CarImage" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png"                                                                                                                 />
             <Image Width="1000" Height="200" VerticalAlignment="Center" Source="/Assets/playAs.png" />
         </Grid>
 

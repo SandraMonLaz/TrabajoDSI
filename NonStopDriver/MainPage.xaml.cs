@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
@@ -41,12 +42,37 @@ namespace NonStopDriver
 
         private void Image_PointerEntered(object sender, PointerRoutedEventArgs e)
         {
-            //Imagen brilli brilli coche
+            CarImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/brilloCoche.png"));
         }
 
         private void Image_PointerExited(object sender, PointerRoutedEventArgs e)
         {
-            //Quitar brilli brilli coche
+            CarImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/lowPolyCar.png"));
+        }
+
+        private void Image_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            //Ir a garaje
+        }
+
+        private void thiefButton_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            thiefButton.Source = new BitmapImage(new Uri("ms-appx:///Assets/botonThiefPress.png"));
+        }
+
+        private void thiefButton_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            thiefButton.Source = new BitmapImage(new Uri("ms-appx:///Assets/botonThief.png"));
+        }
+
+        private void policeButton_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            policeButton.Source = new BitmapImage(new Uri("ms-appx:///Assets/PoliceButonPress.png"));
+        }
+
+        private void policeButton_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            policeButton.Source = new BitmapImage(new Uri("ms-appx:///Assets/PoliceButon.png"));
         }
     }
 }

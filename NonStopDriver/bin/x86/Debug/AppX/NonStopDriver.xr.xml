@@ -50,28 +50,12 @@
       <RootProperty Name="Height" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
+      <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Background" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="FocusVisualPrimaryBrush" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="FocusVisualSecondaryBrush" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
-      <RootProperty Name="EndPoint" />
-      <RootProperty Name="StartPoint" />
-      <RootProperty Name="GradientStops" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Media.GradientStop">
-      <RootProperty Name="Color" />
-      <RootProperty Name="Offset" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">
       <RootProperty Name="Color" />
