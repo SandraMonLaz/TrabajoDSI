@@ -139,6 +139,8 @@
     <Content Include="Assets\PostPartida\BotonRematch.png" />
     <Content Include="Assets\PostPartida\ContenedorInfoLadrones.png" />
     <Content Include="Assets\PostPartida\ContenedorInfopolicias.png" />
+    <Content Include="Assets\PostPartida\ContenedorLadrones.png" />
+    <Content Include="Assets\PostPartida\ContenedorPolicias.png" />
     <Content Include="Assets\PostPartida\DineroLadrones.png" />
     <Content Include="Assets\PostPartida\DineroPolicias.png" />
     <Content Include="Assets\PostPartida\fondo.png" />

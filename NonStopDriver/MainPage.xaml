@@ -62,6 +62,9 @@
 
         <!--Jugadores del bando de los ladrones-->
         <StackPanel Grid.Column="0" VerticalAlignment="Center">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorLadrones.png"/>
+            </StackPanel.Background>
             <StackPanel x:Name="Player1" Height="100" 
                         Orientation="Horizontal" >
                 <StackPanel.Background>
@@ -107,6 +110,9 @@
 
         <!--Jugadores del bando de los policias-->
         <StackPanel Grid.Column="2" VerticalAlignment="Center">
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorPolicias.png"/>
+            </StackPanel.Background>
             <StackPanel x:Name="Player5"  Orientation="Horizontal" Height="100">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoPolicias.png"/>

@@ -46,6 +46,12 @@
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\BotonRematch.png">
       <PackagePath>Assets\PostPartida\BotonRematch.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ContenedorInfoLadrones.png">
+      <PackagePath>Assets\PostPartida\ContenedorInfoLadrones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ContenedorInfopolicias.png">
+      <PackagePath>Assets\PostPartida\ContenedorInfopolicias.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\DineroLadrones.png">
       <PackagePath>Assets\PostPartida\DineroLadrones.png</PackagePath>
     </AppxPackagedFile>
@@ -54,6 +60,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\fondo.png">
       <PackagePath>Assets\PostPartida\fondo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\FondoIcono.png">
+      <PackagePath>Assets\PostPartida\FondoIcono.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\Icono1.png">
       <PackagePath>Assets\PostPartida\Icono1.png</PackagePath>
