@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="NonStopDriver.MainPage"
+    x:Class="NonStopDriver.SeleccionCoche"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:NonStopDriver"
@@ -92,8 +92,8 @@
                 </Button>
             </StackPanel>
         </Grid>
-
-
+        
+        
         <!--Contenido de la derecha-->
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
@@ -103,18 +103,17 @@
             <StackPanel Grid.Column="0" Grid.Row="0">
 
                 <!--Contenedor del pentagrama y las estadisticas del coche actual-->
-                <StackPanel.Background>
-                    <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PentagramaStats.png"/>
-                </StackPanel.Background>
-
+            <StackPanel.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PentagramaStats.png"/>
+            </StackPanel.Background>
+            
                 <!--Imagen de las stats del coche-->
-                <Image Source="ms-appx:///Assets/SeleccionCoche/StatsCar1.png"  ></Image>
-
-            </StackPanel>
+            <Image Source="ms-appx:///Assets/SeleccionCoche/StatsCar1.png"  ></Image>
+                
+        </StackPanel>
 
             <Image Source="ms-appx:///Assets/SeleccionCoche/lowPolyCar.png" Grid.Column="1" Grid.Row="1" Margin="0,-150,0,0"></Image>
         </Grid>
     </Grid>
-    
 </Page>
 
