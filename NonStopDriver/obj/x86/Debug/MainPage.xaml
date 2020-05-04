@@ -30,13 +30,13 @@
         </Grid.Background>
 
         <!--Barra-->
-        <Image Source="Assets/Barra.png" Grid.Row="0" Grid.Column="1"/>
+        <Image Source="Assets/Barra.png" Grid.Row="0" Grid.Column="1" Margin="0,0,0,32"/>
 
         <!--Velocimetro y Habilidad-->
-        <Image Source="Assets/Velometro.png" Grid.Column="2" Grid.Row="3"/>
+        <Image Source="Assets/Velometro.png" Grid.Column="2" Grid.Row="2" Margin="0,6,0,30"/>
 
         <!--Minimapa-->
-        <Image  Source="Assets/Minimapa.png " Grid.Column="0" Grid.Row="3" Height="372" VerticalAlignment="Center"   />
+        <Image  Source="Assets/Minimapa.png " Grid.Column="0" Grid.Row="3" Height="324" VerticalAlignment="Center"   />
 
         <!--Dinero-->
 
