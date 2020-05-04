@@ -133,13 +133,13 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\SeleccionCoche\background.jpg" />
     <Content Include="Assets\SeleccionCoche\BandoLadrones.png" />
     <Content Include="Assets\SeleccionCoche\BotonCoche1.png" />
     <Content Include="Assets\SeleccionCoche\BotonCoche2.png" />
     <Content Include="Assets\SeleccionCoche\BotonCoche3.png" />
     <Content Include="Assets\SeleccionCoche\BotonCoche4.png" />
     <Content Include="Assets\SeleccionCoche\BotónConfirmar.png" />
+    <Content Include="Assets\SeleccionCoche\fondo.png" />
     <Content Include="Assets\SeleccionCoche\lowPolyCar.png" />
     <Content Include="Assets\SeleccionCoche\lowPolyCar2.png" />
     <Content Include="Assets\SeleccionCoche\lowPolyCar3.png" />
