@@ -1,7 +1,9 @@
 WinMetadata\Windows.winmd
 Assets\LockScreenLogo.scale-200.png
 Assets\PostPartida\BandoLadrones.png
+Assets\PostPartida\BandoLadronesGanan.png
 Assets\PostPartida\BandoPolicias.png
+Assets\PostPartida\BandoPoliciasGanan.png
 Assets\PostPartida\BotonMenu.png
 Assets\PostPartida\BotonRematch.png
 Assets\PostPartida\ContenedorInfoLadrones.png
