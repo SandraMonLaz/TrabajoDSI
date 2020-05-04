@@ -9,26 +9,7 @@
 
 
     <Grid x:ConnectionId='2' x:Name="grid"                               >
-
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup>
-                <VisualState x:ConnectionId='3' x:Name="wideState">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="720" />
-                    </VisualState.StateTriggers>
-                </VisualState>
-                <VisualState x:ConnectionId='4' x:Name="narrowState">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="0" />
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                        <Setter Target="button.HorizontalAlignment" Value="Center"/>
-                    </VisualState.Setters>
-                </VisualState>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
-
-
+       
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
@@ -43,33 +24,35 @@
             <ImageBrush ImageSource="Assets/Fondo.png" Stretch="Fill"/>
         </Grid.Background>
 
-        <!--Mapa-->
-        <Image x:ConnectionId='5' x:Name="map" Source="Assets/mapa.png" Stretch= "Fill" Grid.Row="0" Grid.Column="0" Margin="130,67,130,10"  />
-
-        <Canvas x:ConnectionId='6' x:Name="Canvas" Grid.Column="0" Grid.Row="0" Margin="130,67,130,10">
+        <Grid x:ConnectionId='3' x:Name="auxGrid"                                   Grid.Row="0" Grid.Column="0" Margin="130,67,130,10">
+            
+           <!--Mapa-->
+            <Image x:ConnectionId='7' x:Name="map" Source="Assets/mapa.png" Stretch= "Fill"/>
+            
+           <Canvas x:ConnectionId='8' x:Name="Canvas">
 
             <!--Iconos del mapa-->
-            <Image Source="Assets/IconoBanco.png" Height="97" Width="91" Canvas.Left="529" Canvas.Top="315"/>
-            <Image Source="Assets/DestinoIcono.png" Height="83" Width="98"  Canvas.Left="75" Canvas.Top="70"/>
-            <Image Source="Assets/A.png"  Height="36" Width="43" Canvas.Left="660" Canvas.Top="394" />
-            <Image Source="Assets/C.png"  Height="36" Width="43" Canvas.Left="488" Canvas.Top="417"/>
-            <Image Source="Assets/D.png"  Height="36" Width="43" Canvas.Left="428" Canvas.Top="328"/>
-            <Image Source="Assets/Jugador.png" Height="35" Width="30" Canvas.Left="682" Canvas.Top="394"/>
-            <Image x:ConnectionId='9' x:Name="Policia" Source="Assets/PoliciaIcono.png"  Height="75" Width="75" Canvas.Left="984" Canvas.Top="91"/>
+            <Image x:ConnectionId='9' x:Name="Banco" Source="Assets/IconoBanco.png" Height="97" Width="91" Canvas.Left="529" Canvas.Top="315"/>
+            <Image x:ConnectionId='10' x:Name="Destino" Source="Assets/DestinoIcono.png" Height="83" Width="98"  Canvas.Left="75" Canvas.Top="70"/>
+            <Image x:ConnectionId='11' x:Name="PuntoA" Source="Assets/A.png"  Height="36" Width="43" Canvas.Left="660" Canvas.Top="394" />
+            <Image x:ConnectionId='12' x:Name="PuntoC" Source="Assets/C.png"  Height="36" Width="43" Canvas.Left="488" Canvas.Top="417"/>
+            <Image x:ConnectionId='13' x:Name="PuntoD" Source="Assets/D.png"  Height="36" Width="43" Canvas.Left="428" Canvas.Top="328"/>
+            <Image x:ConnectionId='14' x:Name="Jugador" Source="Assets/Jugador.png" Height="35" Width="30" Canvas.Left="682" Canvas.Top="394"/>
+            <Image x:ConnectionId='15' x:Name="Policia" Source="Assets/PoliciaIcono.png"  Height="75" Width="75" Canvas.Left="984" Canvas.Top="91"/>
 
-        </Canvas>
-
-
-
+           </Canvas>
+                                  
+        </Grid>
+             
         <!--Boton-->
-        <Button x:ConnectionId='7' x:Name="button"  Grid.Row="1" Grid.Column = "0" Height="58" Width="188" HorizontalAlignment="Center"                                                                            >
+        <Button x:ConnectionId='4' x:Name="button"  Grid.Row="1" Grid.Column = "0" Height="58" Width="188" HorizontalAlignment="Center" Background="Transparent"                                                                            >
             <StackPanel Margin="-36,-6,-35,-8">
                 <Image Source="Assets/Boton.png" Height="58"/>
             </StackPanel>
         </Button>
 
         <!--Lista de lugares-->
-        <StackPanel Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30,0,0,0" Height="220" Width="250" >
+        <StackPanel x:ConnectionId='5' x:Name="Places" Grid.Column="0" Grid.RowSpan="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="30,0,0,0" Height="220" Width="250" >
 
             <StackPanel.Background>
                 <ImageBrush ImageSource="Assets/Panel.png"/>
@@ -77,7 +60,7 @@
 
             <TextBlock  Text="Posiciona tu coche" FontSize="25" HorizontalAlignment="Center"/>
 
-            <ListView x:ConnectionId='8' x:Name="Lugares" SelectionMode="Multiple" HorizontalAlignment="Center">
+            <ListView x:ConnectionId='6' x:Name="Lugares" SelectionMode="Multiple" HorizontalAlignment="Center">
                 <x:String>(A)Callejón los Antonios</x:String>
                 <x:String>(B)Entrada trasera</x:String>
                 <x:String>(C)Mesón Paco</x:String>
