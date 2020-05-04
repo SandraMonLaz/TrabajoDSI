@@ -37,5 +37,9 @@ namespace NonStopDriver
         {
             button.Opacity = 1;
         }
+
+        private void grid_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+        }
     }
 }
