@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-03T12:23:06.066</Modified>
+      <Modified>2020-05-04T09:36:20.134</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.exe">
       <PackagePath>entrypoint\NonStopDriver.exe</PackagePath>
-      <Modified>2020-05-03T12:23:05.096</Modified>
+      <Modified>2020-05-04T09:36:19.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -69,6 +69,14 @@
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ContenedorInfopolicias.png">
       <PackagePath>Assets\PostPartida\ContenedorInfopolicias.png</PackagePath>
       <Modified>2020-05-03T12:00:15.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ContenedorLadrones.png">
+      <PackagePath>Assets\PostPartida\ContenedorLadrones.png</PackagePath>
+      <Modified>2020-05-03T12:02:55.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ContenedorPolicias.png">
+      <PackagePath>Assets\PostPartida\ContenedorPolicias.png</PackagePath>
+      <Modified>2020-05-03T12:03:57.212</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\DineroLadrones.png">
       <PackagePath>Assets\PostPartida\DineroLadrones.png</PackagePath>
@@ -154,19 +162,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.xr.xml">
       <PackagePath>NonStopDriver.xr.xml</PackagePath>
-      <Modified>2020-05-03T12:23:04.908</Modified>
+      <Modified>2020-05-04T09:36:19.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-03T12:23:04.949</Modified>
+      <Modified>2020-05-04T09:25:18.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-03T12:23:04.945</Modified>
+      <Modified>2020-05-04T09:36:19.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\Postpartida.xbf">
       <PackagePath>Postpartida.xbf</PackagePath>
-      <Modified>2020-05-03T12:23:04.949</Modified>
+      <Modified>2020-05-04T09:25:18.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -174,11 +182,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-03T12:23:05.424</Modified>
+      <Modified>2020-05-04T09:14:51.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\NonStopDriver.exe">
       <PackagePath>NonStopDriver.exe</PackagePath>
-      <Modified>2020-05-03T12:23:06.053</Modified>
+      <Modified>2020-05-04T09:36:20.130</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

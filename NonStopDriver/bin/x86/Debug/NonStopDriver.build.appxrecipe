@@ -52,6 +52,12 @@
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ContenedorInfopolicias.png">
       <PackagePath>Assets\PostPartida\ContenedorInfopolicias.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ContenedorLadrones.png">
+      <PackagePath>Assets\PostPartida\ContenedorLadrones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ContenedorPolicias.png">
+      <PackagePath>Assets\PostPartida\ContenedorPolicias.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\DineroLadrones.png">
       <PackagePath>Assets\PostPartida\DineroLadrones.png</PackagePath>
     </AppxPackagedFile>
