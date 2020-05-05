@@ -94,6 +94,12 @@
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\Icono6.png">
       <PackagePath>Assets\PostPartida\Icono6.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\ListViewBackground.png">
+      <PackagePath>Assets\PostPartida\ListViewBackground.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\TextboxBackground.png">
+      <PackagePath>Assets\PostPartida\TextboxBackground.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\PostPartida\TituloLadrones.png">
       <PackagePath>Assets\PostPartida\TituloLadrones.png</PackagePath>
     </AppxPackagedFile>

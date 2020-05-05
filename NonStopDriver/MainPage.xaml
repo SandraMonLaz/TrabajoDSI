@@ -30,7 +30,7 @@
             </StackPanel.Background>
             <TextBlock x:Name="DineroLadrones" Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
         </StackPanel>
-            <Image x:Name="NombreGanador" Grid.Column="1" Stretch="Fill"  Source="ms-appx:///Assets/PostPartida/BandoLadronesGanan.png"></Image>
+        <Image x:Name="NombreGanador" Grid.Column="1" Stretch="Fill"  Source="ms-appx:///Assets/PostPartida/BandoLadronesGanan.png"></Image>
 
         <StackPanel x:Name="dineroPolicias"  Height="200" Margin="0,0,0,0" Grid.Column="2" Grid.Row="0" VerticalAlignment="Top">
             <StackPanel.Background>
@@ -47,14 +47,14 @@
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonMenu.png"/>
                 </StackPanel.Background>
-                <Button x:Name="MenuB" Width="240" Height="70" Margin="0,0,0,0"  >
+                <Button x:Name="MenuB" Width="240" Height="70" Margin="0,0,0,0" Click="MenuB_Click" >
                 </Button>
             </StackPanel>
             <StackPanel x:Name="rematchButton" Width="240" Height="70" Margin="0,0,0,0" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonRematch.png"/>
                 </StackPanel.Background>
-                <Button x:Name="rematchB" Width="200" Height="50" >
+                <Button x:Name="rematchB" Width="200" Height="50" Click="rematchB_Click" >
                 </Button>
             </StackPanel>
         </StackPanel>
@@ -62,7 +62,7 @@
 
         <!--Jugadores del bando de los ladrones-->
         <StackPanel Grid.Column="0" VerticalAlignment="Center"  Grid.Row="1" >
-            
+
             <!--JUGADOR1-->
             <Grid x:Name="Player1"   Height="100" >
                 <Grid.Background>
@@ -173,6 +173,35 @@
             </Grid>
         </StackPanel>
 
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
 
+            <ListView x:Name="ListViewChat" Visibility="Collapsed">
+                <ListView.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ListViewBackground.png"/>
+                </ListView.Background>
+                <ListViewItem>
+                    <TextBlock Text="Hola"></TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock Text="Hola"></TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock Text="Hola"></TextBlock>
+                </ListViewItem>
+
+            </ListView>
+            <TextBox x:Name="textBoxChat" Grid.Row="1" Grid.Column="0"  PointerExited="textBoxChat_PointerExited" PointerEntered ="textBoxChat_PointerEntered"  FocusVisualPrimaryBrush="Transparent" RequestedTheme="Default">
+                <TextBox.Foreground>
+                    <ImageBrush  ImageSource="ms-appx:///Assets/PostPartida/TextboxBackground.png"/>
+                </TextBox.Foreground>
+                <TextBox.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/TextboxBackground.png"/>
+                </TextBox.Background>
+            </TextBox>
+        </Grid>
     </Grid>
 </Page>

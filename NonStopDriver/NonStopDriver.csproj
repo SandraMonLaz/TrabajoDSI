@@ -153,6 +153,8 @@
     <Content Include="Assets\PostPartida\Icono4.png" />
     <Content Include="Assets\PostPartida\Icono5.png" />
     <Content Include="Assets\PostPartida\Icono6.png" />
+    <Content Include="Assets\PostPartida\ListViewBackground.png" />
+    <Content Include="Assets\PostPartida\TextboxBackground.png" />
     <Content Include="Assets\PostPartida\TituloLadrones.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
