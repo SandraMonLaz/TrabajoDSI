@@ -28,7 +28,7 @@
         <!--Todo el contenido de la izquierda-->
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="4*"></RowDefinition>
                 <RowDefinition Height="2*"></RowDefinition>
@@ -74,29 +74,34 @@
 
             <!--COCHES-->
             <GridView x:Name="IconosCoches" Grid.Row="2" 
-             ItemsPanel="{StaticResource ContenedorCoches_ItemsPanelTemplate}">
+             ItemsPanel="{StaticResource ContenedorCoches_ItemsPanelTemplate}"
+                      ItemClick="IconosCoches_ItemClick">
                 <GridView.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelCoches.png"/>
                 </GridView.Background>
-                <Grid Width="200" Height="200">
+
+                <GridViewItem Width="200" Height="200" Padding="20">
                     <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche2.png"></Image>
-                </Grid>
-                <Grid Width="200" Height="200">
+                </GridViewItem>
+                <GridViewItem Width="200" Height="200" Padding="20">
                     <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche1.png"></Image>
-                </Grid>
-                <Grid Width="200" Height="200">
+                </GridViewItem>
+                <GridViewItem Width="200" Height="200" Padding="20">
                     <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche3.png"></Image>
-                </Grid>
-                <Grid Width="200" Height="200">
+                </GridViewItem>
+                <GridViewItem Width="200" Height="200" Padding="20">
                     <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche4.png"></Image>
-                </Grid>
+                </GridViewItem>
+                <GridViewItem Width="200" Height="200" Padding="20">
+                    <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche4.png"></Image>
+                </GridViewItem>
 
             </GridView>
             <StackPanel VerticalAlignment="Top" Grid.Row="3" HorizontalAlignment="Center">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/BotónConfirmar.png"/>
                 </StackPanel.Background>
-                <Button x:Name="ConfirmButton" Width="100" Height="100">
+                <Button x:Name="ConfirmButton" Width="100" Height="100" Click="ConfirmButton_Click">
                 </Button>
             </StackPanel>
         </Grid>

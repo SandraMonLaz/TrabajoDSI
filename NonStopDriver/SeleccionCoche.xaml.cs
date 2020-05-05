@@ -26,5 +26,15 @@ namespace NonStopDriver
         {
             this.InitializeComponent();
         }
+
+        private void ConfirmButton_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(Page1));
+        }
+
+        private void IconosCoches_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            //Poner un Brillibrilli al botón del coche y cambiar la imagen del coche
+        }
     }
 }
