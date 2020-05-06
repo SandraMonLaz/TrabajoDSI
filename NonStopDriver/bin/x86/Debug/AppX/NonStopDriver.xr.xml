@@ -18,6 +18,7 @@
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
     </RootType>
+    <RootType FullName="NonStopDriver.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="Stretch" />
       <RootProperty Name="ImageSource" />
@@ -39,13 +40,10 @@
       <RootProperty Name="Orientation" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="BorderThickness" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Stretch" />
       <RootProperty Name="Source" />
-      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="Visibility" />
@@ -75,10 +73,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Background" />
       <RootEvent Name="Click" />
     </RootType>
-    <RootType FullName="NonStopDriver.MainPage" />
     <RootType FullName="NonStopDriver.Postpartida" />
   </Roots.RootTypes>
 </Roots>

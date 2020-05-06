@@ -26,5 +26,36 @@ namespace NonStopDriver
         {
             this.InitializeComponent();
         }
+
+        private void rematchB_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Frame.Navigate(typeof(Page1));
+        }
+
+        private void MenuB_Click(object sender, RoutedEventArgs e)
+        {
+            // this.Frame.Navigate(typeof(Page1));
+        }
+
+
+
+
+        private void textBoxChat_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            ListViewChat.Visibility = Visibility.Visible;
+
+        }
+
+        private void textBoxChat_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            ListViewChat.Visibility = Visibility.Collapsed;
+        }
+
+        private void textBoxChat_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+
+        }
+
+
     }
 }
