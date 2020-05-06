@@ -28,67 +28,81 @@
         <!--Todo el contenido de la izquierda-->
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="4*"></RowDefinition>
                 <RowDefinition Height="2*"></RowDefinition>
             </Grid.RowDefinitions>
 
-            <StackPanel x:ConnectionId='2' x:Name="BandoYJugadores" Grid.Row="0" Orientation="Vertical" VerticalAlignment="Center">
-
-                <!--INFORMACION DEL BANDO EN EL QUE TE ENCUENTRAS-->
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Image  Source="ms-appx:///Assets/SeleccionCoche/bandoladrones.png" Stretch="Fill" ></Image>
-                    <Image Source="ms-appx:///Assets/SeleccionCoche/TituloLadrones.png" Stretch="Fill" Margin="0,0,0,0" ></Image>
+            
+            
+            <!--INFORMACION DEL BANDO EN EL QUE TE ENCUENTRAS-->
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  HorizontalAlignment="Center">
+                    <Image  Source="ms-appx:///Assets/SeleccionCoche/bandoladrones.png"  ></Image>
+                    <Image Source="ms-appx:///Assets/SeleccionCoche/TituloLadrones.png"  Margin="0,0,0,0" ></Image>
                 </StackPanel>
 
                 <!--Iconos de todos los jugadores-->
-                <Grid x:ConnectionId='5' x:Name="IconosJugadores"  >
-                    <Grid.Background>
-                        <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelIconosJugadores.png"/>
-                    </Grid.Background>
-                    <!--LADRONES-->
-                    <StackPanel x:ConnectionId='6' x:Name="JugadoresLadrones"  Orientation="Horizontal" HorizontalAlignment="Left">
-                        <Image x:ConnectionId='10' x:Name="Player1" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
-                        <Image x:ConnectionId='11' x:Name="Player2" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
-                        <Image x:ConnectionId='12' x:Name="Player3" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
-                        <Image x:ConnectionId='13' x:Name="Player4" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+            <Grid x:ConnectionId='2' x:Name="HacePequeñoElContenedorDeLosIconosDeLosJugadores" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
 
-                    </StackPanel>
-                    <StackPanel x:ConnectionId='7' x:Name="JugadoresPolicias" Orientation="Horizontal" HorizontalAlignment="Right">
-                        <Image x:ConnectionId='8' x:Name="Player5" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"/>
-                        <Image x:ConnectionId='9' x:Name="Player6" Height="80" Source="ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"/>
+                </Grid.ColumnDefinitions>
+            <Grid x:ConnectionId='5' x:Name="IconosJugadores" Grid.Column="1" VerticalAlignment="Bottom" >
 
-                    </StackPanel>
-                    <!--POLICIAS-->
-                </Grid>
-            </StackPanel>
+                <Grid.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelIconosJugadores.png"/>
+                </Grid.Background>
+                <!--LADRONES-->
+                <StackPanel x:ConnectionId='6' x:Name="JugadoresLadrones"  Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Image x:ConnectionId='10' x:Name="Player1" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+                    <Image x:ConnectionId='11' x:Name="Player2" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+                    <Image x:ConnectionId='12' x:Name="Player3" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+                    <Image x:ConnectionId='13' x:Name="Player4" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+
+                </StackPanel>
+                <!--POLICIAS-->
+                <StackPanel x:ConnectionId='7' x:Name="JugadoresPolicias" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Image x:ConnectionId='8' x:Name="Player5" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"/>
+                    <Image x:ConnectionId='9' x:Name="Player6" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"/>
+
+                </StackPanel>
+            </Grid>
+            </Grid>
 
 
             <!--COCHES-->
-            <GridView x:ConnectionId='3' x:Name="IconosCoches" Grid.Row="1" 
-             ItemsPanel="{StaticResource ContenedorCoches_ItemsPanelTemplate}">
+            <GridView x:ConnectionId='3' x:Name="IconosCoches" Grid.Row="2" 
+             ItemsPanel="{StaticResource ContenedorCoches_ItemsPanelTemplate}"
+                                                        >
                 <GridView.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelCoches.png"/>
                 </GridView.Background>
-                <Grid Width="200" Height="200">
+
+                <GridViewItem Width="200" Height="200" Padding="20">
                     <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche2.png"></Image>
-                </Grid>
-                <Grid Width="200" Height="200">
+                </GridViewItem>
+                <GridViewItem Width="200" Height="200" Padding="20">
                     <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche1.png"></Image>
-                </Grid>
-                <Grid Width="200" Height="200">
+                </GridViewItem>
+                <GridViewItem Width="200" Height="200" Padding="20">
                     <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche3.png"></Image>
-                </Grid>
-                <Grid Width="200" Height="200">
+                </GridViewItem>
+                <GridViewItem Width="200" Height="200" Padding="20">
                     <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche4.png"></Image>
-                </Grid>
+                </GridViewItem>
+                <GridViewItem Width="200" Height="200" Padding="20">
+                    <Image Stretch="Fill" Source="ms-appx:///Assets/SeleccionCoche/BotonCoche4.png"></Image>
+                </GridViewItem>
 
             </GridView>
-            <StackPanel VerticalAlignment="Top" Grid.Row="2" HorizontalAlignment="Center">
+            <StackPanel VerticalAlignment="Top" Grid.Row="3" HorizontalAlignment="Center">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/BotónConfirmar.png"/>
                 </StackPanel.Background>
-                <Button x:ConnectionId='4' x:Name="ConfirmButton" Width="100" Height="100">
+                <Button x:ConnectionId='4' x:Name="ConfirmButton" Width="100" Height="100"                            >
                 </Button>
             </StackPanel>
         </Grid>

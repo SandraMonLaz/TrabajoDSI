@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-04T14:19:06.295</Modified>
+      <Modified>2020-05-06T11:47:18.616</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.exe">
       <PackagePath>entrypoint\NonStopDriver.exe</PackagePath>
-      <Modified>2020-05-04T14:19:05.679</Modified>
+      <Modified>2020-05-06T11:47:17.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -48,83 +48,83 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\BandoLadrones.png">
       <PackagePath>Assets\SeleccionCoche\BandoLadrones.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.407</Modified>
+      <Modified>2020-05-06T11:42:07.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\BotonCoche1.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche1.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.410</Modified>
+      <Modified>2020-05-06T11:42:07.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\BotonCoche2.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche2.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.412</Modified>
+      <Modified>2020-05-06T11:42:07.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\BotonCoche3.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche3.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.414</Modified>
+      <Modified>2020-05-06T11:42:07.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\BotonCoche4.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche4.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.416</Modified>
+      <Modified>2020-05-06T11:42:07.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\BotónConfirmar.png">
       <PackagePath>Assets\SeleccionCoche\BotónConfirmar.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.417</Modified>
+      <Modified>2020-05-06T11:42:07.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\fondo.png">
       <PackagePath>Assets\SeleccionCoche\fondo.png</PackagePath>
-      <Modified>2020-05-04T11:27:57.867</Modified>
+      <Modified>2020-05-06T11:42:07.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\lowPolyCar.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.427</Modified>
+      <Modified>2020-05-06T11:42:07.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\lowPolyCar2.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar2.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.429</Modified>
+      <Modified>2020-05-06T11:42:07.130</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\lowPolyCar3.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar3.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.432</Modified>
+      <Modified>2020-05-06T11:42:07.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\PanelCoches.png">
       <PackagePath>Assets\SeleccionCoche\PanelCoches.png</PackagePath>
-      <Modified>2020-05-04T11:56:02.943</Modified>
+      <Modified>2020-05-06T11:42:07.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\PanelIconosJugadores.png">
       <PackagePath>Assets\SeleccionCoche\PanelIconosJugadores.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.418</Modified>
+      <Modified>2020-05-06T11:42:07.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\PentagramaStats.png">
       <PackagePath>Assets\SeleccionCoche\PentagramaStats.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.419</Modified>
+      <Modified>2020-05-06T11:42:07.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\PlayerConnected.png">
       <PackagePath>Assets\SeleccionCoche\PlayerConnected.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.419</Modified>
+      <Modified>2020-05-06T11:42:07.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\PlayerDisConnected.png">
       <PackagePath>Assets\SeleccionCoche\PlayerDisConnected.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.420</Modified>
+      <Modified>2020-05-06T11:42:07.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\StatsCar1.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar1.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.421</Modified>
+      <Modified>2020-05-06T11:42:07.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\StatsCar2.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar2.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.421</Modified>
+      <Modified>2020-05-06T11:42:07.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\StatsCar3.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar3.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.421</Modified>
+      <Modified>2020-05-06T11:42:07.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\StatsCar4.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar4.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.422</Modified>
+      <Modified>2020-05-06T11:42:07.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SeleccionCoche\TituloLadrones.png">
       <PackagePath>Assets\SeleccionCoche\TituloLadrones.png</PackagePath>
-      <Modified>2020-05-04T11:25:53.422</Modified>
+      <Modified>2020-05-06T11:42:07.120</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -162,19 +162,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.xr.xml">
       <PackagePath>NonStopDriver.xr.xml</PackagePath>
-      <Modified>2020-05-04T14:19:05.472</Modified>
+      <Modified>2020-05-06T11:47:17.681</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-04T14:19:05.503</Modified>
+      <Modified>2020-05-06T11:47:17.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-04T14:19:05.500</Modified>
+      <Modified>2020-05-06T11:47:17.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\SeleccionCoche.xbf">
       <PackagePath>SeleccionCoche.xbf</PackagePath>
-      <Modified>2020-05-04T14:19:05.502</Modified>
+      <Modified>2020-05-06T11:47:17.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -182,11 +182,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-04T11:49:43.439</Modified>
+      <Modified>2020-05-06T11:47:18.082</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\NonStopDriver.exe">
       <PackagePath>NonStopDriver.exe</PackagePath>
-      <Modified>2020-05-04T14:19:06.283</Modified>
+      <Modified>2020-05-06T11:47:18.605</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -34,8 +34,9 @@
                 <RowDefinition Height="2*"></RowDefinition>
             </Grid.RowDefinitions>
 
-
-                <!--INFORMACION DEL BANDO EN EL QUE TE ENCUENTRAS-->
+            
+            
+            <!--INFORMACION DEL BANDO EN EL QUE TE ENCUENTRAS-->
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  HorizontalAlignment="Center">
                     <Image  Source="ms-appx:///Assets/SeleccionCoche/bandoladrones.png"  ></Image>
                     <Image Source="ms-appx:///Assets/SeleccionCoche/TituloLadrones.png"  Margin="0,0,0,0" ></Image>
