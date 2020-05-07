@@ -126,6 +126,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MenuPosicionamiento.xaml.cs">
+      <DependentUpon>MenuPosicionamiento.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +166,17 @@
     <Content Include="Assets\Garaje\fondo.png" />
     <Content Include="Assets\Garaje\lowPolyCar.png" />
     <Content Include="Assets\Garaje\panel.png" />
+    <Content Include="Assets\A.png" />
+    <Content Include="Assets\Boton.png" />
+    <Content Include="Assets\C.png" />
+    <Content Include="Assets\D.png" />
+    <Content Include="Assets\DestinoIcono.png" />
+    <Content Include="Assets\fondo.png" />
+    <Content Include="Assets\IconoBanco.png" />
+    <Content Include="Assets\Jugador.png" />
+    <Content Include="Assets\mapa.png" />
+    <Content Include="Assets\Panel.png" />
+    <Content Include="Assets\PoliciaIcono.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -184,6 +198,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MenuPosicionamiento.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

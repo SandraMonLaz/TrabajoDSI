@@ -25,6 +25,6 @@ namespace NonStopDriver
         public MainPage()
         {
             this.InitializeComponent();
-        }
+        } 
     }
 }
