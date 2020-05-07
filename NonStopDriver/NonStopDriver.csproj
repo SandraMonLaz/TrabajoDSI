@@ -128,6 +128,8 @@
     </Compile>
     <Compile Include="MenuPosicionamiento.xaml.cs">
       <DependentUpon>MenuPosicionamiento.xaml</DependentUpon>
+    <Compile Include="Postpartida.xaml.cs">
+      <DependentUpon>Postpartida.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -177,6 +179,29 @@
     <Content Include="Assets\mapa.png" />
     <Content Include="Assets\Panel.png" />
     <Content Include="Assets\PoliciaIcono.png" />
+    <Content Include="Assets\PostPartida\BandoLadrones.png" />
+    <Content Include="Assets\PostPartida\BandoLadronesGanan.png" />
+    <Content Include="Assets\PostPartida\BandoPolicias.png" />
+    <Content Include="Assets\PostPartida\BandoPoliciasGanan.png" />
+    <Content Include="Assets\PostPartida\BotonMenu.png" />
+    <Content Include="Assets\PostPartida\BotonRematch.png" />
+    <Content Include="Assets\PostPartida\ContenedorInfoLadrones.png" />
+    <Content Include="Assets\PostPartida\ContenedorInfopolicias.png" />
+    <Content Include="Assets\PostPartida\ContenedorLadrones.png" />
+    <Content Include="Assets\PostPartida\ContenedorPolicias.png" />
+    <Content Include="Assets\PostPartida\DineroLadrones.png" />
+    <Content Include="Assets\PostPartida\DineroPolicias.png" />
+    <Content Include="Assets\PostPartida\fondo.png" />
+    <Content Include="Assets\PostPartida\FondoIcono.png" />
+    <Content Include="Assets\PostPartida\Icono1.png" />
+    <Content Include="Assets\PostPartida\Icono2.png" />
+    <Content Include="Assets\PostPartida\Icono3.png" />
+    <Content Include="Assets\PostPartida\Icono4.png" />
+    <Content Include="Assets\PostPartida\Icono5.png" />
+    <Content Include="Assets\PostPartida\Icono6.png" />
+    <Content Include="Assets\PostPartida\ListViewBackground.png" />
+    <Content Include="Assets\PostPartida\TextboxBackground.png" />
+    <Content Include="Assets\PostPartida\TituloLadrones.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -200,6 +225,7 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MenuPosicionamiento.xaml">
+    <Page Include="Postpartida.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

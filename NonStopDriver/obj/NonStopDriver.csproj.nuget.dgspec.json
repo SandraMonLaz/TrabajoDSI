@@ -12,6 +12,17 @@
         "projectPath": "C:\\Users\\felip\\OneDrive\\Desktop\\Programas\\GitHub\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj",
         "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\felip\\OneDrive\\Desktop\\Programas\\GitHub\\TrabajoDSI\\NonStopDriver\\obj\\",
+    "C:\\Universidad\\DSI\\Trabajo final\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj": {}
+  },
+  "projects": {
+    "C:\\Universidad\\DSI\\Trabajo final\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Universidad\\DSI\\Trabajo final\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj",
+        "projectName": "NonStopDriver",
+        "projectPath": "C:\\Universidad\\DSI\\Trabajo final\\TrabajoDSI\\NonStopDriver\\NonStopDriver.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "C:\\Universidad\\DSI\\Trabajo final\\TrabajoDSI\\NonStopDriver\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,6 +30,7 @@
         ],
         "configFilePaths": [
           "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
