@@ -116,6 +116,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Ajustes.xaml.cs">
+      <DependentUpon>Ajustes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -134,6 +137,27 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\addToGroup.PNG" />
+    <Content Include="Assets\ajustesIcono.png" />
+    <Content Include="Assets\BackToMainMenu.PNG" />
+    <Content Include="Assets\bocadillo.png" />
+    <Content Include="Assets\botonThief.PNG" />
+    <Content Include="Assets\botonThiefPress.PNG" />
+    <Content Include="Assets\brilloCoche.png" />
+    <Content Include="Assets\ButtonUser.PNG" />
+    <Content Include="Assets\Connected.png" />
+    <Content Include="Assets\Disconnected.png" />
+    <Content Include="Assets\fondo.png" />
+    <Content Include="Assets\Friend1.png" />
+    <Content Include="Assets\Friend2.png" />
+    <Content Include="Assets\Friend3.png" />
+    <Content Include="Assets\Friend4.png" />
+    <Content Include="Assets\LogoText.png" />
+    <Content Include="Assets\lowPolyCar.png" />
+    <Content Include="Assets\Micro.PNG" />
+    <Content Include="Assets\playAs.png" />
+    <Content Include="Assets\PoliceButon.PNG" />
+    <Content Include="Assets\PoliceButonPress.PNG" />
     <Content Include="Assets\PostPartida\BandoLadrones.png" />
     <Content Include="Assets\PostPartida\BandoLadronesGanan.png" />
     <Content Include="Assets\PostPartida\BandoPolicias.png" />
@@ -177,6 +201,7 @@
     <Content Include="Assets\SeleccionCoche\StatsCar3.png" />
     <Content Include="Assets\SeleccionCoche\StatsCar4.png" />
     <Content Include="Assets\SeleccionCoche\TituloLadrones.png" />
+    <Content Include="Assets\Volumen.PNG" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -191,6 +216,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Ajustes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

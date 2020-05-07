@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-DGNAOIQ</Machine>
+    <WindowsUser>Usuario</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>be76ed63-19fd-4b94-a918-e68e1d4aa749</PackageIdentityName>
+    <PackageIdentityPublisher>CN=felip</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7EADEF93A876BA23458FFE86E7D0A5EDB248FB0F1B29415D86DD05F0DDCDDACD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>be76ed63-19fd-4b94-a918-e68e1d4aa749_1.0.0.0_x64__131gb4354n8bm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>be76ed63-19fd-4b94-a918-e68e1d4aa749_131gb4354n8bm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>be76ed63-19fd-4b94-a918-e68e1d4aa749</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=felip</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-07T14:15:58.167</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.exe">
+      <PackagePath>entrypoint\TrabajoDSI.exe</PackagePath>
+      <Modified>2020-05-07T14:15:55.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T13:01:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T17:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\addToGroup.PNG">
+      <PackagePath>Assets\addToGroup.PNG</PackagePath>
+      <Modified>2020-05-07T14:08:59.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ajustesIcono.png">
+      <PackagePath>Assets\ajustesIcono.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BackToMainMenu.PNG">
+      <PackagePath>Assets\BackToMainMenu.PNG</PackagePath>
+      <Modified>2020-05-07T14:09:09.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\bocadillo.png">
+      <PackagePath>Assets\bocadillo.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThief.PNG">
+      <PackagePath>Assets\botonThief.PNG</PackagePath>
+      <Modified>2020-05-07T14:08:59.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThiefPress.PNG">
+      <PackagePath>Assets\botonThiefPress.PNG</PackagePath>
+      <Modified>2020-05-07T14:08:59.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\brilloCoche.png">
+      <PackagePath>Assets\brilloCoche.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ButtonUser.PNG">
+      <PackagePath>Assets\ButtonUser.PNG</PackagePath>
+      <Modified>2020-05-07T14:08:59.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Connected.png">
+      <PackagePath>Assets\Connected.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Disconnected.png">
+      <PackagePath>Assets\Disconnected.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondo.png">
+      <PackagePath>Assets\fondo.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend1.png">
+      <PackagePath>Assets\Friend1.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend2.png">
+      <PackagePath>Assets\Friend2.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend3.png">
+      <PackagePath>Assets\Friend3.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend4.png">
+      <PackagePath>Assets\Friend4.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LogoText.png">
+      <PackagePath>Assets\LogoText.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\lowPolyCar.png">
+      <PackagePath>Assets\lowPolyCar.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Micro.PNG">
+      <PackagePath>Assets\Micro.PNG</PackagePath>
+      <Modified>2020-05-07T14:09:09.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\playAs.png">
+      <PackagePath>Assets\playAs.png</PackagePath>
+      <Modified>2020-05-07T14:08:59.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButon.PNG">
+      <PackagePath>Assets\PoliceButon.PNG</PackagePath>
+      <Modified>2020-05-07T14:08:59.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButonPress.PNG">
+      <PackagePath>Assets\PoliceButonPress.PNG</PackagePath>
+      <Modified>2020-05-07T14:08:59.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadrones.png">
+      <PackagePath>Assets\PostPartida\BandoLadrones.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.708</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadronesGanan.png">
+      <PackagePath>Assets\PostPartida\BandoLadronesGanan.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoPolicias.png">
+      <PackagePath>Assets\PostPartida\BandoPolicias.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoPoliciasGanan.png">
+      <PackagePath>Assets\PostPartida\BandoPoliciasGanan.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonMenu.png">
+      <PackagePath>Assets\PostPartida\BotonMenu.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonRematch.png">
+      <PackagePath>Assets\PostPartida\BotonRematch.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfoLadrones.png">
+      <PackagePath>Assets\PostPartida\ContenedorInfoLadrones.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfopolicias.png">
+      <PackagePath>Assets\PostPartida\ContenedorInfopolicias.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorLadrones.png">
+      <PackagePath>Assets\PostPartida\ContenedorLadrones.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.714</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorPolicias.png">
+      <PackagePath>Assets\PostPartida\ContenedorPolicias.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroLadrones.png">
+      <PackagePath>Assets\PostPartida\DineroLadrones.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroPolicias.png">
+      <PackagePath>Assets\PostPartida\DineroPolicias.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\fondo.png">
+      <PackagePath>Assets\PostPartida\fondo.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\FondoIcono.png">
+      <PackagePath>Assets\PostPartida\FondoIcono.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono1.png">
+      <PackagePath>Assets\PostPartida\Icono1.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.721</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono2.png">
+      <PackagePath>Assets\PostPartida\Icono2.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono3.png">
+      <PackagePath>Assets\PostPartida\Icono3.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono4.png">
+      <PackagePath>Assets\PostPartida\Icono4.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono5.png">
+      <PackagePath>Assets\PostPartida\Icono5.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono6.png">
+      <PackagePath>Assets\PostPartida\Icono6.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ListViewBackground.png">
+      <PackagePath>Assets\PostPartida\ListViewBackground.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TextboxBackground.png">
+      <PackagePath>Assets\PostPartida\TextboxBackground.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TituloLadrones.png">
+      <PackagePath>Assets\PostPartida\TituloLadrones.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.732</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoLadrones.png">
+      <PackagePath>Assets\SeleccionCoche\BandoLadrones.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1.png">
+      <PackagePath>Assets\SeleccionCoche\BotonCoche1.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2.png">
+      <PackagePath>Assets\SeleccionCoche\BotonCoche2.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3.png">
+      <PackagePath>Assets\SeleccionCoche\BotonCoche3.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4.png">
+      <PackagePath>Assets\SeleccionCoche\BotonCoche4.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotónConfirmar.png">
+      <PackagePath>Assets\SeleccionCoche\BotónConfirmar.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\fondo.png">
+      <PackagePath>Assets\SeleccionCoche\fondo.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar.png">
+      <PackagePath>Assets\SeleccionCoche\lowPolyCar.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar2.png">
+      <PackagePath>Assets\SeleccionCoche\lowPolyCar2.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar3.png">
+      <PackagePath>Assets\SeleccionCoche\lowPolyCar3.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelCoches.png">
+      <PackagePath>Assets\SeleccionCoche\PanelCoches.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelIconosJugadores.png">
+      <PackagePath>Assets\SeleccionCoche\PanelIconosJugadores.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PentagramaStats.png">
+      <PackagePath>Assets\SeleccionCoche\PentagramaStats.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerConnected.png">
+      <PackagePath>Assets\SeleccionCoche\PlayerConnected.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.748</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerDisConnected.png">
+      <PackagePath>Assets\SeleccionCoche\PlayerDisConnected.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar1.png">
+      <PackagePath>Assets\SeleccionCoche\StatsCar1.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar2.png">
+      <PackagePath>Assets\SeleccionCoche\StatsCar2.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar3.png">
+      <PackagePath>Assets\SeleccionCoche\StatsCar3.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar4.png">
+      <PackagePath>Assets\SeleccionCoche\StatsCar4.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\TituloLadrones.png">
+      <PackagePath>Assets\SeleccionCoche\TituloLadrones.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Volumen.PNG">
+      <PackagePath>Assets\Volumen.PNG</PackagePath>
+      <Modified>2020-05-07T14:09:09.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-05-07T14:04:46.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-07T14:04:46.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-07T14:04:46.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-07T14:04:46.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-07T14:04:46.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-07T14:04:46.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-07T14:04:46.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-05-07T14:04:46.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.xr.xml">
+      <PackagePath>TrabajoDSI.xr.xml</PackagePath>
+      <Modified>2020-05-07T14:15:55.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-05-07T14:15:55.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Ajustes.xbf">
+      <PackagePath>Ajustes.xbf</PackagePath>
+      <Modified>2020-05-07T14:15:55.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-05-07T14:15:55.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Postpartida.xbf">
+      <PackagePath>Postpartida.xbf</PackagePath>
+      <Modified>2020-05-07T14:15:55.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\SeleccionCoche.xbf">
+      <PackagePath>SeleccionCoche.xbf</PackagePath>
+      <Modified>2020-05-07T14:15:55.471</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T16:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-05-07T14:15:56.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\TrabajoDSI.exe">
+      <PackagePath>TrabajoDSI.exe</PackagePath>
+      <Modified>2020-05-07T14:15:58.155</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
