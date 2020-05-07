@@ -119,6 +119,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Garaje.xaml.cs">
+      <DependentUpon>Garaje.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -135,6 +139,30 @@
     <Content Include="Assets\Fondo.png" />
     <Content Include="Assets\Minimapa.png" />
     <Content Include="Assets\Velometro.png" />
+    <Content Include="Assets\Garaje\Boton.png" />
+    <Content Include="Assets\Garaje\BotonPRS.png" />
+    <Content Include="Assets\Garaje\BtonSelec.png" />
+    <Content Include="Assets\Garaje\Coches\brillicolor.png" />
+    <Content Include="Assets\Garaje\Coches\brillirueda.png" />
+    <Content Include="Assets\Garaje\Coches\coche1color1.png" />
+    <Content Include="Assets\Garaje\Coches\coche1color2.png" />
+    <Content Include="Assets\Garaje\Coches\coche2color1.png" />
+    <Content Include="Assets\Garaje\Coches\coche2color2.png" />
+    <Content Include="Assets\Garaje\Coches\coche2color3.png" />
+    <Content Include="Assets\Garaje\Coches\motor1.png" />
+    <Content Include="Assets\Garaje\Coches\motor2.png" />
+    <Content Include="Assets\Garaje\Coches\para1.png" />
+    <Content Include="Assets\Garaje\Coches\para2.png" />
+    <Content Include="Assets\Garaje\Coches\parabrilli.png" />
+    <Content Include="Assets\Garaje\Coches\plataforma.png" />
+    <Content Include="Assets\Garaje\Coches\rueda1.png" />
+    <Content Include="Assets\Garaje\Coches\rueda2.png" />
+    <Content Include="Assets\Garaje\Estadistica.png" />
+    <Content Include="Assets\Garaje\flecha.png" />
+    <Content Include="Assets\Garaje\flechaL.png" />
+    <Content Include="Assets\Garaje\fondo.png" />
+    <Content Include="Assets\Garaje\lowPolyCar.png" />
+    <Content Include="Assets\Garaje\panel.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -149,6 +177,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Garaje.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

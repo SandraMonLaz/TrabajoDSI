@@ -3,6 +3,8 @@
   <PropertyGroup>
     <Machine>DESKTOP-SM9KOC2</Machine>
     <WindowsUser>felip</WindowsUser>
+    <Machine>DESKTOP-1NP0EBO</Machine>
+    <WindowsUser>Sandra</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -11,6 +13,7 @@
     <PackageIdentityName>4e066fc8-d79b-4044-8f70-fba393967085</PackageIdentityName>
     <PackageIdentityPublisher>CN=Sandra</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -19,6 +22,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>155ACFE33E3A878BC132DA4121384FB4791E21A03C9BE895FF09A899159741FD</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4e066fc8-d79b-4044-8f70-fba393967085_1.0.0.0_x86__hmjcwastsqny0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4e066fc8-d79b-4044-8f70-fba393967085_hmjcwastsqny0!App</RegisteredUserModeAppID>
@@ -37,6 +41,16 @@
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.exe">
       <PackagePath>entrypoint\NonStopDriver.exe</PackagePath>
       <Modified>2020-05-02T13:09:30.486</Modified>
+    <AppXManifest Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-06T16:00:10.241</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.exe">
+      <PackagePath>entrypoint\NonStopDriver.exe</PackagePath>
+      <Modified>2020-05-06T16:00:09.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -115,6 +129,155 @@
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
       <Modified>2020-05-02T13:09:30.186</Modified>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Boton.png">
+      <PackagePath>Assets\Garaje\Boton.png</PackagePath>
+      <Modified>2020-05-01T10:31:43.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\BotonPRS.png">
+      <PackagePath>Assets\Garaje\BotonPRS.png</PackagePath>
+      <Modified>2020-05-02T14:00:22.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\BtonSelec.png">
+      <PackagePath>Assets\Garaje\BtonSelec.png</PackagePath>
+      <Modified>2020-05-01T10:32:31.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\brillicolor.png">
+      <PackagePath>Assets\Garaje\Coches\brillicolor.png</PackagePath>
+      <Modified>2020-05-02T13:59:55.053</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\brillirueda.png">
+      <PackagePath>Assets\Garaje\Coches\brillirueda.png</PackagePath>
+      <Modified>2020-05-02T14:00:00.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\coche1color1.png">
+      <PackagePath>Assets\Garaje\Coches\coche1color1.png</PackagePath>
+      <Modified>2020-05-02T11:33:06.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\coche1color2.png">
+      <PackagePath>Assets\Garaje\Coches\coche1color2.png</PackagePath>
+      <Modified>2020-05-02T11:32:54.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\coche2color1.png">
+      <PackagePath>Assets\Garaje\Coches\coche2color1.png</PackagePath>
+      <Modified>2020-05-02T11:33:41.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\coche2color2.png">
+      <PackagePath>Assets\Garaje\Coches\coche2color2.png</PackagePath>
+      <Modified>2020-05-02T11:33:30.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\coche2color3.png">
+      <PackagePath>Assets\Garaje\Coches\coche2color3.png</PackagePath>
+      <Modified>2020-05-02T11:33:18.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\motor1.png">
+      <PackagePath>Assets\Garaje\Coches\motor1.png</PackagePath>
+      <Modified>2020-05-02T11:35:01.099</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\motor2.png">
+      <PackagePath>Assets\Garaje\Coches\motor2.png</PackagePath>
+      <Modified>2020-05-02T11:35:12.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\para1.png">
+      <PackagePath>Assets\Garaje\Coches\para1.png</PackagePath>
+      <Modified>2020-05-02T11:36:20.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\para2.png">
+      <PackagePath>Assets\Garaje\Coches\para2.png</PackagePath>
+      <Modified>2020-05-02T11:36:32.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\parabrilli.png">
+      <PackagePath>Assets\Garaje\Coches\parabrilli.png</PackagePath>
+      <Modified>2020-05-02T14:00:07.249</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\plataforma.png">
+      <PackagePath>Assets\Garaje\Coches\plataforma.png</PackagePath>
+      <Modified>2020-05-02T11:19:02.093</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\rueda1.png">
+      <PackagePath>Assets\Garaje\Coches\rueda1.png</PackagePath>
+      <Modified>2020-05-02T11:34:17.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Coches\rueda2.png">
+      <PackagePath>Assets\Garaje\Coches\rueda2.png</PackagePath>
+      <Modified>2020-05-02T11:34:28.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\Estadistica.png">
+      <PackagePath>Assets\Garaje\Estadistica.png</PackagePath>
+      <Modified>2020-05-01T13:47:49.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\flecha.png">
+      <PackagePath>Assets\Garaje\flecha.png</PackagePath>
+      <Modified>2020-05-01T10:41:01.474</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\flechaL.png">
+      <PackagePath>Assets\Garaje\flechaL.png</PackagePath>
+      <Modified>2020-05-01T12:59:57.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\fondo.png">
+      <PackagePath>Assets\Garaje\fondo.png</PackagePath>
+      <Modified>2020-05-01T12:51:08.715</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\lowPolyCar.png">
+      <PackagePath>Assets\Garaje\lowPolyCar.png</PackagePath>
+      <Modified>2020-05-01T13:03:04.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Garaje\panel.png">
+      <PackagePath>Assets\Garaje\panel.png</PackagePath>
+      <Modified>2020-05-01T13:17:59.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-03-21T15:54:42.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-04-30T15:01:09.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.xr.xml">
+      <PackagePath>NonStopDriver.xr.xml</PackagePath>
+      <Modified>2020-05-05T10:05:57.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-05-05T10:05:57.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\Garaje.xbf">
+      <PackagePath>Garaje.xbf</PackagePath>
+      <Modified>2020-05-06T16:00:09.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-05-05T10:05:57.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -127,6 +290,13 @@
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\NonStopDriver.exe">
       <PackagePath>NonStopDriver.exe</PackagePath>
       <Modified>2020-05-02T13:09:31.566</Modified>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-05-02T11:49:30.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\NonStopDriver\bin\x86\Debug\Core\NonStopDriver.exe">
+      <PackagePath>NonStopDriver.exe</PackagePath>
+      <Modified>2020-05-06T16:00:10.207</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
