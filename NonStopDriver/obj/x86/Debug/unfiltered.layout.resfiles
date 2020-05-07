@@ -1,6 +1,7 @@
 WinMetadata\Windows.winmd
 Assets\addToGroup.PNG
 Assets\ajustesIcono.png
+Assets\BackToMainMenu.PNG
 Assets\bocadillo.png
 Assets\botonThief.PNG
 Assets\botonThiefPress.PNG
@@ -16,6 +17,7 @@ Assets\Friend4.png
 Assets\LockScreenLogo.scale-200.png
 Assets\LogoText.png
 Assets\lowPolyCar.png
+Assets\Micro.PNG
 Assets\playAs.png
 Assets\PoliceButon.PNG
 Assets\PoliceButonPress.PNG
@@ -24,7 +26,9 @@ Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\Volumen.PNG
 Assets\Wide310x150Logo.scale-200.png
+Ajustes.xbf
 App.xbf
 MainPage.xbf
 NonStopDriver.xr.xml

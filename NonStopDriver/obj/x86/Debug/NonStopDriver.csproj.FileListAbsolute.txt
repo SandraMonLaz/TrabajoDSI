@@ -42,3 +42,8 @@ D:\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\qualifiers.txt.intermediate
 D:\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\ProjectArchitectures.txt
 D:\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\Ajustes.xbf
+D:\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\Ajustes.g.i.cs
+D:\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\Ajustes.g.cs
+D:\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\Ajustes.xaml
+D:\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\Ajustes.xbf

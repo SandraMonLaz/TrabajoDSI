@@ -87,9 +87,26 @@
                                 </Button>
                             </StackPanel>
 
-                            <Image Width="50" Height="50" Source="/Assets/Connected.png"></Image>
+                            <Image Width="50" Height="50" Source="/Assets/Disconnected.png"></Image>
                         </StackPanel>
                     </StackPanel>
+                </Grid>
+            </SplitView.Pane>
+        </SplitView>
+
+        <SplitView x:Name="infoSV" DisplayMode="CompactOverlay" Grid.Row="1" Grid.Column="2" IsPaneOpen="False" PanePlacement="Right" PointerEntered="infoSV_PointerEntered" PointerExited="infoSV_PointerExited">
+            <SplitView.PaneBackground>
+                <SolidColorBrush Color="#FF8B0856" ></SolidColorBrush>
+            </SplitView.PaneBackground>
+
+            <SplitView.Pane>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="5*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="News" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="78,0,0,0"></TextBlock>
+
                 </Grid>
             </SplitView.Pane>
         </SplitView>
@@ -98,7 +115,7 @@
             <StackPanel.Background>
                 <ImageBrush ImageSource="/Assets/ajustesIcono.png"/>
             </StackPanel.Background>
-            <Button x:Name="AjustesButton" Width="120" Height="120" >
+            <Button x:Name="AjustesButton" Width="120" Height="120" Click="AjustesButton_Click" >
                 <Button.Background>
                     <ImageBrush ImageSource="/Assets/ajustesIcono.png"/>
                 </Button.Background>
@@ -129,7 +146,7 @@
 
                 <Image x:Name="policeButton" Height="48" Width="175" Source="/Assets/PoliceButon.png" Grid.Column="2" PointerEntered="policeButton_PointerEntered" PointerExited="policeButton_PointerExited"></Image>
             </Grid>
-            
+
             <Image x:Name="CarImage" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png" PointerEntered="Image_PointerEntered" PointerExited="Image_PointerExited" PointerPressed="Image_PointerPressed" />
             <Image Width="1000" Height="200" VerticalAlignment="Center" Source="/Assets/playAs.png" />
         </Grid>

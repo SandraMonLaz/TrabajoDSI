@@ -116,6 +116,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Ajustes.xaml.cs">
+      <DependentUpon>Ajustes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -132,6 +135,7 @@
   <ItemGroup>
     <Content Include="Assets\addToGroup.PNG" />
     <Content Include="Assets\ajustesIcono.png" />
+    <Content Include="Assets\BackToMainMenu.PNG" />
     <Content Include="Assets\bocadillo.png" />
     <Content Include="Assets\botonThief.PNG" />
     <Content Include="Assets\botonThiefPress.PNG" />
@@ -146,9 +150,11 @@
     <Content Include="Assets\Friend4.png" />
     <Content Include="Assets\LogoText.png" />
     <Content Include="Assets\lowPolyCar.png" />
+    <Content Include="Assets\Micro.PNG" />
     <Content Include="Assets\playAs.png" />
     <Content Include="Assets\PoliceButon.PNG" />
     <Content Include="Assets\PoliceButonPress.PNG" />
+    <Content Include="Assets\Volumen.PNG" />
     <Content Include="bocadillo.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -164,6 +170,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Ajustes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

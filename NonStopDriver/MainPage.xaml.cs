@@ -74,5 +74,20 @@ namespace NonStopDriver
         {
             policeButton.Source = new BitmapImage(new Uri("ms-appx:///Assets/PoliceButon.png"));
         }
+
+        private void infoSV_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+            infoSV.IsPaneOpen = true;
+        }
+
+        private void infoSV_PointerExited(object sender, PointerRoutedEventArgs e)
+        {
+            infoSV.IsPaneOpen = false;
+        }
+
+        private void AjustesButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Ajustes));
+        }
     }
 }
