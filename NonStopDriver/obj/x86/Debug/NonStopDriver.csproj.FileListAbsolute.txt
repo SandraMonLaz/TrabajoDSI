@@ -42,3 +42,8 @@ C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x8
 C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\bin\x86\Debug\UIGame.xbf
+C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\UIGame.g.i.cs
+C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\UIGame.g.cs
+C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\UIGame.xaml
+C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x86\Debug\UIGame.xbf

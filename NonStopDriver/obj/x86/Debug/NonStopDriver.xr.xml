@@ -3,8 +3,10 @@
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
@@ -14,6 +16,7 @@
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
+    <RootType FullName="NonStopDriver.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
       <RootProperty Name="Stretch" />
@@ -36,6 +39,6 @@
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="Rotation" />
     </RootType>
-    <RootType FullName="NonStopDriver.MainPage" />
+    <RootType FullName="NonStopDriver.UIGame" />
   </Roots.RootTypes>
 </Roots>
