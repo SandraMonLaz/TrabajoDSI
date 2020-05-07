@@ -13,12 +13,16 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Background" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
+      <RootEvent Name="SizeChanged" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
@@ -31,8 +35,8 @@
       <RootProperty Name="Background" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -54,8 +58,12 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Background" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
       <RootEvent Name="Click" />
+      <RootEvent Name="PointerEntered" />
+      <RootEvent Name="PointerExited" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
@@ -82,6 +90,9 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="RenderTransform" />
       <RootEvent Name="PointerEntered" />
       <RootEvent Name="PointerExited" />
       <RootEvent Name="PointerPressed" />
@@ -119,10 +130,21 @@
     </RootType>
     <RootType FullName="TrabajoDSI.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Items" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Background" />
-      <RootProperty Name="Items" />
     </RootType>
+    <RootType FullName="System.String" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
+    <RootType FullName="NonStopDriver.MenuPosicionamiento" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
     </RootType>
@@ -148,5 +170,9 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="NonStopDriver.SeleccionCoche" />
+    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
+      <RootProperty Name="Rotation" />
+    </RootType>
+    <RootType FullName="NonStopDriver.UIGame" />
   </Roots.RootTypes>
 </Roots>
