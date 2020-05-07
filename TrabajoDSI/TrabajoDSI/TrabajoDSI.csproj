@@ -122,6 +122,10 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Garaje.xaml.cs">
+      <DependentUpon>Garaje.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -165,17 +169,73 @@
     <Content Include="Assets\Friend2.png" />
     <Content Include="Assets\Friend3.png" />
     <Content Include="Assets\Friend4.png" />
+    <Content Include="Assets\Garaje\Boton.png" />
+    <Content Include="Assets\Garaje\BotonPRS.png" />
+    <Content Include="Assets\Garaje\BtonSelec.png" />
+    <Content Include="Assets\Garaje\Coches\brillicolor.png" />
+    <Content Include="Assets\Garaje\Coches\brillirueda.png" />
+    <Content Include="Assets\Garaje\Coches\coche1color1.png" />
+    <Content Include="Assets\Garaje\Coches\coche1color2.png" />
+    <Content Include="Assets\Garaje\Coches\coche2color1.png" />
+    <Content Include="Assets\Garaje\Coches\coche2color2.png" />
+    <Content Include="Assets\Garaje\Coches\coche2color3.png" />
+    <Content Include="Assets\Garaje\Coches\motor1.png" />
+    <Content Include="Assets\Garaje\Coches\motor2.png" />
+    <Content Include="Assets\Garaje\Coches\para1.png" />
+    <Content Include="Assets\Garaje\Coches\para2.png" />
+    <Content Include="Assets\Garaje\Coches\parabrilli.png" />
+    <Content Include="Assets\Garaje\Coches\plataforma.png" />
+    <Content Include="Assets\Garaje\Coches\rueda1.png" />
+    <Content Include="Assets\Garaje\Coches\rueda2.png" />
+    <Content Include="Assets\Garaje\Estadistica.png" />
+    <Content Include="Assets\Garaje\flecha.png" />
+    <Content Include="Assets\Garaje\flechaL.png" />
+    <Content Include="Assets\Garaje\fondo.png" />
+    <Content Include="Assets\Garaje\lowPolyCar.png" />
+    <Content Include="Assets\Garaje\panel.png" />
     <Content Include="Assets\IconoBancoPos.png" />
     <Content Include="Assets\JugadorPos.png" />
     <Content Include="Assets\LogoText.png" />
     <Content Include="Assets\lowPolyCar.png" />
     <Content Include="Assets\mapaPos.png" />
+    <Content Include="Assets\MenuAjustes\BackToMainMenu.PNG" />
+    <Content Include="Assets\MenuAjustes\Micro.PNG" />
+    <Content Include="Assets\MenuAjustes\Volumen.PNG" />
+    <Content Include="Assets\MenuPrincipal\addToGroup.PNG" />
+    <Content Include="Assets\MenuPrincipal\ajustesIcono.png" />
+    <Content Include="Assets\MenuPrincipal\bocadillo.png" />
+    <Content Include="Assets\MenuPrincipal\botonThief.PNG" />
+    <Content Include="Assets\MenuPrincipal\botonThiefPress.PNG" />
+    <Content Include="Assets\MenuPrincipal\brilloCoche.png" />
+    <Content Include="Assets\MenuPrincipal\ButtonUser.PNG" />
+    <Content Include="Assets\MenuPrincipal\Connected.png" />
+    <Content Include="Assets\MenuPrincipal\Disconnected.png" />
+    <Content Include="Assets\MenuPrincipal\fondo.png" />
+    <Content Include="Assets\MenuPrincipal\Friend1.png" />
+    <Content Include="Assets\MenuPrincipal\Friend2.png" />
+    <Content Include="Assets\MenuPrincipal\Friend3.png" />
+    <Content Include="Assets\MenuPrincipal\Friend4.png" />
+    <Content Include="Assets\MenuPrincipal\LogoText.png" />
+    <Content Include="Assets\MenuPrincipal\lowPolyCar.png" />
+    <Content Include="Assets\MenuPrincipal\playAs.png" />
+    <Content Include="Assets\MenuPrincipal\PoliceButon.PNG" />
+    <Content Include="Assets\MenuPrincipal\PoliceButonPress.PNG" />
     <Content Include="Assets\Micro.PNG" />
     <Content Include="Assets\Minimapa.png" />
     <Content Include="Assets\playAs.png" />
     <Content Include="Assets\PoliceButon.PNG" />
     <Content Include="Assets\PoliceButonPress.PNG" />
     <Content Include="Assets\PoliciaIconoPos.png" />
+    <Content Include="Assets\Posicionamiento\A.png" />
+    <Content Include="Assets\Posicionamiento\Boton.png" />
+    <Content Include="Assets\Posicionamiento\C.png" />
+    <Content Include="Assets\Posicionamiento\D.png" />
+    <Content Include="Assets\Posicionamiento\DestinoIconoPos.png" />
+    <Content Include="Assets\Posicionamiento\fondoPosi.png" />
+    <Content Include="Assets\Posicionamiento\IconoBancoPos.png" />
+    <Content Include="Assets\Posicionamiento\JugadorPos.png" />
+    <Content Include="Assets\Posicionamiento\mapaPos.png" />
+    <Content Include="Assets\Posicionamiento\PoliciaIconoPos.png" />
     <Content Include="Assets\PostPartida\BandoLadrones.png" />
     <Content Include="Assets\PostPartida\BandoLadronesGanan.png" />
     <Content Include="Assets\PostPartida\BandoPolicias.png" />
@@ -219,6 +279,11 @@
     <Content Include="Assets\SeleccionCoche\StatsCar3.png" />
     <Content Include="Assets\SeleccionCoche\StatsCar4.png" />
     <Content Include="Assets\SeleccionCoche\TituloLadrones.png" />
+    <Content Include="Assets\UIGame\BarraUI.png" />
+    <Content Include="Assets\UIGame\BolsaDinero.png" />
+    <Content Include="Assets\UIGame\FondoUI.png" />
+    <Content Include="Assets\UIGame\Minimapa.png" />
+    <Content Include="Assets\UIGame\Velometro.png" />
     <Content Include="Assets\Velometro.png" />
     <Content Include="Assets\Volumen.PNG" />
     <Content Include="Properties\Default.rd.xml" />
@@ -236,6 +301,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Ajustes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Garaje.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
