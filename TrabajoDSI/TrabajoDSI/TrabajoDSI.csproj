@@ -122,7 +122,11 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Postpartida.xaml.cs">
+      <DependentUpon>Postpartida.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeleccionCoche.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -130,6 +134,49 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\PostPartida\BandoLadrones.png" />
+    <Content Include="Assets\PostPartida\BandoLadronesGanan.png" />
+    <Content Include="Assets\PostPartida\BandoPolicias.png" />
+    <Content Include="Assets\PostPartida\BandoPoliciasGanan.png" />
+    <Content Include="Assets\PostPartida\BotonMenu.png" />
+    <Content Include="Assets\PostPartida\BotonRematch.png" />
+    <Content Include="Assets\PostPartida\ContenedorInfoLadrones.png" />
+    <Content Include="Assets\PostPartida\ContenedorInfopolicias.png" />
+    <Content Include="Assets\PostPartida\ContenedorLadrones.png" />
+    <Content Include="Assets\PostPartida\ContenedorPolicias.png" />
+    <Content Include="Assets\PostPartida\DineroLadrones.png" />
+    <Content Include="Assets\PostPartida\DineroPolicias.png" />
+    <Content Include="Assets\PostPartida\fondo.png" />
+    <Content Include="Assets\PostPartida\FondoIcono.png" />
+    <Content Include="Assets\PostPartida\Icono1.png" />
+    <Content Include="Assets\PostPartida\Icono2.png" />
+    <Content Include="Assets\PostPartida\Icono3.png" />
+    <Content Include="Assets\PostPartida\Icono4.png" />
+    <Content Include="Assets\PostPartida\Icono5.png" />
+    <Content Include="Assets\PostPartida\Icono6.png" />
+    <Content Include="Assets\PostPartida\ListViewBackground.png" />
+    <Content Include="Assets\PostPartida\TextboxBackground.png" />
+    <Content Include="Assets\PostPartida\TituloLadrones.png" />
+    <Content Include="Assets\SeleccionCoche\BandoLadrones.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche1.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche2.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche3.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche4.png" />
+    <Content Include="Assets\SeleccionCoche\BotónConfirmar.png" />
+    <Content Include="Assets\SeleccionCoche\fondo.png" />
+    <Content Include="Assets\SeleccionCoche\lowPolyCar.png" />
+    <Content Include="Assets\SeleccionCoche\lowPolyCar2.png" />
+    <Content Include="Assets\SeleccionCoche\lowPolyCar3.png" />
+    <Content Include="Assets\SeleccionCoche\PanelCoches.png" />
+    <Content Include="Assets\SeleccionCoche\PanelIconosJugadores.png" />
+    <Content Include="Assets\SeleccionCoche\PentagramaStats.png" />
+    <Content Include="Assets\SeleccionCoche\PlayerConnected.png" />
+    <Content Include="Assets\SeleccionCoche\PlayerDisConnected.png" />
+    <Content Include="Assets\SeleccionCoche\StatsCar1.png" />
+    <Content Include="Assets\SeleccionCoche\StatsCar2.png" />
+    <Content Include="Assets\SeleccionCoche\StatsCar3.png" />
+    <Content Include="Assets\SeleccionCoche\StatsCar4.png" />
+    <Content Include="Assets\SeleccionCoche\TituloLadrones.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -145,6 +192,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Postpartida.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SeleccionCoche.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
