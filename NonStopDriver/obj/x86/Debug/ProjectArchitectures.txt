@@ -1,2 +1,0 @@
-C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\NonStopDriver.csproj;x86
-C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\NonStopDriver.csproj;x86
