@@ -30,51 +30,36 @@
             <Image Width="50" Height="50" Source="Assets/StoreLogo.png"></Image>
             <TextBlock x:Name="Dinero" Text="20 523 $" VerticalAlignment="Bottom" FontSize="26" FontFamily="Berlin Sans FB Demi" ></TextBlock>
         </StackPanel>
+        <Button x:Name="backButton" Grid.ColumnSpan="3"  Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Stretch" Width="80"></Button>
         <!-- Botones superiores  -->
         <StackPanel Grid.ColumnSpan="3" Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" >
             <!-- Motor-->
-            <StackPanel x:Name="StackMotor" Width="300" Height="80" Margin="100,0,80,0" >
+            <StackPanel x:Name="StackMotor" Width="300" Height="80" Margin="100,0,80,0" PointerEntered="StackMotor_PointerEntered" PointerExited="StackMotor_PointerExited" PointerPressed="StackMotor_PointerPressed" PointerReleased="StackMotor_PointerReleased" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
                 </StackPanel.Background>
-                <Button x:Name="Motor" Width="300" Height="80">
-                    <Button.Background>
-                        <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
-                    </Button.Background>
-                </Button>
+                <TextBlock Text="MOTOR" FontSize="50" Margin="63,-11,-64,11" FontWeight="Normal" FontFamily="Bauhaus 93" FontStyle="Italic" ></TextBlock>
             </StackPanel>
             <!-- Ruedas-->
-            <StackPanel x:Name="StackRuedas" Width="300" Height="80" Margin="0,0,80,0" >
+            <StackPanel x:Name="StackRuedas" Width="300" Height="80" Margin="0,0,80,0" PointerEntered="StackRuedas_PointerEntered" PointerExited="StackRuedas_PointerExited" PointerPressed="StackRuedas_PointerPressed" PointerReleased="StackRuedas_PointerReleased" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
                 </StackPanel.Background>
-                <Button x:Name="Ruedas" Width="300" Height="80">
-                    <Button.Background>
-                        <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
-                    </Button.Background>
-                </Button>
+                <TextBlock Text="RUEDAS" FontSize="50" Margin="61,-11,-49,11" FontWeight="Normal" FontFamily="Bauhaus 93" FontStyle="Italic" ></TextBlock>
             </StackPanel>
             <!-- Parachoques-->
-            <StackPanel x:Name="StackParachoques" Width="300" Height="80" Margin="0,0,80,0" >
+            <StackPanel x:Name="StackParachoques" Width="300" Height="80" Margin="0,0,80,0" PointerEntered="StackParachoques_PointerEntered" PointerExited="StackParachoques_PointerExited" PointerPressed="StackParachoques_PointerPressed" PointerReleased="StackParachoques_PointerReleased" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
                 </StackPanel.Background>
-                <Button x:Name="Parachoques" Width="300" Height="80">
-                    <Button.Background>
-                        <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
-                    </Button.Background>
-                </Button>
+                <TextBlock Text="PARACHOQUES" FontSize="50" Margin="-10,-11,-175,19" FontWeight="Normal" FontFamily="Bauhaus 93" FontStyle="Italic" ></TextBlock>
             </StackPanel>
             <!-- Color-->
-            <StackPanel x:Name="StackColor" Width="300" Height="80" Margin="0,0,100,0" >
+            <StackPanel x:Name="StackColor" Width="300" Height="80" Margin="0,0,100,0" PointerEntered="StackColor_PointerEntered" PointerExited="StackColor_PointerExited" PointerPressed="StackColor_PointerPressed" PointerReleased="StackColor_PointerReleased" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
                 </StackPanel.Background>
-                <Button x:Name="Color" Width="300" Height="80">
-                    <Button.Background>
-                        <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
-                    </Button.Background>
-                </Button>
+                <TextBlock Text="COLOR" FontSize="50" Margin="65,-11,-54,11" FontWeight="Normal" FontFamily="Bauhaus 93" FontStyle="Italic" ></TextBlock>
             </StackPanel>
 
 
@@ -93,7 +78,17 @@
                 </Button>
             </StackPanel>
             <!-- Imagen coche actual-->
-            <Image x:Name="ImagenCoche" Source="Assets/Garaje/lowPolyCar.png"></Image>
+            <Canvas Width="600" Margin="10,0,0,0" HorizontalAlignment="Center">
+                <!-- FeedBack visual-->
+                <Image x:Name="feedbackcolor" Source="Assets/Garaje/Coches/brillicolor.png" Width="600" Visibility="Collapsed"></Image>
+                <Image x:Name="feedbackruedas" Source="Assets/Garaje/Coches/brillirueda.png" Width="628" Visibility="Collapsed"></Image>
+                <Image x:Name="feedbackpara" Source="Assets/Garaje/Coches/parabrilli.png" Width="628" Visibility="Collapsed"></Image>
+                <!-- Imagenes partes-->
+                <Image x:Name="color" Source="Assets/Garaje/Coches/coche1color1.png" Width="628"></Image>
+                <Image x:Name="ruedas" Source="Assets/Garaje/Coches/rueda1.png" Width="628"></Image>
+                <Image x:Name="parachoques" Source="Assets/Garaje/Coches/para2.png" Width="628"></Image>
+                <Image x:Name="motor" Source="Assets/Garaje/Coches/motor1.png" Width="628" Visibility="Collapsed"></Image>
+            </Canvas>
             <!-- Boton izquierdo-->
             <StackPanel x:Name="RightButtonCarStack" Width="85" Height="120" >
                 <StackPanel.Background>
@@ -107,8 +102,37 @@
             </StackPanel>
 
         </StackPanel>
-
-
+        <!-- Botones -->
+        <StackPanel Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
+            <StackPanel.Background>
+                <SolidColorBrush Color="#FFA87CE8"></SolidColorBrush>
+            </StackPanel.Background>
+            <!-- Boton izquierdo-->
+            <StackPanel x:Name="LeftCarStack" Width="50" Height="60">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flechaL.png"/>
+                </StackPanel.Background>
+                <Button x:Name="LeftCar" Width="50" Height="60" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flechaL.png"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+            <!-- NOMBRE COCHE-->
+            <TextBlock x:Name="NombreCoche" Text="CITROEN" VerticalAlignment="Center" FontSize="40" Margin="20"></TextBlock>
+            <!-- Boton derecho-->
+            <StackPanel x:Name="RightCarStack" Width="50" Height="60">
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flecha.png"/>
+                </StackPanel.Background>
+                <Button x:Name="RightCar" Width="50" Height="60" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flecha.png"/>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <!-- Parte inferior -->
         <Grid Grid.RowSpan="4" Grid.ColumnSpan="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="84*"></ColumnDefinition>
@@ -125,11 +149,12 @@
                     <ImageBrush ImageSource="/Assets/Garaje/panel.png"/>
                 </StackPanel.Background>
                 <TextBlock x:Name="texto"
-                       TextWrapping="WrapWholeWords"
-                       Margin="20"
-                       Text="alñsd"
-                       TextAlignment="Justify"
-                       />
+                           TextWrapping="WrapWholeWords"
+                           Margin="20"
+                           Text="alñsd"
+                           TextAlignment="Justify"
+                           FontSize="30"
+                           />
             </StackPanel>
             <!-- Estadistica -->
             <StackPanel x:Name="estadistica" Grid.Row="1" Grid.Column="2" Margin="10,0,0,0">
