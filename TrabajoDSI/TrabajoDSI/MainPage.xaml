@@ -142,9 +142,9 @@
                     <ColumnDefinition Width="1*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <Image x:Name="thiefButton" Height="48" Width="175" Source="/Assets/botonThief.png" Grid.Column="1" PointerEntered="thiefButton_PointerEntered" PointerExited="thiefButton_PointerExited"></Image>
+                <Image x:Name="thiefButton" Height="48" Width="175" Source="/Assets/botonThief.png" Grid.Column="1" PointerEntered="thiefButton_PointerEntered" PointerExited="thiefButton_PointerExited" PointerPressed="thiefButton_PointerPressed"></Image>
 
-                <Image x:Name="policeButton" Height="48" Width="175" Source="/Assets/PoliceButon.png" Grid.Column="2" PointerEntered="policeButton_PointerEntered" PointerExited="policeButton_PointerExited"></Image>
+                <Image x:Name="policeButton" Height="48" Width="175" Source="/Assets/PoliceButon.png" Grid.Column="2" PointerEntered="policeButton_PointerEntered" PointerExited="policeButton_PointerExited" PointerPressed="policeButton_PointerPressed"></Image>
             </Grid>
 
             <Image x:Name="CarImage" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png" PointerEntered="Image_PointerEntered" PointerExited="Image_PointerExited" PointerPressed="Image_PointerPressed" />

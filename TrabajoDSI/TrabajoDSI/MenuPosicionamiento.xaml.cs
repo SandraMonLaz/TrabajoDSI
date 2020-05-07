@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
-namespace NonStopDriver
+namespace TrabajoDSI
 {
     /// <summary>
     /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
@@ -94,6 +94,11 @@ namespace NonStopDriver
             Jugador.Height = h / 10;
             Canvas.SetLeft(Jugador, Canvas.GetLeft(Banco) + PuntoA.Width * 1.5);
             Canvas.SetTop(Jugador, Canvas.GetTop(Banco) + PuntoA.Height * 2);
+        }
+
+        private void onClick(object sender, PointerRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(UIGame));
         }
     }
 }

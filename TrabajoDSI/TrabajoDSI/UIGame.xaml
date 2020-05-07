@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="NonStopDriver.UIGame"
+    x:Class="TrabajoDSI.UIGame"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:NonStopDriver"
@@ -15,9 +15,9 @@
             <ImageBrush ImageSource="Assets/FondoUI.png" Stretch="UniformToFill" />
         </Grid.Background>
 
-        <Canvas x:Name="canvas">
+        <Canvas x:Name="canvas" >
             <!--Barra-->
-            <Image x:Name="Barra" Source="Assets/Barra.png" Grid.Row="0" Grid.Column="1" Margin="0,0,0,32" Canvas.Left="444" Canvas.Top="10"/>
+            <Image x:Name="Barra" Source="Assets/Barra.png" Grid.Row="0" Grid.Column="1" Margin="0,0,0,32" Canvas.Left="444" Canvas.Top="10" PointerPressed="canvas_PointerPressed"/>
 
             <!--Velocimetro y Habilidad-->
             <Image x:Name="Velocimetro" Source="Assets/Velometro.png" Grid.Column="2" Grid.Row="2" Margin="0,6,0,30" Canvas.Left="1174" Canvas.Top="678"/>

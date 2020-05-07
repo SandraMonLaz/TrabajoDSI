@@ -52,7 +52,7 @@ namespace TrabajoDSI
 
         private void Image_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            //Ir a garaje
+            this.Frame.Navigate(typeof(Garaje));
         }
 
         private void thiefButton_PointerEntered(object sender, PointerRoutedEventArgs e)
@@ -68,6 +68,7 @@ namespace TrabajoDSI
         private void policeButton_PointerEntered(object sender, PointerRoutedEventArgs e)
         {
             policeButton.Source = new BitmapImage(new Uri("ms-appx:///Assets/PoliceButonPress.png"));
+
         }
 
         private void policeButton_PointerExited(object sender, PointerRoutedEventArgs e)
@@ -88,6 +89,16 @@ namespace TrabajoDSI
         private void AjustesButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Ajustes));
+        }
+
+        private void policeButton_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SeleccionCoche));
+        }
+
+        private void thiefButton_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(SeleccionCoche));
         }
     }
 }
