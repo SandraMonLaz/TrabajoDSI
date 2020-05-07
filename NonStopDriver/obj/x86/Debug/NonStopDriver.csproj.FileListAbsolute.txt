@@ -45,6 +45,9 @@ C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\NonStopDriver\obj\x8
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\App.xbf
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\Postpartida.xbf
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\App.xbf
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\MainPage.xbf
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\SeleccionCoche.xbf
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.xr.xml
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.exe
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\bin\x86\Debug\NonStopDriver.pdb
@@ -69,6 +72,15 @@ C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\Postpart
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\App.xbf
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\MainPage.xbf
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\Postpartida.xbf
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\SeleccionCoche.g.i.cs
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\SeleccionCoche.g.cs
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\App.xaml
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\MainPage.xaml
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\SeleccionCoche.xaml
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\App.xbf
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\MainPage.xbf
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\SeleccionCoche.xbf
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\NonStopDriver.csproj.CopyComplete
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\NonStopDriver\obj\x86\Debug\NonStopDriver.exe
