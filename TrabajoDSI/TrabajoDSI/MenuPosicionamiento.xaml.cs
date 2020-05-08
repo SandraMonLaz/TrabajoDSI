@@ -11,12 +11,62 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using static TrabajoDSI.Lugar;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0xc0a
 
 namespace TrabajoDSI
 {
+    public class Lugar
+    {
+      public string punto;
+      public string puntoJugador;
+      public Image img;
+
+        public class PuntoA : Lugar
+        {
+           public PuntoA(Image img_)
+           {
+                img = img_;
+                punto = "Assets/A.png";
+                puntoJugador = "Assets/Posicionamiento/AJugador.png";
+           }
+        }
+
+        public class PuntoB : Lugar
+        {
+            public PuntoB(Image img_)
+            {
+                img = img_;
+                punto = "Assets/IconoBancoPos.png";
+                puntoJugador = "Assets/Posicionamiento/IconoBancoJugador.png";
+            }
+        }
+
+        public class PuntoC : Lugar
+        {
+            public PuntoC(Image img_)
+            {
+                img = img_;
+                punto = "Assets/C.png";
+                puntoJugador = "Assets/Posicionamiento/CJugador.png";
+            }
+        }
+
+        public class PuntoD : Lugar
+        {
+            public PuntoD(Image img_)
+            {
+                img = img_;
+                punto = "Assets/D.png";
+                puntoJugador = "Assets/Posicionamiento/DJugador.png";
+            }
+        }
+    }
+
+
     /// <summary>
     /// Página vacía que se puede usar de forma independiente o a la que se puede navegar dentro de un objeto Frame.
     /// </summary>
@@ -25,6 +75,11 @@ namespace TrabajoDSI
         public MenuPosicionamiento()
         {
             this.InitializeComponent();
+
+            Lugares.Items.Add(new PuntoA(PuntoA));
+            Lugares.Items.Add(new PuntoB(Banco));
+            Lugares.Items.Add(new PuntoC(PuntoC));
+            Lugares.Items.Add(new PuntoD(PuntoD));
         }
 
 
@@ -89,16 +144,31 @@ namespace TrabajoDSI
             Canvas.SetLeft(PuntoD, Canvas.GetLeft(Banco));
             Canvas.SetTop(PuntoD, Canvas.GetTop(Banco) + PuntoD.Height * 3);
 
-            //Jugador
-            Jugador.Width = w / 10;
-            Jugador.Height = h / 10;
-            Canvas.SetLeft(Jugador, Canvas.GetLeft(Banco) + PuntoA.Width * 1.5);
-            Canvas.SetTop(Jugador, Canvas.GetTop(Banco) + PuntoA.Height * 2);
+            ////Jugador
+            //Jugador.Width = w / 10;
+            //Jugador.Height = h / 10;
+            //Canvas.SetLeft(Jugador, Canvas.GetLeft(Banco) + PuntoA.Width * 1.5);
+            //Canvas.SetTop(Jugador, Canvas.GetTop(Banco) + PuntoA.Height * 2);
         }
 
         private void onClick(object sender, PointerRoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(UIGame));
+        }
+
+        private void Lugares_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Lugar l = Lugares.SelectedItem as Lugar;
+
+            foreach(Lugar a in e.RemovedItems)
+            {
+                a.img.Source = new BitmapImage(new Uri("ms-appx:///" + a.punto));
+            }
+
+            if(l!= null)
+            {              
+                l.img.Source = new BitmapImage(new Uri("ms-appx:///" + l.puntoJugador));
+            }           
         }
     }
 }
