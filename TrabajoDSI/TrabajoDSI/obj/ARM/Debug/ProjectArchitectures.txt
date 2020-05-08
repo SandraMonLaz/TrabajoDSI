@@ -1,1 +1,1 @@
-F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\TrabajoDSI.csproj;arm
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\TrabajoDSI.csproj;arm

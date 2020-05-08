@@ -8,6 +8,13 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <Page.Resources>
+        <ItemsPanelTemplate x:Key="ContenedorCoches_ItemsPanelTemplate">
+            <ItemsWrapGrid Orientation="Vertical"
+                           VerticalAlignment="Center" />
+        </ItemsPanelTemplate>
+    </Page.Resources>
+    
     <Grid x:Name="FondoDelantero">
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/PostPartida/fondo.png" AlignmentY="Top" AlignmentX="Center"/>
@@ -24,49 +31,73 @@
         </Grid.RowDefinitions>
 
         <!--PARTE SUPERIOR DE LA PANTALLA-->
-        <StackPanel x:Name="dineroLadrones"  Height="200" Margin="0,0,0,0" Grid.Column="0" VerticalAlignment="Top">
-            <StackPanel.Background>
+        <Grid x:Name="dineroLadrones"  Grid.Column="0" >
+            <Grid.Background>
                 <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroLadrones.png"/>
-            </StackPanel.Background>
-            <TextBlock x:Name="DineroLadrones" Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
-        </StackPanel>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="DineroLadrones" Grid.Row="1" Grid.Column="1" Text="100000$" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="60" Margin="0,0,0,0"></TextBlock>
+        </Grid>
 
         <Image x:Name="NombreGanador" Grid.Column="1" Stretch="Fill"  Source="ms-appx:///Assets/PostPartida/BandoLadronesGanan.png"></Image>
 
 
-        <StackPanel x:Name="dineroPolicias"  Height="200" Margin="0,0,0,0" Grid.Column="2" Grid.Row="0" VerticalAlignment="Top">
-            <StackPanel.Background>
+        <Grid x:Name="dineroPolicias" Grid.Column="2" Grid.Row="0" >
+            <Grid.Background>
                 <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroPolicias.png"/>
-            </StackPanel.Background>
-            <TextBlock x:Name="Dineropolicias"  Text="100000" HorizontalAlignment="Center" FontSize="60" Margin="0,60,0,0"></TextBlock>
-        </StackPanel>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="1.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="Dineropolicias" Grid.Row="1" Grid.Column="0" Text="100000$" HorizontalAlignment="Right" FontSize="60"></TextBlock>
+        </Grid>
 
 
 
         <!--BOTONES-->
-        <StackPanel x:Name="ButtonsMenuRematch" Grid.Column="1" Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center"  VerticalAlignment="Center">
-            <StackPanel x:Name="menuButton" Width="260" Height="80" Margin="0,0,0,0" >
+        <Grid x:Name="ButtonsMenuRematch" Grid.Column="1" Grid.Row="2" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel x:Name="menuButton" Grid.Row="1" VerticalAlignment="Top"  >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonMenu.png"/>
                 </StackPanel.Background>
-                <Button x:Name="MenuB" Width="240" Height="70" Margin="0,0,0,0" Click="MenuB_Click" >
+                <Button x:Name="MenuB" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="200" Height="75" Click="MenuB_Click" >
                 </Button>
             </StackPanel>
-            <StackPanel x:Name="rematchButton" Width="240" Height="70" Margin="0,0,0,0" >
+            <StackPanel x:Name="rematchButton"  Margin="0,0,0,0" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonRematch.png"/>
                 </StackPanel.Background>
-                <Button x:Name="rematchB" Width="200" Height="50" Click="rematchB_Click" >
+                <Button x:Name="rematchB" Width="300" Height="150" Click="rematchB_Click" >
                 </Button>
             </StackPanel>
-        </StackPanel>
+        </Grid>
 
 
         <!--Jugadores del bando de los ladrones-->
-        <StackPanel Grid.Column="0" VerticalAlignment="Center"  Grid.Row="1" >
+        <Grid Grid.Row="1">
+            
+        <GridView Grid.Column="0"  Grid.Row="1">
 
             <!--JUGADOR1-->
-            <Grid x:Name="Player1"   Height="100" >
+            <Grid x:Name="Player1" Width="601"   >
               
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
@@ -134,7 +165,8 @@
                 <TextBlock x:Name="CocheJugador4"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White" Text="Audi-R8"></TextBlock>
                 <TextBlock x:Name="DineroJugador4" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White" Text="20000"></TextBlock>
             </Grid>
-        </StackPanel>
+        </GridView>
+        </Grid>
 
         <!--Jugadores del bando de los policias-->
         <StackPanel Grid.Column="2" Grid.Row="1" VerticalAlignment="Center">

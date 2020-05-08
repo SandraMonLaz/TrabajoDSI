@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -22,18 +23,27 @@ namespace TrabajoDSI
     /// </summary>
     public sealed partial class SeleccionCoche : Page
     {
+
+        public List<SelectableCar> ListaCoches;
+        private SelectableCar selectedCar;
+
         public SeleccionCoche()
         {
             this.InitializeComponent();
+            ListaCoches = Carmanager.GetCars();
+            selectedCar = null;
         }
 
         private void ConfirmButton_Click(object sender, RoutedEventArgs e)
         {
+            //if(selectedCar != null)
             this.Frame.Navigate(typeof(MenuPosicionamiento));
         }
 
         private void IconosCoches_ItemClick(object sender, ItemClickEventArgs e)
         {
+            //Devolver al estado anterior el boton que estaba seleccionado
+            selectedCar = (SelectableCar)e.ClickedItem;
             //Poner un Brillibrilli al botón del coche y cambiar la imagen del coche
         }
     }

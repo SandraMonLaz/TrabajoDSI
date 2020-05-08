@@ -130,11 +130,13 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="MenuPosicionamiento.xaml.cs" />
+    <Compile Include="PlayerInfo.cs" />
     <Compile Include="Postpartida.xaml.cs">
       <DependentUpon>Postpartida.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SeleccionCoche.xaml.cs" />
+    <Compile Include="SelectableCar.cs" />
     <Compile Include="UIGame.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -261,9 +263,13 @@
     <Content Include="Assets\PostPartida\TituloLadrones.png" />
     <Content Include="Assets\SeleccionCoche\BandoLadrones.png" />
     <Content Include="Assets\SeleccionCoche\BotonCoche1.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche1Seleccionado.png" />
     <Content Include="Assets\SeleccionCoche\BotonCoche2.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche2Seleccionado.png" />
     <Content Include="Assets\SeleccionCoche\BotonCoche3.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche3Seleccionado.png" />
     <Content Include="Assets\SeleccionCoche\BotonCoche4.png" />
+    <Content Include="Assets\SeleccionCoche\BotonCoche4Seleccionado.png" />
     <Content Include="Assets\SeleccionCoche\BotónConfirmar.png" />
     <Content Include="Assets\SeleccionCoche\fondo.png" />
     <Content Include="Assets\SeleccionCoche\lowPolyCar.png" />
