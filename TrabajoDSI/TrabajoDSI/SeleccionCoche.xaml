@@ -38,8 +38,8 @@
             
             <!--INFORMACION DEL BANDO EN EL QUE TE ENCUENTRAS-->
                 <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  HorizontalAlignment="Center">
-                    <Image  Source="ms-appx:///Assets/SeleccionCoche/bandoladrones.png"  ></Image>
-                    <Image Source="ms-appx:///Assets/SeleccionCoche/TituloLadrones.png"  Margin="0,0,0,0" ></Image>
+                    <Image x:Name="imagenBando" Source="ms-appx:///Assets/SeleccionCoche/bandoladrones.png"  ></Image>
+                    <Image x:Name="nombreBando" Source="ms-appx:///Assets/SeleccionCoche/TituloLadrones.png"  Margin="0,0,0,0" ></Image>
                 </StackPanel>
 
                 <!--Iconos de todos los jugadores-->
@@ -76,6 +76,7 @@
             <!--COCHES-->
             <GridView x:Name="IconosCoches" Grid.Row="2" ItemsSource ="{x:Bind ListaCoches, Mode=OneWay}"
              ItemsPanel="{StaticResource ContenedorCoches_ItemsPanelTemplate}"
+                      IsItemClickEnabled="True"
                       ItemClick="IconosCoches_ItemClick">
                 <GridView.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelCoches.png"/>
@@ -85,17 +86,17 @@
                     <DataTemplate 
                       x:DataType="local:SelectableCar">
                         <GridViewItem Width="200" Height="200" Padding="20">
-                            <Image Stretch="Fill" Source="{x:Bind image}"></Image>
+                            <Image x:Name="buttonImage" Stretch="Fill" Source="{x:Bind image}"></Image>
                         </GridViewItem>
                     </DataTemplate>
                 </GridView.ItemTemplate>
-
             </GridView>
+            
             <StackPanel VerticalAlignment="Top" Grid.Row="3" HorizontalAlignment="Center">
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/BotónConfirmar.png"/>
                 </StackPanel.Background>
-                <Button x:Name="ConfirmButton" Width="100" Height="100" Click="ConfirmButton_Click">
+                <Button x:Name="ConfirmButton" Width="100" Height="100" Visibility="Collapsed" Click="ConfirmButton_Click">
                 </Button>
             </StackPanel>
         </Grid>
@@ -115,10 +116,10 @@
                 </Grid.Background>
 
                 <!--Imagen de las stats del coche-->
-                <Image Source="ms-appx:///Assets/SeleccionCoche/StatsCar1.png"  ></Image>
+                <Image x:Name="ImagenStatsCocheSeleccionado" Source="ms-appx:///Assets/SeleccionCoche/StatsCar1.png"  ></Image>
 
             </Grid>
-            <Image Source="ms-appx:///Assets/SeleccionCoche/lowPolyCar.png" Grid.Column="1" Grid.Row="1" Margin="0,-150,0,0"></Image>
+            <Image x:Name="ImagenCocheSeleccionado" Source="ms-appx:///Assets/SeleccionCoche/lowPolyCar.png" Grid.Column="1" Grid.Row="1" Margin="0,-150,0,0"></Image>
         </Grid>
     </Grid>
 </Page>
