@@ -60,11 +60,23 @@
 
             <TextBlock  Text="Posiciona tu coche" FontSize="25" HorizontalAlignment="Center"/>
 
-            <ListView x:Name="Lugares" SelectionMode="Multiple" HorizontalAlignment="Center" SelectionChanged="Lugares_SelectionChanged" ItemsSource = "{x:Bind ListaLugares}">
+            <ListView x:Name="Lugares" SelectionMode="Extended" HorizontalAlignment="Center" SelectionChanged="Lugares_SelectionChanged" ItemsSource = "{x:Bind ListaLugares}">
 
                 <ListView.ItemTemplate>
+                    
+
                     <DataTemplate x:DataType="local:Lugar">
-                        <TextBlock Text="{x:Bind nombre}"/>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="5*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Width="20" Height="20" Source="Assets/Posicionamiento/A.png"/>
+                            <TextBlock Grid.Column="1" Text="{x:Bind nombre}"/>
+                        </Grid>
+
+                       
                     </DataTemplate>
 
                 </ListView.ItemTemplate>
