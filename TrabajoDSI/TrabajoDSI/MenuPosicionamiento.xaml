@@ -57,14 +57,18 @@
             <StackPanel.Background>
                 <ImageBrush ImageSource="Assets/Posicionamiento/Panel.png"/>
             </StackPanel.Background>
-            
+
             <TextBlock  Text="Posiciona tu coche" FontSize="25" HorizontalAlignment="Center"/>
 
-            <ListView x:Name="Lugares" SelectionMode="Multiple" HorizontalAlignment="Center" SelectionChanged="Lugares_SelectionChanged">
-                <!--<x:String>(A)Callejón los Antonios</x:String>
-                <x:String>(B)Entrada trasera</x:String>
-                <x:String>(C)Mesón Paco</x:String>
-                <x:String>(D)Boca de metro</x:String>-->
+            <ListView x:Name="Lugares" SelectionMode="Multiple" HorizontalAlignment="Center" SelectionChanged="Lugares_SelectionChanged" ItemsSource = "{x:Bind ListaLugares}">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="local:Lugar">
+                        <TextBlock Text="{x:Bind nombre}"/>
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+
             </ListView>
 
         </StackPanel>

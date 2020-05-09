@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -21,18 +22,20 @@ namespace TrabajoDSI
 {
     public class Lugar
     {
-      public string punto;
-      public string puntoJugador;
-      public Image img;
+        public string punto;
+        public string puntoJugador;
+        public Image img;
+        public string nombre;
 
         public class PuntoA : Lugar
         {
-           public PuntoA(Image img_)
-           {
+            public PuntoA(Image img_)
+            {
                 img = img_;
                 punto = "Assets/A.png";
                 puntoJugador = "Assets/Posicionamiento/AJugador.png";
-           }
+                nombre = "(A) Callejon los Antonios";
+            }
         }
 
         public class PuntoB : Lugar
@@ -42,6 +45,7 @@ namespace TrabajoDSI
                 img = img_;
                 punto = "Assets/IconoBancoPos.png";
                 puntoJugador = "Assets/Posicionamiento/IconoBancoJugador.png";
+                nombre = "(B) Entrada trasera";
             }
         }
 
@@ -52,6 +56,7 @@ namespace TrabajoDSI
                 img = img_;
                 punto = "Assets/C.png";
                 puntoJugador = "Assets/Posicionamiento/CJugador.png";
+                nombre = "(C) Mesón Paco";
             }
         }
 
@@ -62,6 +67,7 @@ namespace TrabajoDSI
                 img = img_;
                 punto = "Assets/D.png";
                 puntoJugador = "Assets/Posicionamiento/DJugador.png";
+                nombre = "(D) Boca de metro";
             }
         }
     }
@@ -72,14 +78,20 @@ namespace TrabajoDSI
     /// </summary>
     public sealed partial class MenuPosicionamiento : Page
     {
+        public ObservableCollection<Lugar> ListaLugares { get; } = new ObservableCollection<Lugar>();
+
         public MenuPosicionamiento()
         {
             this.InitializeComponent();
 
-            Lugares.Items.Add(new PuntoA(PuntoA));
-            Lugares.Items.Add(new PuntoB(Banco));
-            Lugares.Items.Add(new PuntoC(PuntoC));
-            Lugares.Items.Add(new PuntoD(PuntoD));
+            //Creo y añado los lugares a la ListaLugares
+            ListaLugares.Add(new PuntoA(PuntoA));
+            ListaLugares.Add(new PuntoB(Banco));
+            ListaLugares.Add(new PuntoC(PuntoC));
+            ListaLugares.Add(new PuntoD(PuntoD));
+
+            //Los elementos de la lista lugares los añado al listview llamado Lugares
+            foreach (Lugar l in ListaLugares) Lugares.Items.Add(l);
         }
 
 
@@ -153,22 +165,22 @@ namespace TrabajoDSI
 
         private void onClick(object sender, PointerRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(UIGame));
+            //Si hay algun lugar seleccinado podemos pasar al siguiente menu
+            if (Lugares.SelectedItem != null) this.Frame.Navigate(typeof(UIGame));
         }
 
         private void Lugares_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Lugar l = Lugares.SelectedItem as Lugar;
 
-            foreach(Lugar a in e.RemovedItems)
-            {
-                a.img.Source = new BitmapImage(new Uri("ms-appx:///" + a.punto));
-            }
+              Lugar l = Lugares.SelectedItem as Lugar;
 
-            if(l!= null)
-            {              
-                l.img.Source = new BitmapImage(new Uri("ms-appx:///" + l.puntoJugador));
-            }           
+              foreach (Lugar a in e.RemovedItems) a.img.Source = new BitmapImage(new Uri("ms-appx:///" + a.punto));
+
+              if (l != null)
+              {
+                  l.img.Source = new BitmapImage(new Uri("ms-appx:///" + l.puntoJugador));
+              }
+ 
         }
     }
 }

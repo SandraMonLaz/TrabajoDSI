@@ -158,13 +158,19 @@
       <RootProperty Name="SelectionMode" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="ItemsSource" />
-      <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Background" />
       <RootProperty Name="Items" />
       <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="TrabajoDSI.MenuPosicionamiento" />
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
@@ -177,12 +183,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
-      <RootProperty Name="Mode" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.DataTemplate">
-      <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="TrabajoDSI.Postpartida" />
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
