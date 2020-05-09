@@ -91,8 +91,6 @@
         </Grid>
 
 
-        <!--Jugadores del bando de los ladrones-->
-        <Grid Grid.Row="1">
 
             <!--<Grid.RowDefinitions>
                 <RowDefinition Height="*"></RowDefinition>
@@ -102,9 +100,33 @@
 
             </Grid.RowDefinitions>-->
             <!--JUGADOR1-->
-            <ListView>
+            <ListView Grid.Row="1"
+                ItemsSource="{x:Bind ListaLadrones, Mode=OneWay}"
+                VerticalContentAlignment="Stretch">
+                <ListView.ItemTemplate>
 
-            <Grid x:Name="Player1"   Grid.Row="0" >
+                    <DataTemplate 
+                      x:DataType="local:PlayerInfo">
+                        <Grid Height="100" Width="700">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="2*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.Background>
+                                <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoLadrones.png"/>
+                            </Grid.Background>
+                            <Image Source="{x:Bind image}"  Grid.Column="0"></Image>
+                            <TextBlock x:Name="NombreJugador1"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White" Text="{x:Bind nombre}"></TextBlock>
+                            <TextBlock x:Name="CocheJugador1"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White" Text="{x:Bind coche}"></TextBlock>
+                            <TextBlock x:Name="DineroJugador1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White" Text ="{x:Bind dinero}"></TextBlock>
+                        </Grid>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+                <!--<Grid x:Name="Player1"   Grid.Row="0" >
               
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
@@ -121,7 +143,7 @@
                 <TextBlock x:Name="DineroJugador1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White" Text="20000"></TextBlock>
             </Grid>
 
-            <!--JUGADOR2-->
+            --><!--JUGADOR2--><!--
             <Grid x:Name="Player2"  Grid.Row="1" >
                 
                 <Grid.ColumnDefinitions>
@@ -139,7 +161,7 @@
                 <TextBlock x:Name="DineroJugador2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White" Text="20000"></TextBlock>
             </Grid>
 
-            <!--JUGADOR3-->
+            --><!--JUGADOR3--><!--
             <Grid x:Name="Player3" Grid.Row="2" >
                 <Grid.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoLadrones.png"/>
@@ -156,7 +178,7 @@
                 <TextBlock x:Name="DineroJugador3" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White" Text="20000"></TextBlock>
             </Grid>
 
-            <!--JUGADOR4-->
+            --><!--JUGADOR4--><!--
             <Grid x:Name="Player4"  Grid.Row="3">
                 <Grid.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoLadrones.png"/>
@@ -171,19 +193,44 @@
                 <TextBlock x:Name="NombreJugador4"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White" Text="Yukilled"></TextBlock>
                 <TextBlock x:Name="CocheJugador4"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White" Text="Audi-R8"></TextBlock>
                 <TextBlock x:Name="DineroJugador4" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White" Text="20000"></TextBlock>
-            </Grid>
+            </Grid>-->
 
             </ListView>
 
-        </Grid>
+
 
         <!--Jugadores del bando de los policias-->
-        <StackPanel Grid.Column="2" Grid.Row="1" VerticalAlignment="Center">
-            <!--<StackPanel.Background>
+        <ListView  Grid.Column="2" Grid.Row="1" ItemsSource="{x:Bind ListaPolicias, Mode=OneWay}"
+                VerticalContentAlignment="Stretch" VerticalAlignment="Center">
+            <ListView.ItemTemplate>
+
+                <DataTemplate 
+                      x:DataType="local:PlayerInfo">
+                    <Grid Height="100" Width="700">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.Background>
+                            <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoPolicias.png"/>
+                        </Grid.Background>
+                        <Image Source="{x:Bind image}"  Grid.Column="0"></Image>
+                        <TextBlock x:Name="NombreJugador1"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White" Text="{x:Bind nombre}"></TextBlock>
+                        <TextBlock x:Name="CocheJugador1"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White" Text="{x:Bind coche}"></TextBlock>
+                        <TextBlock x:Name="DineroJugador1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White" Text ="{x:Bind dinero}"></TextBlock>
+                    </Grid>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <!--<StackPanel Grid.Column="2" Grid.Row="1" VerticalAlignment="Center">
+            --><!--<StackPanel.Background>
                 <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorPolicias.png"/>
             </StackPanel.Background>-->
 
-            <!--JUGADOR5-->
+            <!--JUGADOR5--><!--
             <Grid x:Name="Player5"   Height="100" >
                 <Grid.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoPolicias.png"/>
@@ -200,7 +247,7 @@
                 <Image Source="ms-appx:///Assets/PostPartida/Icono5.png"  Grid.Column="3"></Image>
             </Grid>
 
-            <!--JUGADOR6-->
+            --><!--JUGADOR6--><!--
             <Grid x:Name="Player6"   Height="100" >
                 <Grid.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoPolicias.png"/>
@@ -216,15 +263,17 @@
                 <TextBlock x:Name="NombreJugador6"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Right"  FontSize="25" Foreground="White" Text="Yukilled"></TextBlock>
                 <Image Source="ms-appx:///Assets/PostPartida/Icono6.png"  Grid.Column="3"></Image>
             </Grid>
-        </StackPanel>
+        </StackPanel>-->
 
-        <Grid Grid.Row="2" Grid.Column="0">
+        <Grid Grid.Row="2" Grid.Column="0" PointerExited="Grid_PointerExited">
             <Grid.RowDefinitions>
                 <RowDefinition Height="3*"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
 
-            <ListView x:Name="ListViewChat" Visibility="Collapsed">
+
+                
+            <ListView x:Name="ListViewChat" Visibility="Collapsed" >
                 <ListView.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ListViewBackground.png"/>
                 </ListView.Background>
@@ -239,7 +288,8 @@
                 </ListViewItem>
 
             </ListView>
-            <TextBox x:Name="textBoxChat" Grid.Row="1" Grid.Column="0"  PointerExited="textBoxChat_PointerExited" PointerEntered ="textBoxChat_PointerEntered"  FocusVisualPrimaryBrush="Transparent" RequestedTheme="Default">
+            
+            <TextBox x:Name="textBoxChat" KeyDown="textBoxChat_KeyDown" Grid.Row="1" Grid.Column="0"   PointerEntered ="textBoxChat_PointerEntered"  FocusVisualPrimaryBrush="Transparent" RequestedTheme="Default">
                 <TextBox.Foreground>
                     <ImageBrush  ImageSource="ms-appx:///Assets/PostPartida/TextboxBackground.png"/>
                 </TextBox.Foreground>

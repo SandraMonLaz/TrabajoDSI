@@ -10,6 +10,7 @@ namespace TrabajoDSI
     {
         public string dinero { get; set; }
         public string nombre { get; set; }
+        public string coche { get; set; }
         public string image { get; set; }
     }
 
@@ -19,17 +20,17 @@ namespace TrabajoDSI
         public static List<PlayerInfo> Bandoladrones()
         {
             var listaCoches = new List<PlayerInfo>();
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono1.png", dinero= "2000$", nombre = "Yukilled" });
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono2.png", dinero = "1500$", nombre = "Alonefcp" });
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono3.png", dinero = "1000$", nombre = "Perturbadogamer" });
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono4.png", dinero = "2700$", nombre = "Paulkmv" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono1.png", dinero= "2000$", coche ="Audi-R8", nombre = "Yukilled" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono2.png", dinero = "1500$", coche = "Audi-R8", nombre = "Alonefcp" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono3.png", dinero = "1000$", coche = "Audi-R8", nombre = "Pertur" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono4.png", dinero = "2700$", coche = "Audi-R8", nombre = "Paulkmv" });
             return listaCoches;
         }
         public static List<PlayerInfo> BandoPolicias()
         {
             var listaCoches = new List<PlayerInfo>();
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono5.png", dinero = "2000$", nombre = "Estrujillo" });
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono6.png", dinero = "1500$", nombre = "FenomenCoyote" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono5.png", coche = "Audi-R8", dinero = "2000$", nombre = "Estrujillo" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono6.png", coche = "Audi-R8", dinero = "1500$", nombre = "FenomenCoyote" });
 
             return listaCoches;
         }

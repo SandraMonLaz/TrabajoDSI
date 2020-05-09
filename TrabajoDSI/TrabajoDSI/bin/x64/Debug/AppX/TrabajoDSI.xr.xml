@@ -15,8 +15,10 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
       <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="SizeChanged" />
+      <RootEvent Name="PointerExited" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -148,13 +150,17 @@
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Background" />
-      <RootEvent Name="PointerExited" />
+      <RootEvent Name="KeyDown" />
       <RootEvent Name="PointerEntered" />
     </RootType>
     <RootType FullName="TrabajoDSI.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="SelectionMode" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Background" />
       <RootProperty Name="Items" />
@@ -172,6 +178,12 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
     <RootType FullName="TrabajoDSI.Postpartida" />
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="ItemsSource" />
@@ -181,13 +193,7 @@
       <RootProperty Name="ItemTemplate" />
       <RootEvent Name="ItemClick" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
-      <RootProperty Name="Mode" />
-    </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.DataTemplate">
-      <RootProperty Name="Template" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridViewItem">
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />

@@ -23,9 +23,15 @@ namespace TrabajoDSI
     /// </summary>
     public sealed partial class Postpartida : Page
     {
+
+        public List<PlayerInfo> ListaLadrones;
+        public List<PlayerInfo> ListaPolicias;
+
         public Postpartida()
         {
             this.InitializeComponent();
+            ListaLadrones = PlayerInfoManager.Bandoladrones();
+            ListaPolicias = PlayerInfoManager.BandoPolicias();
             NombreGanador.Source = new BitmapImage(new Uri(bandoJugador.getImageWinnerTeam()));
         }
 
@@ -48,16 +54,24 @@ namespace TrabajoDSI
 
         }
 
-        private void textBoxChat_PointerExited(object sender, PointerRoutedEventArgs e)
+
+        private void textBoxChat_KeyDown(object sender, KeyRoutedEventArgs e)
+        {
+            if(e.Key == Windows.System.VirtualKey.Enter)
+            {
+                TextBlock mensage = new TextBlock();
+                mensage.Text = textBoxChat.Text;
+                textBoxChat.Text = ""; 
+                ListViewChat.Items.Add(mensage);
+            }
+
+        }
+
+
+
+        private void Grid_PointerExited(object sender, PointerRoutedEventArgs e)
         {
             ListViewChat.Visibility = Visibility.Collapsed;
         }
-
-        private void textBoxChat_PointerPressed(object sender, PointerRoutedEventArgs e)
-        {
-
-        }
-
-
     }
 }
