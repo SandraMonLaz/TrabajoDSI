@@ -192,14 +192,23 @@ namespace TrabajoDSI
             texto.Text = ArrayGaraje[selectedCar].info;
             NombreCoche.Text = ArrayGaraje[selectedCar].nombreCoche;
             color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
+
+            ImageBrush a = new ImageBrush();
+            a.ImageSource = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].estadistica));
+            estadistica.Background = a;
         }
 
         private void LeftCar_Click(object sender, RoutedEventArgs e)
         {
-            selectedCar = (selectedCar - 1) % (ArrayGaraje.GetLength(0));
+            if (selectedCar > 0) selectedCar = (selectedCar - 1) % (ArrayGaraje.GetLength(0));
+            else selectedCar = ArrayGaraje.GetLength(0) - 1;
             texto.Text = ArrayGaraje[selectedCar].info;
             NombreCoche.Text = ArrayGaraje[selectedCar].nombreCoche;
             color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
+
+            ImageBrush a = new ImageBrush();
+            a.ImageSource = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].estadistica));
+            estadistica.Background = a;
         }
 
         private void RightButtonCar_Click(object sender, RoutedEventArgs e)
@@ -230,6 +239,48 @@ namespace TrabajoDSI
                     motor.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].motor[ArrayGaraje[selectedCar].imotor]));
                 }
                 break;
+            }
+        }
+
+        private void LeftButtonCar_Click(object sender, RoutedEventArgs e)
+        {
+        
+            switch (ArrayGaraje[selectedCar].estadoActual)
+            {
+                case CocheGaraje.Estado.color:
+                    {
+                        if (ArrayGaraje[selectedCar].icolor > 0)
+                            ArrayGaraje[selectedCar].icolor = (ArrayGaraje[selectedCar].icolor - 1) % ArrayGaraje[selectedCar].color.GetLength(0);
+                        else ArrayGaraje[selectedCar].icolor = ArrayGaraje[selectedCar].color.GetLength(0) - 1;
+                        color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
+                    }
+                    break;
+                case CocheGaraje.Estado.parachoques:
+                    {
+                        if (ArrayGaraje[selectedCar].iparachoques > 0)
+                           ArrayGaraje[selectedCar].iparachoques = (ArrayGaraje[selectedCar].iparachoques - 1) % ArrayGaraje[selectedCar].parachoques.GetLength(0);
+                        else ArrayGaraje[selectedCar].iparachoques = ArrayGaraje[selectedCar].parachoques.GetLength(0) - 1;
+                        parachoques.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].parachoques[ArrayGaraje[selectedCar].iparachoques]));
+                    }
+                    break;
+                case CocheGaraje.Estado.ruedas:
+                    {
+                        if (ArrayGaraje[selectedCar].iruedas > 0)
+                            ArrayGaraje[selectedCar].iruedas = (ArrayGaraje[selectedCar].iruedas - 1) % ArrayGaraje[selectedCar].ruedas.GetLength(0);
+                        else ArrayGaraje[selectedCar].iruedas = ArrayGaraje[selectedCar].ruedas.GetLength(0) - 1;
+                      
+                        ruedas.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].ruedas[ArrayGaraje[selectedCar].iruedas]));
+                    }
+                    break;
+                case CocheGaraje.Estado.motor:
+                    {
+                        if(ArrayGaraje[selectedCar].imotor > 0)
+                            ArrayGaraje[selectedCar].imotor = (ArrayGaraje[selectedCar].imotor - 1) % ArrayGaraje[selectedCar].motor.GetLength(0);
+                        else ArrayGaraje[selectedCar].imotor = ArrayGaraje[selectedCar].motor.GetLength(0) - 1;
+                        
+                        motor.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].motor[ArrayGaraje[selectedCar].imotor]));
+                    }
+                    break;
             }
         }
     }

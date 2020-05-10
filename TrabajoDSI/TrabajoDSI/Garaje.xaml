@@ -7,8 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
    >
-
-
+    
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="ms-appx:///Assets/Garaje/fondo.png"/>
@@ -32,30 +31,36 @@
         </StackPanel>
         <Button x:Name="backButton" Grid.ColumnSpan="3"  Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Stretch" Width="80" Click="backButton_Click"></Button>
         <!-- Botones superiores  -->
-        <StackPanel Grid.ColumnSpan="3" Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" >
+        <Grid Grid.ColumnSpan="3" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
             <!-- Motor-->
-            <StackPanel x:Name="StackMotor" Width="300" Height="80" Margin="100,0,80,0" PointerEntered="StackMotor_PointerEntered" PointerExited="StackMotor_PointerExited" PointerPressed="StackMotor_PointerPressed" PointerReleased="StackMotor_PointerReleased" >
+            <StackPanel Grid.Column="0" x:Name="StackMotor" Width="300" Height="80"  PointerEntered="StackMotor_PointerEntered" PointerExited="StackMotor_PointerExited" PointerPressed="StackMotor_PointerPressed" PointerReleased="StackMotor_PointerReleased" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
                 </StackPanel.Background>
                 <TextBlock Text="MOTOR" FontSize="50" Margin="63,-11,-64,11" FontWeight="Normal" FontFamily="Bauhaus 93" FontStyle="Italic" Foreground="White"></TextBlock>
             </StackPanel>
             <!-- Ruedas-->
-            <StackPanel x:Name="StackRuedas" Width="300" Height="80" Margin="0,0,80,0" PointerEntered="StackRuedas_PointerEntered" PointerExited="StackRuedas_PointerExited" PointerPressed="StackRuedas_PointerPressed" PointerReleased="StackRuedas_PointerReleased" >
+            <StackPanel Grid.Column="1" x:Name="StackRuedas" Width="300" Height="80"  PointerEntered="StackRuedas_PointerEntered" PointerExited="StackRuedas_PointerExited" PointerPressed="StackRuedas_PointerPressed" PointerReleased="StackRuedas_PointerReleased" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
                 </StackPanel.Background>
                 <TextBlock Text="RUEDAS" FontSize="50" Margin="61,-11,-49,11" FontWeight="Normal" FontFamily="Bauhaus 93" FontStyle="Italic" Foreground="White"></TextBlock>
             </StackPanel>
             <!-- Parachoques-->
-            <StackPanel x:Name="StackParachoques" Width="300" Height="80" Margin="0,0,80,0" PointerEntered="StackParachoques_PointerEntered" PointerExited="StackParachoques_PointerExited" PointerPressed="StackParachoques_PointerPressed" PointerReleased="StackParachoques_PointerReleased" >
+            <StackPanel Grid.Column="2" x:Name="StackParachoques" Width="300" Height="80" PointerEntered="StackParachoques_PointerEntered" PointerExited="StackParachoques_PointerExited" PointerPressed="StackParachoques_PointerPressed" PointerReleased="StackParachoques_PointerReleased" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
                 </StackPanel.Background>
-                <TextBlock Text="PARACHOQUES" FontSize="50" Margin="-10,-11,-175,19" FontWeight="Normal" FontFamily="Bauhaus 93" FontStyle="Italic" Foreground="White"></TextBlock>
+                <TextBlock Text="PARACHOQUES" FontSize="50" Margin="-10,-11,-175,19" FontWeight="Normal" FontFamily="Bauhaus 93" FontStyle="Italic" Foreground="White" Height="71" Width="476"></TextBlock>
             </StackPanel>
             <!-- Color-->
-            <StackPanel x:Name="StackColor" Width="300" Height="80" Margin="0,0,100,0" PointerEntered="StackColor_PointerEntered" PointerExited="StackColor_PointerExited" PointerPressed="StackColor_PointerPressed" PointerReleased="StackColor_PointerReleased" >
+            <StackPanel Grid.Column="3" x:Name="StackColor" Width="300" Height="80"  PointerEntered="StackColor_PointerEntered" PointerExited="StackColor_PointerExited" PointerPressed="StackColor_PointerPressed" PointerReleased="StackColor_PointerReleased" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/Boton.png"/>
                 </StackPanel.Background>
@@ -63,7 +68,7 @@
             </StackPanel>
 
 
-        </StackPanel>
+        </Grid>
         <!-- Coche -->
         <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" >
             <!-- Boton izquierdo-->
@@ -71,7 +76,7 @@
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flechaL.png"/>
                 </StackPanel.Background>
-                <Button x:Name="LeftButtonCar" Width="85" Height="120" >
+                <Button x:Name="LeftButtonCar" Width="85" Height="120" Click="LeftButtonCar_Click" >
                     <Button.Background>
                         <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flechaL.png"/>
                     </Button.Background>

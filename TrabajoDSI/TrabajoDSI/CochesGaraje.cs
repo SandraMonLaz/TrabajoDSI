@@ -12,6 +12,7 @@ namespace TrabajoDSI
         public enum Estado { ruedas, motor, parachoques, color , nada };
         public Estado estadoActual { get; set; }
         public string info { get; set; }
+        public string estadistica { get; set; }
         public string nombreCoche { get; set; }
         public int imotor;
         public string[] motor;
@@ -44,6 +45,7 @@ namespace TrabajoDSI
     {
         public Coche1()
         {
+            estadistica = "Assets/Garaje/Estadistica.png";
             info = " Rol: Hacker \nHabilidad: Adios Visión! Nuestro hacker podrá quitar la visión del equipo contrario durante 2.5 segundos" +
                    " haciendo que su mapa se transforme en una gran mancha negra.";
             nombreCoche = "MUSTANG-SHELBY";
@@ -56,6 +58,7 @@ namespace TrabajoDSI
     {
         public Coche2()
         {
+            estadistica = "Assets/Garaje/Estadistica2.png";
             info = " Rol: Ladrón de la Carga \nHabilidad: Nitro! Este coche tiene nitro, el cual el jugador podrá usar con el fin de recorrer largas calles" +
                    " de la manera más rápida. Tiene varios usos, pero consta de un tiempo de reutilización, asi que, ¡cuidado!";
             nombreCoche = "MERCEDES-BENZ";
