@@ -142,22 +142,20 @@
       <RootEvent Name="PointerExited" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Width" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Visibility" />
+      <RootProperty Name="Text" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Background" />
+      <RootEvent Name="TextChanged" />
       <RootEvent Name="KeyDown" />
       <RootEvent Name="PointerEntered" />
     </RootType>
-    <RootType FullName="TrabajoDSI.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="SelectionMode" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Background" />
       <RootProperty Name="Items" />
@@ -169,6 +167,7 @@
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
+    <RootType FullName="TrabajoDSI.MainPage" />
     <RootType FullName="TrabajoDSI.MenuPosicionamiento" />
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
       <RootProperty Name="Template" />

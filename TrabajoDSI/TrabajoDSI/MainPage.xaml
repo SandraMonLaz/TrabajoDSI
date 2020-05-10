@@ -2,7 +2,7 @@
     x:Class="TrabajoDSI.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:NonStopDriver"
+    xmlns:local="using:TrabajoDSI"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
@@ -38,58 +38,33 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="40"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
                         <RowDefinition Height="5*"></RowDefinition>
                     </Grid.RowDefinitions>
                     <TextBlock Text="Friends" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="78,0,0,0"></TextBlock>
-                    <StackPanel Grid.Row="1" Orientation="Vertical" Width="250" HorizontalAlignment="Left">
-                        <TextBox x:Name="SearchFriendsTextBox" Width="250" HorizontalAlignment="Left" Visibility="Collapsed"/>
-                        <StackPanel Orientation="Horizontal" Width="250">
-                            <Image Width="50" Height="50" Source="/Assets/Friend1.png"/>
-                            <TextBlock Text="Yukilled" Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-                            <StackPanel x:Name="Bocadillo1" Width="50" Height="50">
-                                <StackPanel.Background>
-                                    <ImageBrush ImageSource="/Assets/bocadillo.png"/>
-                                </StackPanel.Background>
-                                <Button x:Name="Bocadillo1b" Width="50" Height="50">
-                                    <Button.Background>
-                                        <ImageBrush ImageSource="/Assets/bocadillo.png"/>
-                                    </Button.Background>
-                                </Button>
-                            </StackPanel>
-                            <Image Width="50" Height="50" Source="/Assets/Connected.png"></Image>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal" Width="250">
-                            <Image Width="50" Height="50" Source="/Assets/Friend2.png"/>
-                            <TextBlock Text="PaulkMV" Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-                            <StackPanel x:Name="Bocadillo2" Width="50" Height="50">
-                                <StackPanel.Background>
-                                    <ImageBrush ImageSource="/Assets/bocadillo.png"/>
-                                </StackPanel.Background>
-                                <Button x:Name="Bocadillo2b" Width="50" Height="50">
-                                    <Button.Background>
-                                        <ImageBrush ImageSource="/Assets/bocadillo.png"/>
-                                    </Button.Background>
-                                </Button>
-                            </StackPanel>
-                            <Image Width="50" Height="50" Source="/Assets/Connected.png"></Image>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal" Width="250">
-                            <Image Width="50" Height="50" Source="/Assets/Friend3.png"/>
-                            <TextBlock Text="PertGam" Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
-                            <StackPanel x:Name="Bocadillo3" Width="50" Height="50">
-                                <StackPanel.Background>
-                                    <ImageBrush ImageSource="/Assets/bocadillo.png"/>
-                                </StackPanel.Background>
-                                <Button x:Name="Bocadillo3b" Width="50" Height="50">
-                                    <Button.Background>
-                                        <ImageBrush ImageSource="/Assets/bocadillo.png"/>
-                                    </Button.Background>
-                                </Button>
-                            </StackPanel>
-
-                            <Image Width="50" Height="50" Source="/Assets/Disconnected.png"></Image>
-                        </StackPanel>
-                    </StackPanel>
+                    <TextBox Text="Search a friend" x:Name="SearchFriendsTextBox" Grid.Row="1" TextChanged="SearchFriendsTextBox_TextChanged"></TextBox>
+                    
+                    <ListView x:Name="FriendsList" Grid.Row="2" ItemsSource="{x:Bind friendsList}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="local:Friend">
+                                <StackPanel Orientation="Horizontal" Width="250">
+                                    <Image Width="50" Height="50" Source="{x:Bind profilePic}"/>
+                                    <TextBlock Text="{x:Bind name}" Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                                    <StackPanel x:Name="Bocadillo1" Width="50" Height="50">
+                                        <StackPanel.Background>
+                                            <ImageBrush ImageSource="/Assets/bocadillo.png"/>
+                                        </StackPanel.Background>
+                                        <Button x:Name="Bocadillo1b" Width="50" Height="50">
+                                            <Button.Background>
+                                                <ImageBrush ImageSource="/Assets/bocadillo.png"/>
+                                            </Button.Background>
+                                        </Button>
+                                    </StackPanel>
+                                    <Image Width="50" Height="50" Source="{x:Bind connectionStatus}"></Image>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
                 </Grid>
             </SplitView.Pane>
         </SplitView>

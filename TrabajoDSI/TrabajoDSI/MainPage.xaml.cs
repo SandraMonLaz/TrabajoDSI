@@ -23,9 +23,11 @@ namespace TrabajoDSI
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public List<Friend> friendsList;
         public MainPage()
         {
             this.InitializeComponent();
+            friendsList = InitializeFriendsList.initializeFriends();
         }
 
         private void FriendsSV_PointerEntered(object sender, PointerRoutedEventArgs e)
@@ -101,6 +103,18 @@ namespace TrabajoDSI
         {
             bandoJugador.ladron = true;
             this.Frame.Navigate(typeof(SeleccionCoche));
+        }
+
+        private void SearchFriendsTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchName = SearchFriendsTextBox.Text;
+            foreach(Friend friend in friendsList)
+            {
+                if (friend.name == searchName)
+                {
+                    FriendsList.SelectedItem = friend;
+                }
+            }
         }
     }
 }

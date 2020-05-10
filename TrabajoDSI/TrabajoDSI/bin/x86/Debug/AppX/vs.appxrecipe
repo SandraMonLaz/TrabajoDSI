@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-1NP0EBO</Machine>
-    <WindowsUser>Sandra</WindowsUser>
+    <Machine>DESKTOP-DGNAOIQ</Machine>
+    <WindowsUser>Usuario</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>be76ed63-19fd-4b94-a918-e68e1d4aa749</PackageIdentityName>
     <PackageIdentityPublisher>CN=felip</PackageIdentityPublisher>
-    <IntermediateOutputPath>F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>2CCDFC3E4C4EB62D0CFB14A12EF6D65670E024BDFC3E83AC0FDBB5C118A79AF4</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>540B09E8CEA90BC730595BD1D68C857434E293F9FDA9718FBDBB136468A53B19</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>be76ed63-19fd-4b94-a918-e68e1d4aa749_1.0.0.0_x86__131gb4354n8bm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>be76ed63-19fd-4b94-a918-e68e1d4aa749_131gb4354n8bm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>be76ed63-19fd-4b94-a918-e68e1d4aa749</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-10T17:42:49.383</Modified>
+      <Modified>2020-05-10T18:21:53.791</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\TrabajoDSI.exe">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\TrabajoDSI.exe">
       <PackagePath>entrypoint\TrabajoDSI.exe</PackagePath>
-      <Modified>2020-05-10T17:42:48.879</Modified>
+      <Modified>2020-05-10T18:21:53.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,709 +44,709 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\A.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\A.png">
       <PackagePath>Assets\A.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.433</Modified>
+      <Modified>2020-05-10T18:12:41.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\addToGroup.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\addToGroup.PNG">
       <PackagePath>Assets\addToGroup.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.491</Modified>
+      <Modified>2020-05-10T18:12:41.465</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ajustesIcono.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ajustesIcono.png">
       <PackagePath>Assets\ajustesIcono.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.491</Modified>
+      <Modified>2020-05-10T18:12:41.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BackToMainMenu.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BackToMainMenu.PNG">
       <PackagePath>Assets\BackToMainMenu.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.164</Modified>
+      <Modified>2020-05-10T18:12:41.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Barra.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Barra.png">
       <PackagePath>Assets\Barra.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.493</Modified>
+      <Modified>2020-05-10T18:12:41.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BarraUI.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BarraUI.png">
       <PackagePath>Assets\BarraUI.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.495</Modified>
+      <Modified>2020-05-10T18:12:41.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\bocadillo.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\bocadillo.png">
       <PackagePath>Assets\bocadillo.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.492</Modified>
+      <Modified>2020-05-10T18:12:41.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BolsaDinero.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BolsaDinero.png">
       <PackagePath>Assets\BolsaDinero.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.498</Modified>
+      <Modified>2020-05-10T18:12:41.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Boton.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Boton.png">
       <PackagePath>Assets\Boton.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.499</Modified>
+      <Modified>2020-05-10T18:12:41.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThief.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThief.PNG">
       <PackagePath>Assets\botonThief.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.493</Modified>
+      <Modified>2020-05-10T18:12:41.466</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThiefPress.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThiefPress.PNG">
       <PackagePath>Assets\botonThiefPress.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.494</Modified>
+      <Modified>2020-05-10T18:12:41.467</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\brilloCoche.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\brilloCoche.png">
       <PackagePath>Assets\brilloCoche.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.501</Modified>
+      <Modified>2020-05-10T18:12:41.470</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ButtonUser.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ButtonUser.PNG">
       <PackagePath>Assets\ButtonUser.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.165</Modified>
+      <Modified>2020-05-10T18:12:41.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\C.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\C.png">
       <PackagePath>Assets\C.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.500</Modified>
+      <Modified>2020-05-10T18:12:41.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Connected.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Connected.png">
       <PackagePath>Assets\Connected.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.166</Modified>
+      <Modified>2020-05-10T18:12:41.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\D.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\D.png">
       <PackagePath>Assets\D.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.501</Modified>
+      <Modified>2020-05-10T18:12:41.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\DestinoIcono.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\DestinoIcono.png">
       <PackagePath>Assets\DestinoIcono.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.502</Modified>
+      <Modified>2020-05-10T18:12:41.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\DestinoIconoPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\DestinoIconoPos.png">
       <PackagePath>Assets\DestinoIconoPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.503</Modified>
+      <Modified>2020-05-10T18:12:41.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Disconnected.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Disconnected.png">
       <PackagePath>Assets\Disconnected.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.167</Modified>
+      <Modified>2020-05-10T18:12:41.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondo.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondo.png">
       <PackagePath>Assets\fondo.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.535</Modified>
+      <Modified>2020-05-10T18:12:41.471</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondoPosi.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondoPosi.png">
       <PackagePath>Assets\fondoPosi.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.632</Modified>
+      <Modified>2020-05-10T18:12:41.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\FondoUI.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\FondoUI.png">
       <PackagePath>Assets\FondoUI.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.512</Modified>
+      <Modified>2020-05-10T18:12:41.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend1.png">
       <PackagePath>Assets\Friend1.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.168</Modified>
+      <Modified>2020-05-10T18:12:41.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend2.png">
       <PackagePath>Assets\Friend2.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.169</Modified>
+      <Modified>2020-05-10T18:12:41.302</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend3.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend3.png">
       <PackagePath>Assets\Friend3.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.169</Modified>
+      <Modified>2020-05-10T18:12:41.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend4.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend4.png">
       <PackagePath>Assets\Friend4.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.170</Modified>
+      <Modified>2020-05-10T18:12:41.303</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Boton.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Boton.png">
       <PackagePath>Assets\Garaje\Boton.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.030</Modified>
+      <Modified>2020-05-10T18:12:41.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\BotonPRS.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\BotonPRS.png">
       <PackagePath>Assets\Garaje\BotonPRS.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.031</Modified>
+      <Modified>2020-05-10T18:12:41.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\BtonSelec.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\BtonSelec.png">
       <PackagePath>Assets\Garaje\BtonSelec.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.032</Modified>
+      <Modified>2020-05-10T18:12:41.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\brillicolor.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\brillicolor.png">
       <PackagePath>Assets\Garaje\Coches\brillicolor.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.041</Modified>
+      <Modified>2020-05-10T18:12:41.309</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\brillirueda.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\brillirueda.png">
       <PackagePath>Assets\Garaje\Coches\brillirueda.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.045</Modified>
+      <Modified>2020-05-10T18:12:41.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche1color1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche1color1.png">
       <PackagePath>Assets\Garaje\Coches\coche1color1.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.048</Modified>
+      <Modified>2020-05-10T18:12:41.313</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche1color2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche1color2.png">
       <PackagePath>Assets\Garaje\Coches\coche1color2.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.053</Modified>
+      <Modified>2020-05-10T18:12:41.315</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color1.png">
       <PackagePath>Assets\Garaje\Coches\coche2color1.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.057</Modified>
+      <Modified>2020-05-10T18:12:41.317</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color2.png">
       <PackagePath>Assets\Garaje\Coches\coche2color2.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.062</Modified>
+      <Modified>2020-05-10T18:12:41.320</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color3.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color3.png">
       <PackagePath>Assets\Garaje\Coches\coche2color3.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.067</Modified>
+      <Modified>2020-05-10T18:12:41.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\motor1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\motor1.png">
       <PackagePath>Assets\Garaje\Coches\motor1.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.069</Modified>
+      <Modified>2020-05-10T18:12:41.323</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\motor2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\motor2.png">
       <PackagePath>Assets\Garaje\Coches\motor2.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.071</Modified>
+      <Modified>2020-05-10T18:12:41.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\para1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\para1.png">
       <PackagePath>Assets\Garaje\Coches\para1.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.072</Modified>
+      <Modified>2020-05-10T18:12:41.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\para2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\para2.png">
       <PackagePath>Assets\Garaje\Coches\para2.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.075</Modified>
+      <Modified>2020-05-10T18:12:41.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\parabrilli.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\parabrilli.png">
       <PackagePath>Assets\Garaje\Coches\parabrilli.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.076</Modified>
+      <Modified>2020-05-10T18:12:41.327</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\plataforma.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\plataforma.png">
       <PackagePath>Assets\Garaje\Coches\plataforma.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.080</Modified>
+      <Modified>2020-05-10T18:12:41.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\rueda1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\rueda1.png">
       <PackagePath>Assets\Garaje\Coches\rueda1.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.082</Modified>
+      <Modified>2020-05-10T18:12:41.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\rueda2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\rueda2.png">
       <PackagePath>Assets\Garaje\Coches\rueda2.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.084</Modified>
+      <Modified>2020-05-10T18:12:41.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Estadistica.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Estadistica.png">
       <PackagePath>Assets\Garaje\Estadistica.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.088</Modified>
+      <Modified>2020-05-10T18:12:41.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flecha.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flecha.png">
       <PackagePath>Assets\Garaje\flecha.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.088</Modified>
+      <Modified>2020-05-10T18:12:41.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flechaL.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flechaL.png">
       <PackagePath>Assets\Garaje\flechaL.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.089</Modified>
+      <Modified>2020-05-10T18:12:41.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\fondo.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\fondo.png">
       <PackagePath>Assets\Garaje\fondo.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.093</Modified>
+      <Modified>2020-05-10T18:12:41.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\lowPolyCar.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\lowPolyCar.png">
       <PackagePath>Assets\Garaje\lowPolyCar.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.100</Modified>
+      <Modified>2020-05-10T18:12:41.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\panel.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\panel.png">
       <PackagePath>Assets\Garaje\panel.png</PackagePath>
-      <Modified>2020-05-07T14:24:53.103</Modified>
+      <Modified>2020-05-10T18:12:41.341</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\IconoBancoPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\IconoBancoPos.png">
       <PackagePath>Assets\IconoBancoPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.513</Modified>
+      <Modified>2020-05-10T18:12:41.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\JugadorPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\JugadorPos.png">
       <PackagePath>Assets\JugadorPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.514</Modified>
+      <Modified>2020-05-10T18:12:41.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LogoText.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LogoText.png">
       <PackagePath>Assets\LogoText.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.172</Modified>
+      <Modified>2020-05-10T18:12:41.344</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\lowPolyCar.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\lowPolyCar.png">
       <PackagePath>Assets\lowPolyCar.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.564</Modified>
+      <Modified>2020-05-10T18:12:41.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\mapaPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\mapaPos.png">
       <PackagePath>Assets\mapaPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.649</Modified>
+      <Modified>2020-05-10T18:12:41.479</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\BackToMainMenu.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\BackToMainMenu.PNG">
       <PackagePath>Assets\MenuAjustes\BackToMainMenu.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.174</Modified>
+      <Modified>2020-05-10T18:12:41.344</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\Micro.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\Micro.PNG">
       <PackagePath>Assets\MenuAjustes\Micro.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.175</Modified>
+      <Modified>2020-05-10T18:12:41.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\Volumen.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\Volumen.PNG">
       <PackagePath>Assets\MenuAjustes\Volumen.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.176</Modified>
+      <Modified>2020-05-10T18:12:41.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\addToGroup.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\addToGroup.PNG">
       <PackagePath>Assets\MenuPrincipal\addToGroup.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.188</Modified>
+      <Modified>2020-05-10T18:12:41.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\ajustesIcono.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\ajustesIcono.png">
       <PackagePath>Assets\MenuPrincipal\ajustesIcono.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.190</Modified>
+      <Modified>2020-05-10T18:12:41.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\bocadillo.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\bocadillo.png">
       <PackagePath>Assets\MenuPrincipal\bocadillo.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.191</Modified>
+      <Modified>2020-05-10T18:12:41.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\botonThief.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\botonThief.PNG">
       <PackagePath>Assets\MenuPrincipal\botonThief.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.191</Modified>
+      <Modified>2020-05-10T18:12:41.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\botonThiefPress.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\botonThiefPress.PNG">
       <PackagePath>Assets\MenuPrincipal\botonThiefPress.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.192</Modified>
+      <Modified>2020-05-10T18:12:41.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\brilloCoche.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\brilloCoche.png">
       <PackagePath>Assets\MenuPrincipal\brilloCoche.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.200</Modified>
+      <Modified>2020-05-10T18:12:41.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\ButtonUser.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\ButtonUser.PNG">
       <PackagePath>Assets\MenuPrincipal\ButtonUser.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.177</Modified>
+      <Modified>2020-05-10T18:12:41.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Connected.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Connected.png">
       <PackagePath>Assets\MenuPrincipal\Connected.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.178</Modified>
+      <Modified>2020-05-10T18:12:41.346</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Disconnected.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Disconnected.png">
       <PackagePath>Assets\MenuPrincipal\Disconnected.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.179</Modified>
+      <Modified>2020-05-10T18:12:41.346</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\fondo.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\fondo.png">
       <PackagePath>Assets\MenuPrincipal\fondo.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.204</Modified>
+      <Modified>2020-05-10T18:12:41.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend1.png">
       <PackagePath>Assets\MenuPrincipal\Friend1.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.180</Modified>
+      <Modified>2020-05-10T18:12:41.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend2.png">
       <PackagePath>Assets\MenuPrincipal\Friend2.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.180</Modified>
+      <Modified>2020-05-10T18:12:41.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend3.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend3.png">
       <PackagePath>Assets\MenuPrincipal\Friend3.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.181</Modified>
+      <Modified>2020-05-10T18:12:41.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend4.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend4.png">
       <PackagePath>Assets\MenuPrincipal\Friend4.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.182</Modified>
+      <Modified>2020-05-10T18:12:41.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\LogoText.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\LogoText.png">
       <PackagePath>Assets\MenuPrincipal\LogoText.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.184</Modified>
+      <Modified>2020-05-10T18:12:41.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\lowPolyCar.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\lowPolyCar.png">
       <PackagePath>Assets\MenuPrincipal\lowPolyCar.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.211</Modified>
+      <Modified>2020-05-10T18:12:41.375</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\playAs.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\playAs.png">
       <PackagePath>Assets\MenuPrincipal\playAs.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.212</Modified>
+      <Modified>2020-05-10T18:12:41.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\PoliceButon.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\PoliceButon.PNG">
       <PackagePath>Assets\MenuPrincipal\PoliceButon.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.186</Modified>
+      <Modified>2020-05-10T18:12:41.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\PoliceButonPress.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\PoliceButonPress.PNG">
       <PackagePath>Assets\MenuPrincipal\PoliceButonPress.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.187</Modified>
+      <Modified>2020-05-10T18:12:41.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Micro.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Micro.PNG">
       <PackagePath>Assets\Micro.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.213</Modified>
+      <Modified>2020-05-10T18:12:41.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Minimapa.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Minimapa.png">
       <PackagePath>Assets\Minimapa.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.532</Modified>
+      <Modified>2020-05-10T18:12:41.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\playAs.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\playAs.png">
       <PackagePath>Assets\playAs.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.565</Modified>
+      <Modified>2020-05-10T18:12:41.480</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButon.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButon.PNG">
       <PackagePath>Assets\PoliceButon.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.214</Modified>
+      <Modified>2020-05-10T18:12:41.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButonPress.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButonPress.PNG">
       <PackagePath>Assets\PoliceButonPress.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.215</Modified>
+      <Modified>2020-05-10T18:12:41.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliciaIconoPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliciaIconoPos.png">
       <PackagePath>Assets\PoliciaIconoPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.534</Modified>
+      <Modified>2020-05-10T18:12:41.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\A.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\A.png">
       <PackagePath>Assets\Posicionamiento\A.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.535</Modified>
+      <Modified>2020-05-10T18:12:41.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\AJugador.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\AJugador.png">
       <PackagePath>Assets\Posicionamiento\AJugador.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.562</Modified>
+      <Modified>2020-05-10T18:12:41.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\Boton.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\Boton.png">
       <PackagePath>Assets\Posicionamiento\Boton.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.536</Modified>
+      <Modified>2020-05-10T18:12:41.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\C.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\C.png">
       <PackagePath>Assets\Posicionamiento\C.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.537</Modified>
+      <Modified>2020-05-10T18:12:41.380</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\CJugador.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\CJugador.png">
       <PackagePath>Assets\Posicionamiento\CJugador.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.590</Modified>
+      <Modified>2020-05-10T18:12:41.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\D.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\D.png">
       <PackagePath>Assets\Posicionamiento\D.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.538</Modified>
+      <Modified>2020-05-10T18:12:41.381</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DestinoIconoPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DestinoIconoPos.png">
       <PackagePath>Assets\Posicionamiento\DestinoIconoPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.540</Modified>
+      <Modified>2020-05-10T18:12:41.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DJugador.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DJugador.png">
       <PackagePath>Assets\Posicionamiento\DJugador.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.607</Modified>
+      <Modified>2020-05-10T18:12:41.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\fondoPosi.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\fondoPosi.png">
       <PackagePath>Assets\Posicionamiento\fondoPosi.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.544</Modified>
+      <Modified>2020-05-10T18:12:41.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\IconoBancoJugador.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\IconoBancoJugador.png">
       <PackagePath>Assets\Posicionamiento\IconoBancoJugador.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.635</Modified>
+      <Modified>2020-05-10T18:12:41.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\IconoBancoPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\IconoBancoPos.png">
       <PackagePath>Assets\Posicionamiento\IconoBancoPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.540</Modified>
+      <Modified>2020-05-10T18:12:41.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\JugadorPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\JugadorPos.png">
       <PackagePath>Assets\Posicionamiento\JugadorPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.541</Modified>
+      <Modified>2020-05-10T18:12:41.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\mapaPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\mapaPos.png">
       <PackagePath>Assets\Posicionamiento\mapaPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.570</Modified>
+      <Modified>2020-05-10T18:12:41.390</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\Panel.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\Panel.png">
       <PackagePath>Assets\Posicionamiento\Panel.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.636</Modified>
+      <Modified>2020-05-10T18:12:41.384</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\PoliciaIconoPos.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\PoliciaIconoPos.png">
       <PackagePath>Assets\Posicionamiento\PoliciaIconoPos.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.542</Modified>
+      <Modified>2020-05-10T18:12:41.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadrones.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadrones.png">
       <PackagePath>Assets\PostPartida\BandoLadrones.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.217</Modified>
+      <Modified>2020-05-10T18:12:41.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadronesGanan.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadronesGanan.png">
       <PackagePath>Assets\PostPartida\BandoLadronesGanan.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.218</Modified>
+      <Modified>2020-05-10T18:12:41.392</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoPoliciasGanan.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoPoliciasGanan.png">
       <PackagePath>Assets\PostPartida\BandoPoliciasGanan.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.223</Modified>
+      <Modified>2020-05-10T18:12:41.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonMenu.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonMenu.png">
       <PackagePath>Assets\PostPartida\BotonMenu.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.223</Modified>
+      <Modified>2020-05-10T18:12:41.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonRematch.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonRematch.png">
       <PackagePath>Assets\PostPartida\BotonRematch.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.224</Modified>
+      <Modified>2020-05-10T18:12:41.394</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfoLadrones.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfoLadrones.png">
       <PackagePath>Assets\PostPartida\ContenedorInfoLadrones.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.225</Modified>
+      <Modified>2020-05-10T18:12:41.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfopolicias.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfopolicias.png">
       <PackagePath>Assets\PostPartida\ContenedorInfopolicias.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.226</Modified>
+      <Modified>2020-05-10T18:12:41.395</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorLadrones.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorLadrones.png">
       <PackagePath>Assets\PostPartida\ContenedorLadrones.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.227</Modified>
+      <Modified>2020-05-10T18:12:41.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorPolicias.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorPolicias.png">
       <PackagePath>Assets\PostPartida\ContenedorPolicias.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.228</Modified>
+      <Modified>2020-05-10T18:12:41.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroLadrones.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroLadrones.png">
       <PackagePath>Assets\PostPartida\DineroLadrones.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.229</Modified>
+      <Modified>2020-05-10T18:12:41.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroPolicias.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroPolicias.png">
       <PackagePath>Assets\PostPartida\DineroPolicias.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.231</Modified>
+      <Modified>2020-05-10T18:12:41.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\fondo.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\fondo.png">
       <PackagePath>Assets\PostPartida\fondo.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.273</Modified>
+      <Modified>2020-05-10T18:12:41.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\FondoIcono.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\FondoIcono.png">
       <PackagePath>Assets\PostPartida\FondoIcono.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.232</Modified>
+      <Modified>2020-05-10T18:12:41.398</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono1.png">
       <PackagePath>Assets\PostPartida\Icono1.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.240</Modified>
+      <Modified>2020-05-10T18:12:41.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono2.png">
       <PackagePath>Assets\PostPartida\Icono2.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.243</Modified>
+      <Modified>2020-05-10T18:12:41.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono3.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono3.png">
       <PackagePath>Assets\PostPartida\Icono3.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.246</Modified>
+      <Modified>2020-05-10T18:12:41.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono4.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono4.png">
       <PackagePath>Assets\PostPartida\Icono4.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.248</Modified>
+      <Modified>2020-05-10T18:12:41.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono5.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono5.png">
       <PackagePath>Assets\PostPartida\Icono5.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.252</Modified>
+      <Modified>2020-05-10T18:12:41.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono6.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono6.png">
       <PackagePath>Assets\PostPartida\Icono6.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.265</Modified>
+      <Modified>2020-05-10T18:12:41.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ListViewBackground.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ListViewBackground.png">
       <PackagePath>Assets\PostPartida\ListViewBackground.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.267</Modified>
+      <Modified>2020-05-10T18:12:41.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TextboxBackground.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TextboxBackground.png">
       <PackagePath>Assets\PostPartida\TextboxBackground.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.269</Modified>
+      <Modified>2020-05-10T18:12:41.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TituloLadrones.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TituloLadrones.png">
       <PackagePath>Assets\PostPartida\TituloLadrones.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.270</Modified>
+      <Modified>2020-05-10T18:12:41.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoLadrones.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoLadrones.png">
       <PackagePath>Assets\SeleccionCoche\BandoLadrones.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.274</Modified>
+      <Modified>2020-05-10T18:12:41.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoPolicias.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoPolicias.png">
       <PackagePath>Assets\SeleccionCoche\BandoPolicias.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.690</Modified>
+      <Modified>2020-05-10T18:12:41.416</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche1.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.308</Modified>
+      <Modified>2020-05-10T18:12:41.419</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1Seleccionado.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1Seleccionado.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche1Seleccionado.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.755</Modified>
+      <Modified>2020-05-10T18:12:41.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche2.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.345</Modified>
+      <Modified>2020-05-10T18:12:41.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2Seleccionado.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2Seleccionado.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche2Seleccionado.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.768</Modified>
+      <Modified>2020-05-10T18:12:41.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche3.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.381</Modified>
+      <Modified>2020-05-10T18:12:41.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3Seleccionado.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3Seleccionado.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche3Seleccionado.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.817</Modified>
+      <Modified>2020-05-10T18:12:41.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche4.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.386</Modified>
+      <Modified>2020-05-10T18:12:41.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4Seleccionado.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4Seleccionado.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche4Seleccionado.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.823</Modified>
+      <Modified>2020-05-10T18:12:41.433</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotónConfirmar.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotónConfirmar.png">
       <PackagePath>Assets\SeleccionCoche\BotónConfirmar.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.386</Modified>
+      <Modified>2020-05-10T18:12:41.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\fondo.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\fondo.png">
       <PackagePath>Assets\SeleccionCoche\fondo.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.424</Modified>
+      <Modified>2020-05-10T18:12:41.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.438</Modified>
+      <Modified>2020-05-10T18:12:41.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar2.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar2.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.895</Modified>
+      <Modified>2020-05-10T18:12:41.447</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar3.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar3.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar3.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.906</Modified>
+      <Modified>2020-05-10T18:12:41.452</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar4.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar4.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar4.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.961</Modified>
+      <Modified>2020-05-10T18:12:41.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelCoches.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelCoches.png">
       <PackagePath>Assets\SeleccionCoche\PanelCoches.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.388</Modified>
+      <Modified>2020-05-10T18:12:41.434</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelIconosJugadores.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelIconosJugadores.png">
       <PackagePath>Assets\SeleccionCoche\PanelIconosJugadores.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.389</Modified>
+      <Modified>2020-05-10T18:12:41.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PentagramaStats.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PentagramaStats.png">
       <PackagePath>Assets\SeleccionCoche\PentagramaStats.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.391</Modified>
+      <Modified>2020-05-10T18:12:41.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerConnected.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerConnected.png">
       <PackagePath>Assets\SeleccionCoche\PlayerConnected.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.392</Modified>
+      <Modified>2020-05-10T18:12:41.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerDisConnected.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerDisConnected.png">
       <PackagePath>Assets\SeleccionCoche\PlayerDisConnected.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.393</Modified>
+      <Modified>2020-05-10T18:12:41.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar1.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar1.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar1.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.394</Modified>
+      <Modified>2020-05-10T18:12:41.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar2.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar2.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar2.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.395</Modified>
+      <Modified>2020-05-10T18:12:41.437</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar3.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar3.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar3.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.396</Modified>
+      <Modified>2020-05-10T18:12:41.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar4.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar4.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar4.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.397</Modified>
+      <Modified>2020-05-10T18:12:41.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\TituloLadrones.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\TituloLadrones.png">
       <PackagePath>Assets\SeleccionCoche\TituloLadrones.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.398</Modified>
+      <Modified>2020-05-10T18:12:41.438</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\BarraUI.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\BarraUI.png">
       <PackagePath>Assets\UIGame\BarraUI.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.578</Modified>
+      <Modified>2020-05-10T18:12:41.458</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\BolsaDinero.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\BolsaDinero.png">
       <PackagePath>Assets\UIGame\BolsaDinero.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.579</Modified>
+      <Modified>2020-05-10T18:12:41.458</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\FondoUI.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\FondoUI.png">
       <PackagePath>Assets\UIGame\FondoUI.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.589</Modified>
+      <Modified>2020-05-10T18:12:41.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\Minimapa.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\Minimapa.png">
       <PackagePath>Assets\UIGame\Minimapa.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.589</Modified>
+      <Modified>2020-05-10T18:12:41.462</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\Velometro.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\Velometro.png">
       <PackagePath>Assets\UIGame\Velometro.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.628</Modified>
+      <Modified>2020-05-10T18:12:41.463</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Velometro.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Velometro.png">
       <PackagePath>Assets\Velometro.png</PackagePath>
-      <Modified>2020-05-07T14:26:48.630</Modified>
+      <Modified>2020-05-10T18:12:41.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Volumen.PNG">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Volumen.PNG">
       <PackagePath>Assets\Volumen.PNG</PackagePath>
-      <Modified>2020-05-07T14:25:31.489</Modified>
+      <Modified>2020-05-10T18:12:41.464</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\BandoPolicias.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\BandoPolicias.png">
       <PackagePath>BandoPolicias.png</PackagePath>
-      <Modified>2020-05-10T15:22:04.981</Modified>
+      <Modified>2020-05-10T18:12:41.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-05-07T14:25:31.171</Modified>
+      <Modified>2020-05-10T18:12:41.343</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T14:25:31.482</Modified>
+      <Modified>2020-05-10T18:12:41.455</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T14:25:31.483</Modified>
+      <Modified>2020-05-10T18:12:41.455</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T14:25:31.484</Modified>
+      <Modified>2020-05-10T18:12:41.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T14:25:31.487</Modified>
+      <Modified>2020-05-10T18:12:41.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T14:25:31.488</Modified>
+      <Modified>2020-05-10T18:12:41.457</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-07T14:25:31.490</Modified>
+      <Modified>2020-05-10T18:12:41.465</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-05-07T14:25:31.575</Modified>
+      <Modified>2020-05-10T18:12:41.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\TrabajoDSI.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\TrabajoDSI.xr.xml">
       <PackagePath>TrabajoDSI.xr.xml</PackagePath>
-      <Modified>2020-05-10T16:03:13.581</Modified>
+      <Modified>2020-05-10T18:15:48.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-10T17:42:48.688</Modified>
+      <Modified>2020-05-10T18:19:38.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Ajustes.xbf">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
-      <Modified>2020-05-10T17:42:48.688</Modified>
+      <Modified>2020-05-10T18:19:38.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Garaje.xbf">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Garaje.xbf">
       <PackagePath>Garaje.xbf</PackagePath>
-      <Modified>2020-05-10T17:42:48.667</Modified>
+      <Modified>2020-05-10T18:19:38.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-10T17:42:48.673</Modified>
+      <Modified>2020-05-10T18:19:38.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\MenuPosicionamiento.xbf">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\MenuPosicionamiento.xbf">
       <PackagePath>MenuPosicionamiento.xbf</PackagePath>
-      <Modified>2020-05-10T17:42:48.690</Modified>
+      <Modified>2020-05-10T18:19:38.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Postpartida.xbf">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Postpartida.xbf">
       <PackagePath>Postpartida.xbf</PackagePath>
-      <Modified>2020-05-10T17:42:48.683</Modified>
+      <Modified>2020-05-10T18:19:38.360</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\SeleccionCoche.xbf">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\SeleccionCoche.xbf">
       <PackagePath>SeleccionCoche.xbf</PackagePath>
-      <Modified>2020-05-10T17:42:48.686</Modified>
+      <Modified>2020-05-10T18:19:38.363</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\UIGame.xbf">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\UIGame.xbf">
       <PackagePath>UIGame.xbf</PackagePath>
-      <Modified>2020-05-10T17:42:48.693</Modified>
+      <Modified>2020-05-10T18:19:38.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-10T16:03:14.339</Modified>
+      <Modified>2020-05-10T18:15:49.029</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\Desarrollo de Videojuegos\2 CURSO\DSI\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Core\TrabajoDSI.exe">
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x86\Debug\Core\TrabajoDSI.exe">
       <PackagePath>TrabajoDSI.exe</PackagePath>
-      <Modified>2020-05-10T17:42:49.378</Modified>
+      <Modified>2020-05-10T18:21:53.786</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

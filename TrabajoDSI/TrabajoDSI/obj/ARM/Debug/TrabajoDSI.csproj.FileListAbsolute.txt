@@ -166,3 +166,21 @@ C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\ProjectArchitectures.txt
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\Ajustes.g.i.cs
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\Ajustes.g.cs
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\Garaje.g.i.cs
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\Garaje.g.cs
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\MenuPosicionamiento.g.i.cs
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\MenuPosicionamiento.g.cs
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\UIGame.g.i.cs
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\UIGame.g.cs
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\Ajustes.xaml
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\Garaje.xaml
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\MenuPosicionamiento.xaml
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\UIGame.xaml
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\Ajustes.xbf
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\Garaje.xbf
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\MenuPosicionamiento.xbf
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\UIGame.xbf
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\TrabajoDSI.exe
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\ARM\Debug\TrabajoDSI.pdb
