@@ -23,9 +23,21 @@ namespace TrabajoDSI
     /// </summary>
     public sealed partial class Garaje : Page
     {
+        public CocheGaraje[] ArrayGaraje;
+        private int selectedCar;
         public Garaje()
         {
             this.InitializeComponent();
+
+            ArrayGaraje = GarajeMngr.GetGaraje();
+            selectedCar = 0;
+            texto.Text = ArrayGaraje[selectedCar].info;
+            NombreCoche.Text = ArrayGaraje[selectedCar].nombreCoche;
+            //Inicializamos
+            color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
+            ruedas.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].ruedas[ArrayGaraje[selectedCar].iruedas]));
+            motor.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].motor[ArrayGaraje[selectedCar].imotor]));
+
         }
 
 
@@ -48,6 +60,8 @@ namespace TrabajoDSI
             ImageBrush a = new ImageBrush();
             a.ImageSource = new BitmapImage(new Uri("ms-appx:///" + "Assets/Garaje/BotonPRS.png"));
             StackMotor.Background = a;
+
+            ArrayGaraje[selectedCar].estadoActual = CocheGaraje.Estado.motor;
 
             feedbackruedas.Visibility = Visibility.Collapsed;
             feedbackpara.Visibility = Visibility.Collapsed;
@@ -81,6 +95,8 @@ namespace TrabajoDSI
             a.ImageSource = new BitmapImage(new Uri("ms-appx:///" + "Assets/Garaje/BotonPRS.png"));
             StackRuedas.Background = a;
 
+            ArrayGaraje[selectedCar].estadoActual = CocheGaraje.Estado.ruedas;
+
             feedbackruedas.Visibility = Visibility.Visible;
             feedbackpara.Visibility = Visibility.Collapsed;
             feedbackcolor.Visibility = Visibility.Collapsed;
@@ -113,6 +129,9 @@ namespace TrabajoDSI
             ImageBrush a = new ImageBrush();
             a.ImageSource = new BitmapImage(new Uri("ms-appx:///" + "Assets/Garaje/BotonPRS.png"));
             StackParachoques.Background = a;
+            //Adejuntamos la nuea imagen del parachoques
+            parachoques.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].parachoques[ArrayGaraje[selectedCar].iparachoques]));
+            ArrayGaraje[selectedCar].estadoActual = CocheGaraje.Estado.parachoques;
 
             feedbackruedas.Visibility = Visibility.Collapsed;
             feedbackpara.Visibility = Visibility.Visible;
@@ -147,6 +166,8 @@ namespace TrabajoDSI
             a.ImageSource = new BitmapImage(new Uri("ms-appx:///" + "Assets/Garaje/BotonPRS.png"));
             StackColor.Background = a;
 
+            ArrayGaraje[selectedCar].estadoActual = CocheGaraje.Estado.color;
+
             feedbackruedas.Visibility = Visibility.Collapsed;
             feedbackpara.Visibility = Visibility.Collapsed;
             feedbackcolor.Visibility = Visibility.Visible;
@@ -163,6 +184,53 @@ namespace TrabajoDSI
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void RightCar_Click(object sender, RoutedEventArgs e)
+        {
+            selectedCar = (selectedCar + 1) % (ArrayGaraje.GetLength(0));
+            texto.Text = ArrayGaraje[selectedCar].info;
+            NombreCoche.Text = ArrayGaraje[selectedCar].nombreCoche;
+            color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
+        }
+
+        private void LeftCar_Click(object sender, RoutedEventArgs e)
+        {
+            selectedCar = (selectedCar - 1) % (ArrayGaraje.GetLength(0));
+            texto.Text = ArrayGaraje[selectedCar].info;
+            NombreCoche.Text = ArrayGaraje[selectedCar].nombreCoche;
+            color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
+        }
+
+        private void RightButtonCar_Click(object sender, RoutedEventArgs e)
+        {
+            switch (ArrayGaraje[selectedCar].estadoActual)
+            {
+                case CocheGaraje.Estado.color:
+                {
+                    ArrayGaraje[selectedCar].icolor= (ArrayGaraje[selectedCar].icolor+1) % ArrayGaraje[selectedCar].color.GetLength(0);
+                    color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
+                }
+                break;
+                case CocheGaraje.Estado.parachoques: 
+                {
+                    ArrayGaraje[selectedCar].iparachoques = (ArrayGaraje[selectedCar].iparachoques + 1) % ArrayGaraje[selectedCar].parachoques.GetLength(0);
+                    parachoques.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].parachoques[ArrayGaraje[selectedCar].iparachoques]));
+                }
+                break;
+                case CocheGaraje.Estado.ruedas:
+                {
+                    ArrayGaraje[selectedCar].iruedas = (ArrayGaraje[selectedCar].iruedas + 1) % ArrayGaraje[selectedCar].ruedas.GetLength(0);
+                    ruedas.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].ruedas[ArrayGaraje[selectedCar].iruedas]));
+                }
+                break;
+                case CocheGaraje.Estado.motor:
+                {
+                    ArrayGaraje[selectedCar].imotor = (ArrayGaraje[selectedCar].imotor + 1) % ArrayGaraje[selectedCar].motor.GetLength(0);
+                    motor.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].motor[ArrayGaraje[selectedCar].imotor]));
+                }
+                break;
+            }
         }
     }
 }

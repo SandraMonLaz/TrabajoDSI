@@ -88,13 +88,14 @@
                 <Image x:Name="ruedas" Source="Assets/Garaje/Coches/rueda1.png" Width="628"></Image>
                 <Image x:Name="parachoques" Source="Assets/Garaje/Coches/para2.png" Width="628"></Image>
                 <Image x:Name="motor" Source="Assets/Garaje/Coches/motor1.png" Width="628" Visibility="Collapsed"></Image>
+                <!-- Botón comprame -->
             </Canvas>
             <!-- Boton izquierdo-->
             <StackPanel x:Name="RightButtonCarStack" Width="85" Height="120" >
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flecha.png"/>
                 </StackPanel.Background>
-                <Button x:Name="RightButtonCar" Width="85" Height="120" HorizontalAlignment="Left">
+                <Button x:Name="RightButtonCar" Width="85" Height="120" HorizontalAlignment="Left" Click="RightButtonCar_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flecha.png"/>
                     </Button.Background>
@@ -112,7 +113,7 @@
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flechaL.png"/>
                 </StackPanel.Background>
-                <Button x:Name="LeftCar" Width="50" Height="60" >
+                <Button x:Name="LeftCar" Width="50" Height="60" Click="LeftCar_Click" >
                     <Button.Background>
                         <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flechaL.png"/>
                     </Button.Background>
@@ -125,7 +126,7 @@
                 <StackPanel.Background>
                     <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flecha.png"/>
                 </StackPanel.Background>
-                <Button x:Name="RightCar" Width="50" Height="60" >
+                <Button x:Name="RightCar" Width="50" Height="60" Click="RightCar_Click" >
                     <Button.Background>
                         <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flecha.png"/>
                     </Button.Background>
