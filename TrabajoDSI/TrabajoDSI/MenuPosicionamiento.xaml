@@ -37,7 +37,6 @@
                 <Image x:Name="PuntoA" Source="Assets/Posicionamiento/A.png"  Height="36" Width="43" Canvas.Left="660" Canvas.Top="394" />
                 <Image x:Name="PuntoC" Source="Assets/Posicionamiento/C.png"  Height="36" Width="43" Canvas.Left="488" Canvas.Top="417"/>
                 <Image x:Name="PuntoD" Source="Assets/Posicionamiento/D.png"  Height="36" Width="43" Canvas.Left="428" Canvas.Top="328"/>
-                <!--<Image x:Name="Jugador" Source="Assets/Jugador.png" Height="35" Width="30" Canvas.Left="682" Canvas.Top="394"/>-->
                 <Image x:Name="Policia" Source="Assets/Posicionamiento/PoliciaIconoPos.png"  Height="75" Width="75" Canvas.Left="984" Canvas.Top="91"/>
 
             </Canvas>
@@ -61,10 +60,7 @@
             <TextBlock  Text="Posiciona tu coche" FontSize="25" HorizontalAlignment="Center"/>
 
             <ListView x:Name="Lugares" SelectionMode="Extended" HorizontalAlignment="Center" SelectionChanged="Lugares_SelectionChanged" ItemsSource = "{x:Bind ListaLugares}">
-
                 <ListView.ItemTemplate>
-                    
-
                     <DataTemplate x:DataType="local:Lugar">
 
                         <Grid>
@@ -72,11 +68,9 @@
                                 <ColumnDefinition Width="2*"/>
                                 <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
-                            <Image Grid.Column="0" Width="20" Height="20" Source="Assets/Posicionamiento/A.png"/>
+                            <Image Grid.Column="0" Width="20" Height="20" Source="{x:Bind flecha}"/>
                             <TextBlock Grid.Column="1" Text="{x:Bind nombre}"/>
                         </Grid>
-
-                       
                     </DataTemplate>
 
                 </ListView.ItemTemplate>

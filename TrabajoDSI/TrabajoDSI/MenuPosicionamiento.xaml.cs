@@ -26,12 +26,13 @@ namespace TrabajoDSI
         public string puntoJugador;
         public Image img;
         public string nombre;
+        public string flecha = "Assets/Posicionamiento/flecha.png";
 
         public class PuntoA : Lugar
         {
             public PuntoA(Image img_)
             {
-                img = img_;
+                img = img_;              
                 punto = "Assets/A.png";
                 puntoJugador = "Assets/Posicionamiento/AJugador.png";
                 nombre = "(A) Callejon los Antonios";
@@ -53,7 +54,7 @@ namespace TrabajoDSI
         {
             public PuntoC(Image img_)
             {
-                img = img_;
+                img = img_;               
                 punto = "Assets/C.png";
                 puntoJugador = "Assets/Posicionamiento/CJugador.png";
                 nombre = "(C) Mesón Paco";
@@ -83,13 +84,12 @@ namespace TrabajoDSI
         public MenuPosicionamiento()
         {
             this.InitializeComponent();
-
+            
             //Creo y añado los lugares a la ListaLugares
             ListaLugares.Add(new PuntoA(PuntoA));
             ListaLugares.Add(new PuntoB(Banco));
             ListaLugares.Add(new PuntoC(PuntoC));
-            ListaLugares.Add(new PuntoD(PuntoD));
-
+            ListaLugares.Add(new PuntoD(PuntoD));          
             //Los elementos de la lista lugares los añado al listview llamado Lugares
             foreach (Lugar l in ListaLugares) Lugares.Items.Add(l);
         }
@@ -154,13 +154,7 @@ namespace TrabajoDSI
             PuntoD.Width = w / 13;
             PuntoD.Height = h / 13;
             Canvas.SetLeft(PuntoD, Canvas.GetLeft(Banco));
-            Canvas.SetTop(PuntoD, Canvas.GetTop(Banco) + PuntoD.Height * 3);
-
-            ////Jugador
-            //Jugador.Width = w / 10;
-            //Jugador.Height = h / 10;
-            //Canvas.SetLeft(Jugador, Canvas.GetLeft(Banco) + PuntoA.Width * 1.5);
-            //Canvas.SetTop(Jugador, Canvas.GetTop(Banco) + PuntoA.Height * 2);
+            Canvas.SetTop(PuntoD, Canvas.GetTop(Banco) + PuntoD.Height * 3);         
         }
 
         private void onClick(object sender, PointerRoutedEventArgs e)
@@ -171,16 +165,17 @@ namespace TrabajoDSI
 
         private void Lugares_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            Lugar l = Lugares.SelectedItem as Lugar;
 
-              Lugar l = Lugares.SelectedItem as Lugar;
+            foreach (Lugar a in e.RemovedItems) 
+            {                
+                a.img.Source = new BitmapImage(new Uri("ms-appx:///" + a.punto));                
+            }
 
-              foreach (Lugar a in e.RemovedItems) a.img.Source = new BitmapImage(new Uri("ms-appx:///" + a.punto));
-
-              if (l != null)
-              {
-                  l.img.Source = new BitmapImage(new Uri("ms-appx:///" + l.puntoJugador));
-              }
- 
+            if (l != null)
+            {             
+                l.img.Source = new BitmapImage(new Uri("ms-appx:///" + l.puntoJugador));
+            } 
         }
     }
 }

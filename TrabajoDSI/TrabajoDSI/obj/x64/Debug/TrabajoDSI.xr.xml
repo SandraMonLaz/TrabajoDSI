@@ -13,10 +13,10 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Background" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="SizeChanged" />
       <RootEvent Name="PointerExited" />
       <RootMethod Name="GetRow" />
@@ -58,6 +58,7 @@
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontStyle" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
@@ -143,27 +144,23 @@
       <RootEvent Name="PointerExited" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootProperty Name="Width" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Visibility" />
+      <RootProperty Name="Text" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="RequestedTheme" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="Background" />
+      <RootEvent Name="TextChanged" />
       <RootEvent Name="KeyDown" />
       <RootEvent Name="PointerEntered" />
     </RootType>
-    <RootType FullName="TrabajoDSI.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="SelectionMode" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
-      <RootProperty Name="VerticalContentAlignment" />
-      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Items" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Background" />
-      <RootProperty Name="Items" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
@@ -171,6 +168,10 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="TrabajoDSI.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter">
+      <RootProperty Name="SelectedBackground" />
     </RootType>
     <RootType FullName="TrabajoDSI.MenuPosicionamiento" />
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">

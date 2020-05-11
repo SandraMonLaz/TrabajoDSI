@@ -238,6 +238,7 @@
     <Content Include="Assets\Posicionamiento\D.png" />
     <Content Include="Assets\Posicionamiento\DestinoIconoPos.png" />
     <Content Include="Assets\Posicionamiento\DJugador.png" />
+    <Content Include="Assets\Posicionamiento\flecha.png" />
     <Content Include="Assets\Posicionamiento\fondoPosi.png" />
     <Content Include="Assets\Posicionamiento\IconoBancoJugador.png" />
     <Content Include="Assets\Posicionamiento\IconoBancoPos.png" />

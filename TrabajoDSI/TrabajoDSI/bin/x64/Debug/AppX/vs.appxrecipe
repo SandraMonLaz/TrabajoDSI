@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-09T23:24:13.062</Modified>
+      <Modified>2020-05-11T16:22:20.249</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.exe">
       <PackagePath>entrypoint\TrabajoDSI.exe</PackagePath>
-      <Modified>2020-05-09T23:24:11.548</Modified>
+      <Modified>2020-05-11T16:22:18.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -224,7 +224,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Estadistica.png">
       <PackagePath>Assets\Garaje\Estadistica.png</PackagePath>
-      <Modified>2020-05-08T09:42:56.150</Modified>
+      <Modified>2020-05-11T14:00:48.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Estadistica2.png">
+      <PackagePath>Assets\Garaje\Estadistica2.png</PackagePath>
+      <Modified>2020-05-11T14:00:48.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flecha.png">
       <PackagePath>Assets\Garaje\flecha.png</PackagePath>
@@ -409,6 +413,10 @@
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DJugador.png">
       <PackagePath>Assets\Posicionamiento\DJugador.png</PackagePath>
       <Modified>2020-05-08T13:14:20.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\flecha.png">
+      <PackagePath>Assets\Posicionamiento\flecha.png</PackagePath>
+      <Modified>2020-05-11T15:54:56.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\fondoPosi.png">
       <PackagePath>Assets\Posicionamiento\fondoPosi.png</PackagePath>
@@ -702,39 +710,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.xr.xml">
       <PackagePath>TrabajoDSI.xr.xml</PackagePath>
-      <Modified>2020-05-09T18:16:39.780</Modified>
+      <Modified>2020-05-11T16:22:17.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-09T23:00:09.899</Modified>
+      <Modified>2020-05-11T15:59:34.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
-      <Modified>2020-05-09T23:00:09.899</Modified>
+      <Modified>2020-05-11T15:58:17.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Garaje.xbf">
       <PackagePath>Garaje.xbf</PackagePath>
-      <Modified>2020-05-09T23:00:09.852</Modified>
+      <Modified>2020-05-11T15:58:17.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-09T23:00:09.868</Modified>
+      <Modified>2020-05-11T15:58:17.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MenuPosicionamiento.xbf">
       <PackagePath>MenuPosicionamiento.xbf</PackagePath>
-      <Modified>2020-05-09T23:24:10.939</Modified>
+      <Modified>2020-05-11T16:22:17.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Postpartida.xbf">
       <PackagePath>Postpartida.xbf</PackagePath>
-      <Modified>2020-05-09T23:00:09.888</Modified>
+      <Modified>2020-05-11T15:58:17.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\SeleccionCoche.xbf">
       <PackagePath>SeleccionCoche.xbf</PackagePath>
-      <Modified>2020-05-09T23:00:09.896</Modified>
+      <Modified>2020-05-11T15:58:17.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\UIGame.xbf">
       <PackagePath>UIGame.xbf</PackagePath>
-      <Modified>2020-05-09T23:00:09.901</Modified>
+      <Modified>2020-05-11T15:58:17.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -742,11 +750,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-09T22:57:34.907</Modified>
+      <Modified>2020-05-11T15:59:36.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\felip\OneDrive\Desktop\Programas\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\TrabajoDSI.exe">
       <PackagePath>TrabajoDSI.exe</PackagePath>
-      <Modified>2020-05-09T23:24:13.045</Modified>
+      <Modified>2020-05-11T16:22:20.232</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
