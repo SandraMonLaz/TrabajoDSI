@@ -25,6 +25,7 @@ namespace TrabajoDSI
     {
         public CocheGaraje[] ArrayGaraje;
         private int selectedCar;
+ 
         public Garaje()
         {
             this.InitializeComponent();
