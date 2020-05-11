@@ -43,21 +43,21 @@ namespace TrabajoDSI
             fl.Add(new Friend
             {
                 name = "AntonioTOUHOU",
-                profilePic = "/Assets/Friend3.png",
+                profilePic = "/Assets/Friend4.png",
                 bubbleSpeak = "/Assets/bocadillo.png",
                 connectionStatus = "/Assets/Connected.png"
             });
             fl.Add(new Friend
             {
                 name = "FenomenCoyote",
-                profilePic = "/Assets/Friend3.png",
+                profilePic = "/Assets/Friend2.png",
                 bubbleSpeak = "/Assets/bocadillo.png",
                 connectionStatus = "/Assets/Connected.png"
             });
             fl.Add(new Friend
             {
                 name = "Estrujillo",
-                profilePic = "/Assets/Friend3.png",
+                profilePic = "/Assets/Friend1.png",
                 bubbleSpeak = "/Assets/bocadillo.png",
                 connectionStatus = "/Assets/Disconnected.png"
             });
@@ -71,21 +71,21 @@ namespace TrabajoDSI
             fl.Add(new Friend
             {
                 name = "YOLO",
-                profilePic = "/Assets/Friend3.png",
+                profilePic = "/Assets/Friend1.png",
                 bubbleSpeak = "/Assets/bocadillo.png",
                 connectionStatus = "/Assets/Disconnected.png"
             });
             fl.Add(new Friend
             {
                 name = "Deivid4U",
-                profilePic = "/Assets/Friend3.png",
+                profilePic = "/Assets/Friend4.png",
                 bubbleSpeak = "/Assets/bocadillo.png",
                 connectionStatus = "/Assets/Disconnected.png"
             });
             fl.Add(new Friend
             {
                 name = "Willyrex",
-                profilePic = "/Assets/Friend3.png",
+                profilePic = "/Assets/Friend2.png",
                 bubbleSpeak = "/Assets/bocadillo.png",
                 connectionStatus = "/Assets/Disconnected.png"
             });
@@ -99,7 +99,21 @@ namespace TrabajoDSI
             fl.Add(new Friend
             {
                 name = "cemasmas",
-                profilePic = "/Assets/Friend3.png",
+                profilePic = "/Assets/Friend1.png",
+                bubbleSpeak = "/Assets/bocadillo.png",
+                connectionStatus = "/Assets/Disconnected.png"
+            });
+            fl.Add(new Friend
+            {
+                name = "Somebody",
+                profilePic = "/Assets/Friend4.png",
+                bubbleSpeak = "/Assets/bocadillo.png",
+                connectionStatus = "/Assets/Disconnected.png"
+            });
+            fl.Add(new Friend
+            {
+                name = "shadowMaster",
+                profilePic = "/Assets/Friend2.png",
                 bubbleSpeak = "/Assets/bocadillo.png",
                 connectionStatus = "/Assets/Disconnected.png"
             });
