@@ -24,6 +24,11 @@
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
 
+        <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <Image Source="coins.png" Width="100" Height="100" HorizontalAlignment="Left"></Image>
+            <TextBlock Text="20.000" Width="146" Height="53" FontSize="48" ></TextBlock>
+        </StackPanel>
+
         <StackPanel Orientation="Horizontal" Width="250" Height="100" Background="DarkOliveGreen">
             <Image Source="/Assets/Friend4.png" HorizontalAlignment="Left" Width="100" Height="100"></Image>
             <TextBlock Text="AloneFCP" FontSize="30" VerticalAlignment="Center"></TextBlock>
@@ -110,8 +115,6 @@
                 <RowDefinition Height="5*"></RowDefinition>
             </Grid.RowDefinitions>
 
-
-
             <Grid Grid.Row="1">
                 <!-- Grid botones centrales-->
                 <Grid.ColumnDefinitions>
@@ -126,7 +129,7 @@
                 <Image x:ConnectionId='17' x:Name="policeButton" Height="48" Width="175" Source="/Assets/PoliceButon.png" Grid.Column="2"                                                                                                                                     ></Image>
             </Grid>
 
-            <Image x:ConnectionId='15' x:Name="CarImage" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/lowPolyCar.png"                                                                                                                 />
+            <Image x:ConnectionId='15' x:Name="CarImage" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/MenuPrincipal/lowPolyCar.png"                                                                                                                 />
             <Image Width="1000" Height="200" VerticalAlignment="Center" Source="/Assets/playAs.png" />
         </Grid>
 

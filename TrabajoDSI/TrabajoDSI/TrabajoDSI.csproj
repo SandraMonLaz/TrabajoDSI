@@ -302,6 +302,7 @@
     <Content Include="Assets\Velometro.png" />
     <Content Include="Assets\Volumen.PNG" />
     <Content Include="BandoPolicias.png" />
+    <Content Include="coins.png" />
     <Content Include="FlechaDesplegable.PNG" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

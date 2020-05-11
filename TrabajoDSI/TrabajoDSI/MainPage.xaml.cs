@@ -46,12 +46,12 @@ namespace TrabajoDSI
 
         private void Image_PointerEntered(object sender, PointerRoutedEventArgs e)
         {
-            CarImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/brilloCoche.png"));
+            CarImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/MenuPrincipal/brilloCoche.png"));
         }
 
         private void Image_PointerExited(object sender, PointerRoutedEventArgs e)
         {
-            CarImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/lowPolyCar.png"));
+            CarImage.Source = new BitmapImage(new Uri("ms-appx:///Assets/MenuPrincipal/lowPolyCar.png"));
         }
 
         private void Image_PointerPressed(object sender, PointerRoutedEventArgs e)

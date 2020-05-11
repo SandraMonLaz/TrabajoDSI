@@ -502,6 +502,9 @@
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\BandoPolicias.png">
       <PackagePath>BandoPolicias.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\coins.png">
+      <PackagePath>coins.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\FlechaDesplegable.PNG">
       <PackagePath>FlechaDesplegable.PNG</PackagePath>
     </AppxPackagedFile>
