@@ -43,7 +43,6 @@
                     </Grid.RowDefinitions>
                     <TextBlock Text="Friends" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="78,0,0,0"></TextBlock>
                     <TextBox Text="Search a friend" x:Name="SearchFriendsTextBox" Grid.Row="1" TextChanged="SearchFriendsTextBox_TextChanged"></TextBox>
-                    
                     <ListView x:Name="FriendsList" Grid.Row="2" ItemsSource="{x:Bind friendsList}">
                         <ListView.ItemTemplate>
                             <DataTemplate x:DataType="local:Friend">
@@ -68,7 +67,8 @@
                 </Grid>
             </SplitView.Pane>
         </SplitView>
-
+        <Image x:Name="flechasAmigos" Source="FlechaDesplegable.PNG" Width="100" Height="100" Grid.Row="1" Margin="-120, 0, 0, 0"></Image>
+        
         <SplitView x:Name="infoSV" DisplayMode="CompactOverlay" Grid.Row="1" Grid.Column="2" IsPaneOpen="False" PanePlacement="Right" PointerEntered="infoSV_PointerEntered" PointerExited="infoSV_PointerExited">
             <SplitView.PaneBackground>
                 <SolidColorBrush Color="#FF8B0856" ></SolidColorBrush>
@@ -85,7 +85,11 @@
                 </Grid>
             </SplitView.Pane>
         </SplitView>
-
+        <Image x:Name="flechasNews" Source="FlechaDesplegable.PNG" Width="100" Height="100" Grid.Row="1" Grid.Column="2" Margin="120, 0, 0, 0" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-180.0"/>
+            </Image.RenderTransform>
+        </Image>
         <StackPanel x:Name="AjustesPanel" Grid.Column="3" Width="120" Height="120">
             <StackPanel.Background>
                 <ImageBrush ImageSource="/Assets/ajustesIcono.png"/>

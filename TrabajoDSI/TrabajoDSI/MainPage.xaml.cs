@@ -34,12 +34,14 @@ namespace TrabajoDSI
         {
             FriendsSV.IsPaneOpen = true;
             SearchFriendsTextBox.Visibility = Visibility.Visible;
+            flechasAmigos.Visibility = Visibility.Collapsed;
         }
 
         private void FriendsSV_PointerExited(object sender, PointerRoutedEventArgs e)
         {
             FriendsSV.IsPaneOpen = false;
             SearchFriendsTextBox.Visibility = Visibility.Collapsed;
+            flechasAmigos.Visibility = Visibility.Visible;
         }
 
         private void Image_PointerEntered(object sender, PointerRoutedEventArgs e)
@@ -81,11 +83,13 @@ namespace TrabajoDSI
         private void infoSV_PointerEntered(object sender, PointerRoutedEventArgs e)
         {
             infoSV.IsPaneOpen = true;
+            flechasNews.Visibility = Visibility.Collapsed;
         }
 
         private void infoSV_PointerExited(object sender, PointerRoutedEventArgs e)
         {
             infoSV.IsPaneOpen = false;
+            flechasNews.Visibility = Visibility.Visible;
         }
 
         private void AjustesButton_Click(object sender, RoutedEventArgs e)
