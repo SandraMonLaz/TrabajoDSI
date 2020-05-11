@@ -33,13 +33,13 @@ namespace TrabajoDSI
             this.InitializeComponent();
             ListaCoches = Carmanager.GetCars();
             selectedCar = null;
-                imagenBando.Source = new BitmapImage(new Uri(bandoJugador.getImagePlayerTeam()));
+            imagenBando.Source = new BitmapImage(new Uri(bandoJugador.getImagePlayerTeam()));
         }
 
         private void ConfirmButton_Click(object sender, RoutedEventArgs e)
         {
-            if(selectedCar != null)
-            this.Frame.Navigate(typeof(MenuPosicionamiento));
+            if (selectedCar != null)
+                this.Frame.Navigate(typeof(MenuPosicionamiento));
         }
 
         private void IconosCoches_ItemClick(object sender, ItemClickEventArgs e)
@@ -47,13 +47,9 @@ namespace TrabajoDSI
             ConfirmButton.Visibility = Visibility.Visible;
             //Devolver al estado anterior el boton que estaba seleccionado
             selectedCar = (SelectableCar)e.ClickedItem;
-            //GridViewItem item = IconosCoches.SelectedItems.ElementAt(0) as GridViewItem;
             string aux = selectedCar.image;
-            selectedCar.image = selectedCar.imageSelected;
-            selectedCar.imageSelected = aux;
-            ImagenStatsCocheSeleccionado.Source = new BitmapImage(new Uri(selectedCar.statsImage)); 
+            ImagenStatsCocheSeleccionado.Source = new BitmapImage(new Uri(selectedCar.statsImage));
             ImagenCocheSeleccionado.Source = new BitmapImage(new Uri(selectedCar.previewimage));
-            //Poner un Brillibrilli al botón del coche y cambiar la imagen del coche
         }
     }
 }
