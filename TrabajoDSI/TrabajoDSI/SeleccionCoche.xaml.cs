@@ -27,13 +27,60 @@ namespace TrabajoDSI
 
         public List<SelectableCar> ListaCoches;
         private SelectableCar selectedCar;
+        private string ImagenbandoJugador;
+        private string TituloBandoJugador;
+        private string PosicionPlayer1;
+        private string PosicionPlayer2;
+        private string PosicionPlayer3;
+        private string PosicionPlayer4;
+        private string PosicionPlayer5;
+        private string PosicionPlayer6;
+        private string PosicionPlayer7;
+        private string PosicionPlayer8;
+
+        bool playerReady;
+
+
+
 
         public SeleccionCoche()
         {
             this.InitializeComponent();
             ListaCoches = Carmanager.GetCars();
             selectedCar = null;
-            imagenBando.Source = new BitmapImage(new Uri(bandoJugador.getImagePlayerTeam()));
+            InitializePlayerIcons();
+            ImagenbandoJugador = TeamsInfo.getImagePlayerTeam();
+            TituloBandoJugador = TeamsInfo.getTitlePlayerTeam();
+            playerReady = false;
+        }
+
+        private void InitializePlayerIcons()
+        {
+            string preparado = TeamsInfo.PlayerConnectedIcon();
+            string noPreparado = TeamsInfo.PlayerDisconnectedicon();
+            string alpha = TeamsInfo.AlphaImage();
+            if (TeamsInfo.ladron)
+            {
+                PosicionPlayer1 = noPreparado;
+                PosicionPlayer2 = preparado;
+                PosicionPlayer3 = preparado;
+                PosicionPlayer4 = preparado;
+                PosicionPlayer5 =alpha;
+                PosicionPlayer6 = alpha;
+                PosicionPlayer7 = noPreparado ;
+                PosicionPlayer8 = noPreparado;
+            }
+            else
+            {
+                PosicionPlayer1 = noPreparado;
+                PosicionPlayer2 = preparado;
+                PosicionPlayer3 = alpha;
+                PosicionPlayer4 = alpha;
+                PosicionPlayer5 = noPreparado;
+                PosicionPlayer6 = noPreparado;
+                PosicionPlayer7 = noPreparado;
+                PosicionPlayer8 = noPreparado;
+            }
         }
 
         private void ConfirmButton_Click(object sender, RoutedEventArgs e)
@@ -45,6 +92,13 @@ namespace TrabajoDSI
         private void IconosCoches_ItemClick(object sender, ItemClickEventArgs e)
         {
             ConfirmButton.Visibility = Visibility.Visible;
+            if (!playerReady)
+            {
+                playerReady=true;
+                Player1.Source = new BitmapImage(new Uri(TeamsInfo.PlayerConnectedIcon()));
+                ImagenCocheSeleccionado.Visibility = Visibility.Visible;
+                ImagenStatsCocheSeleccionado.Visibility = Visibility.Visible;
+            }
             //Devolver al estado anterior el boton que estaba seleccionado
             selectedCar = (SelectableCar)e.ClickedItem;
             string aux = selectedCar.image;

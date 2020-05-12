@@ -28,6 +28,7 @@ namespace TrabajoDSI
         public List<PlayerInfo> ListaPolicias;
         private string DineroTotalLadrones;
         private string DineroTotalPolicias;
+        private string ImagenGanadorPartida;
 
         private string _nombreP1;
         private string _dineroP1;
@@ -65,50 +66,12 @@ namespace TrabajoDSI
         private string _imageP6;
 
 
-
-        public string NombreP1
-        {
-            get => _nombreP1;
-            set
-            {
-                if (_nombreP1 != value)
-                {
-                    _nombreP1 = value;
-                }
-            }
-        }
-
-        public string CocheP1
-        {
-            get => _cocheP1;
-            set
-            {
-                if (_cocheP1 != value)
-                {
-                    _cocheP1 = value;
-                }
-            }
-        }
-
-        public string DineroP1
-        {
-            get => _dineroP1;
-            set
-            {
-                if (_dineroP1 != value)
-                {
-                    _dineroP1 = value;
-                }
-            }
-        }
-
-
         public Postpartida()
         {
             this.InitializeComponent();
             ListaLadrones = PlayerInfoManager.Bandoladrones();
             ListaPolicias = PlayerInfoManager.BandoPolicias();
-            NombreGanador.Source = new BitmapImage(new Uri(bandoJugador.getImageWinnerTeam()));
+            ImagenGanadorPartida = TeamsInfo.getImageWinnerTeam();
             InitializePlayersInfo();
         }
 

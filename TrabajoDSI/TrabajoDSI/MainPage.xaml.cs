@@ -99,13 +99,13 @@ namespace TrabajoDSI
 
         private void policeButton_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            bandoJugador.ladron = false;
+            TeamsInfo.ladron = false;
             this.Frame.Navigate(typeof(SeleccionCoche));
         }
 
         private void thiefButton_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            bandoJugador.ladron = true;
+            TeamsInfo.ladron = true;
             this.Frame.Navigate(typeof(SeleccionCoche));
         }
 

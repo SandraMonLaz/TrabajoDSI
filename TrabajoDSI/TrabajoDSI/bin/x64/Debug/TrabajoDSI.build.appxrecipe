@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-DGNAOIQ</Machine>
-    <WindowsUser>Usuario</WindowsUser>
+    <Machine>DESKTOP-5LTOOHE</Machine>
+    <WindowsUser>David</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>be76ed63-19fd-4b94-a918-e68e1d4aa749</PackageIdentityName>
     <PackageIdentityPublisher>CN=felip</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.exe">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.exe">
       <PackagePath>entrypoint\TrabajoDSI.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,544 +34,550 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\A.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\A.png">
       <PackagePath>Assets\A.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\addToGroup.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\addToGroup.PNG">
       <PackagePath>Assets\addToGroup.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ajustesIcono.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ajustesIcono.png">
       <PackagePath>Assets\ajustesIcono.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BackToMainMenu.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BackToMainMenu.PNG">
       <PackagePath>Assets\BackToMainMenu.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Barra.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Barra.png">
       <PackagePath>Assets\Barra.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BarraUI.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BarraUI.png">
       <PackagePath>Assets\BarraUI.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\bocadillo.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\bocadillo.png">
       <PackagePath>Assets\bocadillo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BolsaDinero.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\BolsaDinero.png">
       <PackagePath>Assets\BolsaDinero.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Boton.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Boton.png">
       <PackagePath>Assets\Boton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThief.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThief.PNG">
       <PackagePath>Assets\botonThief.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThiefPress.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\botonThiefPress.PNG">
       <PackagePath>Assets\botonThiefPress.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\brilloCoche.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\brilloCoche.png">
       <PackagePath>Assets\brilloCoche.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ButtonUser.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\ButtonUser.PNG">
       <PackagePath>Assets\ButtonUser.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\C.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\C.png">
       <PackagePath>Assets\C.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Connected.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Connected.png">
       <PackagePath>Assets\Connected.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\D.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\D.png">
       <PackagePath>Assets\D.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\DestinoIcono.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\DestinoIcono.png">
       <PackagePath>Assets\DestinoIcono.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\DestinoIconoPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\DestinoIconoPos.png">
       <PackagePath>Assets\DestinoIconoPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Disconnected.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Disconnected.png">
       <PackagePath>Assets\Disconnected.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondo.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondo.png">
       <PackagePath>Assets\fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondoPosi.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\fondoPosi.png">
       <PackagePath>Assets\fondoPosi.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\FondoUI.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\FondoUI.png">
       <PackagePath>Assets\FondoUI.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend1.png">
       <PackagePath>Assets\Friend1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend2.png">
       <PackagePath>Assets\Friend2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend3.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend3.png">
       <PackagePath>Assets\Friend3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend4.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Friend4.png">
       <PackagePath>Assets\Friend4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Boton.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Boton.png">
       <PackagePath>Assets\Garaje\Boton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\BotonPRS.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\BotonPRS.png">
       <PackagePath>Assets\Garaje\BotonPRS.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\BtonSelec.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\BtonSelec.png">
       <PackagePath>Assets\Garaje\BtonSelec.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\brillicolor.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\brillicolor.png">
       <PackagePath>Assets\Garaje\Coches\brillicolor.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\brillirueda.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\brillirueda.png">
       <PackagePath>Assets\Garaje\Coches\brillirueda.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche1color1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche1color1.png">
       <PackagePath>Assets\Garaje\Coches\coche1color1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche1color2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche1color2.png">
       <PackagePath>Assets\Garaje\Coches\coche1color2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color1.png">
       <PackagePath>Assets\Garaje\Coches\coche2color1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color2.png">
       <PackagePath>Assets\Garaje\Coches\coche2color2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color3.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\coche2color3.png">
       <PackagePath>Assets\Garaje\Coches\coche2color3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\motor1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\motor1.png">
       <PackagePath>Assets\Garaje\Coches\motor1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\motor2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\motor2.png">
       <PackagePath>Assets\Garaje\Coches\motor2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\para1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\para1.png">
       <PackagePath>Assets\Garaje\Coches\para1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\para2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\para2.png">
       <PackagePath>Assets\Garaje\Coches\para2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\parabrilli.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\parabrilli.png">
       <PackagePath>Assets\Garaje\Coches\parabrilli.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\plataforma.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\plataforma.png">
       <PackagePath>Assets\Garaje\Coches\plataforma.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\rueda1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\rueda1.png">
       <PackagePath>Assets\Garaje\Coches\rueda1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\rueda2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Coches\rueda2.png">
       <PackagePath>Assets\Garaje\Coches\rueda2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Estadistica.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Estadistica.png">
       <PackagePath>Assets\Garaje\Estadistica.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Estadistica2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\Estadistica2.png">
       <PackagePath>Assets\Garaje\Estadistica2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flecha.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flecha.png">
       <PackagePath>Assets\Garaje\flecha.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flechaL.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\flechaL.png">
       <PackagePath>Assets\Garaje\flechaL.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\fondo.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\fondo.png">
       <PackagePath>Assets\Garaje\fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\lowPolyCar.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\lowPolyCar.png">
       <PackagePath>Assets\Garaje\lowPolyCar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\panel.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Garaje\panel.png">
       <PackagePath>Assets\Garaje\panel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\IconoBancoPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\IconoBancoPos.png">
       <PackagePath>Assets\IconoBancoPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\JugadorPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\JugadorPos.png">
       <PackagePath>Assets\JugadorPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LogoText.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LogoText.png">
       <PackagePath>Assets\LogoText.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\lowPolyCar.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\lowPolyCar.png">
       <PackagePath>Assets\lowPolyCar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\mapaPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\mapaPos.png">
       <PackagePath>Assets\mapaPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\BackToMainMenu.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\BackToMainMenu.PNG">
       <PackagePath>Assets\MenuAjustes\BackToMainMenu.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\Micro.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\Micro.PNG">
       <PackagePath>Assets\MenuAjustes\Micro.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\Volumen.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuAjustes\Volumen.PNG">
       <PackagePath>Assets\MenuAjustes\Volumen.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\addToGroup.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\addToGroup.PNG">
       <PackagePath>Assets\MenuPrincipal\addToGroup.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\ajustesIcono.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\ajustesIcono.png">
       <PackagePath>Assets\MenuPrincipal\ajustesIcono.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\bocadillo.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\bocadillo.png">
       <PackagePath>Assets\MenuPrincipal\bocadillo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\botonThief.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\botonThief.PNG">
       <PackagePath>Assets\MenuPrincipal\botonThief.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\botonThiefPress.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\botonThiefPress.PNG">
       <PackagePath>Assets\MenuPrincipal\botonThiefPress.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\brilloCoche.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\brilloCoche.png">
       <PackagePath>Assets\MenuPrincipal\brilloCoche.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\ButtonUser.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\ButtonUser.PNG">
       <PackagePath>Assets\MenuPrincipal\ButtonUser.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Connected.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Connected.png">
       <PackagePath>Assets\MenuPrincipal\Connected.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Disconnected.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Disconnected.png">
       <PackagePath>Assets\MenuPrincipal\Disconnected.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\fondo.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\fondo.png">
       <PackagePath>Assets\MenuPrincipal\fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend1.png">
       <PackagePath>Assets\MenuPrincipal\Friend1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend2.png">
       <PackagePath>Assets\MenuPrincipal\Friend2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend3.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend3.png">
       <PackagePath>Assets\MenuPrincipal\Friend3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend4.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\Friend4.png">
       <PackagePath>Assets\MenuPrincipal\Friend4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\LogoText.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\LogoText.png">
       <PackagePath>Assets\MenuPrincipal\LogoText.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\lowPolyCar.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\lowPolyCar.png">
       <PackagePath>Assets\MenuPrincipal\lowPolyCar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\playAs.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\playAs.png">
       <PackagePath>Assets\MenuPrincipal\playAs.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\PoliceButon.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\PoliceButon.PNG">
       <PackagePath>Assets\MenuPrincipal\PoliceButon.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\PoliceButonPress.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\MenuPrincipal\PoliceButonPress.PNG">
       <PackagePath>Assets\MenuPrincipal\PoliceButonPress.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Micro.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Micro.PNG">
       <PackagePath>Assets\Micro.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Minimapa.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Minimapa.png">
       <PackagePath>Assets\Minimapa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\playAs.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\playAs.png">
       <PackagePath>Assets\playAs.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButon.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButon.PNG">
       <PackagePath>Assets\PoliceButon.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButonPress.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliceButonPress.PNG">
       <PackagePath>Assets\PoliceButonPress.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliciaIconoPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PoliciaIconoPos.png">
       <PackagePath>Assets\PoliciaIconoPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\A.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\A.png">
       <PackagePath>Assets\Posicionamiento\A.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\AJugador.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\AJugador.png">
       <PackagePath>Assets\Posicionamiento\AJugador.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\Boton.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\Boton.png">
       <PackagePath>Assets\Posicionamiento\Boton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\C.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\C.png">
       <PackagePath>Assets\Posicionamiento\C.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\CJugador.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\CJugador.png">
       <PackagePath>Assets\Posicionamiento\CJugador.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\D.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\D.png">
       <PackagePath>Assets\Posicionamiento\D.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DestinoIconoPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DestinoIconoPos.png">
       <PackagePath>Assets\Posicionamiento\DestinoIconoPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DJugador.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\DJugador.png">
       <PackagePath>Assets\Posicionamiento\DJugador.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\flecha.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\flecha.png">
       <PackagePath>Assets\Posicionamiento\flecha.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\fondoPosi.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\fondoPosi.png">
       <PackagePath>Assets\Posicionamiento\fondoPosi.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\IconoBancoJugador.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\IconoBancoJugador.png">
       <PackagePath>Assets\Posicionamiento\IconoBancoJugador.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\IconoBancoPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\IconoBancoPos.png">
       <PackagePath>Assets\Posicionamiento\IconoBancoPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\JugadorPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\JugadorPos.png">
       <PackagePath>Assets\Posicionamiento\JugadorPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\mapaPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\mapaPos.png">
       <PackagePath>Assets\Posicionamiento\mapaPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\Panel.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\Panel.png">
       <PackagePath>Assets\Posicionamiento\Panel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\PoliciaIconoPos.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Posicionamiento\PoliciaIconoPos.png">
       <PackagePath>Assets\Posicionamiento\PoliciaIconoPos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadrones.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadrones.png">
       <PackagePath>Assets\PostPartida\BandoLadrones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadronesGanan.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoLadronesGanan.png">
       <PackagePath>Assets\PostPartida\BandoLadronesGanan.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoPoliciasGanan.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BandoPoliciasGanan.png">
       <PackagePath>Assets\PostPartida\BandoPoliciasGanan.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonMenu.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonMenu.png">
       <PackagePath>Assets\PostPartida\BotonMenu.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonRematch.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\BotonRematch.png">
       <PackagePath>Assets\PostPartida\BotonRematch.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfoLadrones.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfoLadrones.png">
       <PackagePath>Assets\PostPartida\ContenedorInfoLadrones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfopolicias.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorInfopolicias.png">
       <PackagePath>Assets\PostPartida\ContenedorInfopolicias.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorLadrones.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorLadrones.png">
       <PackagePath>Assets\PostPartida\ContenedorLadrones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorPolicias.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ContenedorPolicias.png">
       <PackagePath>Assets\PostPartida\ContenedorPolicias.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroLadrones.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroLadrones.png">
       <PackagePath>Assets\PostPartida\DineroLadrones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroPolicias.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\DineroPolicias.png">
       <PackagePath>Assets\PostPartida\DineroPolicias.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\fondo.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\fondo.png">
       <PackagePath>Assets\PostPartida\fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\FondoIcono.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\FondoIcono.png">
       <PackagePath>Assets\PostPartida\FondoIcono.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono1.png">
       <PackagePath>Assets\PostPartida\Icono1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono2.png">
       <PackagePath>Assets\PostPartida\Icono2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono3.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono3.png">
       <PackagePath>Assets\PostPartida\Icono3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono4.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono4.png">
       <PackagePath>Assets\PostPartida\Icono4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono5.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono5.png">
       <PackagePath>Assets\PostPartida\Icono5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono6.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\Icono6.png">
       <PackagePath>Assets\PostPartida\Icono6.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ListViewBackground.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\ListViewBackground.png">
       <PackagePath>Assets\PostPartida\ListViewBackground.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TextboxBackground.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TextboxBackground.png">
       <PackagePath>Assets\PostPartida\TextboxBackground.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TituloLadrones.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\PostPartida\TituloLadrones.png">
       <PackagePath>Assets\PostPartida\TituloLadrones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoLadrones.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\Alpha.png">
+      <PackagePath>Assets\SeleccionCoche\Alpha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoLadrones.png">
       <PackagePath>Assets\SeleccionCoche\BandoLadrones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoPolicias.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BandoPolicias.png">
       <PackagePath>Assets\SeleccionCoche\BandoPolicias.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1Seleccionado.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche1Seleccionado.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche1Seleccionado.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2Seleccionado.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche2Seleccionado.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche2Seleccionado.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3Seleccionado.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche3Seleccionado.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche3Seleccionado.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4Seleccionado.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotonCoche4Seleccionado.png">
       <PackagePath>Assets\SeleccionCoche\BotonCoche4Seleccionado.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotónConfirmar.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\BotónConfirmar.png">
       <PackagePath>Assets\SeleccionCoche\BotónConfirmar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\fondo.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\fondo.png">
       <PackagePath>Assets\SeleccionCoche\fondo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar2.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar3.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar3.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar4.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\lowPolyCar4.png">
       <PackagePath>Assets\SeleccionCoche\lowPolyCar4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelCoches.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelCoches.png">
       <PackagePath>Assets\SeleccionCoche\PanelCoches.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelIconosJugadores.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PanelIconosJugadores.png">
       <PackagePath>Assets\SeleccionCoche\PanelIconosJugadores.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PentagramaStats.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PentagramaStats.png">
       <PackagePath>Assets\SeleccionCoche\PentagramaStats.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerConnected.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerConnected.png">
       <PackagePath>Assets\SeleccionCoche\PlayerConnected.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerDisConnected.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\PlayerDisConnected.png">
       <PackagePath>Assets\SeleccionCoche\PlayerDisConnected.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar1.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar1.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar2.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar2.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar3.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar3.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar4.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\StatsCar4.png">
       <PackagePath>Assets\SeleccionCoche\StatsCar4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\TituloLadrones.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\TituloLadrones.png">
       <PackagePath>Assets\SeleccionCoche\TituloLadrones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\BarraUI.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SeleccionCoche\TituloPolicias.png">
+      <PackagePath>Assets\SeleccionCoche\TituloPolicias.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\BarraUI.png">
       <PackagePath>Assets\UIGame\BarraUI.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\BolsaDinero.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\BolsaDinero.png">
       <PackagePath>Assets\UIGame\BolsaDinero.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\FondoUI.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\FondoUI.png">
       <PackagePath>Assets\UIGame\FondoUI.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\Minimapa.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\Minimapa.png">
       <PackagePath>Assets\UIGame\Minimapa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\Velometro.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\UIGame\Velometro.png">
       <PackagePath>Assets\UIGame\Velometro.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Velometro.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Velometro.png">
       <PackagePath>Assets\Velometro.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Volumen.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Volumen.PNG">
       <PackagePath>Assets\Volumen.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\BandoPolicias.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\BandoPolicias.png">
       <PackagePath>BandoPolicias.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\coins.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\coins.png">
       <PackagePath>coins.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\FlechaDesplegable.PNG">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\FlechaDesplegable.PNG">
       <PackagePath>FlechaDesplegable.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.xr.xml">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.xr.xml">
       <PackagePath>TrabajoDSI.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Ajustes.xbf">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Garaje.xbf">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Garaje.xbf">
       <PackagePath>Garaje.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MenuPosicionamiento.xbf">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MenuPosicionamiento.xbf">
       <PackagePath>MenuPosicionamiento.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Postpartida.xbf">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Postpartida.xbf">
       <PackagePath>Postpartida.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\SeleccionCoche.xbf">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\SeleccionCoche.xbf">
       <PackagePath>SeleccionCoche.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\UIGame.xbf">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\UIGame.xbf">
       <PackagePath>UIGame.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\TrabajoDSI.exe">
+    <AppxPackagedFile Include="C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\TrabajoDSI.exe">
       <PackagePath>TrabajoDSI.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

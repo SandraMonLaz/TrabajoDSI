@@ -38,8 +38,8 @@
 
             <!--INFORMACION DEL BANDO EN EL QUE TE ENCUENTRAS-->
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  HorizontalAlignment="Center">
-                <Image x:Name="imagenBando" Source="ms-appx:///Assets/SeleccionCoche/bandoladrones.png"  ></Image>
-                <Image x:Name="nombreBando" Source="ms-appx:///Assets/SeleccionCoche/TituloLadrones.png"  Margin="0,0,0,0" ></Image>
+                <Image x:Name="imagenBando" Source="{x:Bind ImagenbandoJugador}"  ></Image>
+                <Image x:Name="nombreBando" Source="{x:Bind TituloBandoJugador}"   ></Image>
             </StackPanel>
 
             <!--Iconos de todos los jugadores-->
@@ -55,20 +55,31 @@
                     <Grid.Background>
                         <ImageBrush ImageSource="ms-appx:///Assets/SeleccionCoche/PanelIconosJugadores.png"/>
                     </Grid.Background>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
                     <!--LADRONES-->
-                    <StackPanel x:Name="JugadoresLadrones"  Orientation="Horizontal" HorizontalAlignment="Left">
-                        <Image x:Name="Player1" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
-                        <Image x:Name="Player2" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
-                        <Image x:Name="Player3" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
-                        <Image x:Name="Player4" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"></Image>
+                        <Image x:Name="Player1" Grid.Column="0"  Source="{x:Bind PosicionPlayer1}"></Image>
+                    <Image x:Name="Player2"  Grid.Column="1"  Source="{x:Bind PosicionPlayer2}"></Image>
+                    <Image x:Name="Player3"  Grid.Column="2"  Source="{x:Bind PosicionPlayer3}"></Image>
+                    <Image x:Name="Player4"  Grid.Column="3" Source="{x:Bind PosicionPlayer4}"></Image>
 
-                    </StackPanel>
                     <!--POLICIAS-->
-                    <StackPanel x:Name="JugadoresPolicias" Orientation="Horizontal" HorizontalAlignment="Right">
-                        <Image x:Name="Player5" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"/>
-                        <Image x:Name="Player6" Height="50" Source="ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"/>
+                    <Image x:Name="Player5"   Grid.Column="6" Source="{x:Bind PosicionPlayer5}"/>
+                    <Image x:Name="Player6"  Grid.Column="7" Source="{x:Bind PosicionPlayer6}"/>
+                    <Image x:Name="Player"   Grid.Column="8" Source="{x:Bind PosicionPlayer7}"/>
+                    <Image x:Name="Playerr"  Grid.Column="9" Source="{x:Bind PosicionPlayer8}"/>
 
-                    </StackPanel>
                 </Grid>
             </Grid>
 
@@ -117,10 +128,10 @@
                 </Grid.Background>
 
                 <!--Imagen de las stats del coche-->
-                <Image x:Name="ImagenStatsCocheSeleccionado" Source="ms-appx:///Assets/SeleccionCoche/StatsCar1.png"  ></Image>
+                <Image x:Name="ImagenStatsCocheSeleccionado" Visibility="Collapsed" Source="ms-appx:///Assets/SeleccionCoche/StatsCar1.png"  ></Image>
 
             </Grid>
-            <Image x:Name="ImagenCocheSeleccionado" Source="ms-appx:///Assets/SeleccionCoche/lowPolyCar.png" Grid.Column="1" Grid.Row="1" Margin="0,-150,0,0"></Image>
+            <Image x:Name="ImagenCocheSeleccionado" Visibility="Collapsed" Source="ms-appx:///Assets/SeleccionCoche/lowPolyCar.png" Grid.Column="1" Grid.Row="1"></Image>
         </Grid>
     </Grid>
 </Page>
