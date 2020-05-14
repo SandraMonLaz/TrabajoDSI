@@ -193,9 +193,11 @@
     <Content Include="Assets\Garaje\Estadistica.png" />
     <Content Include="Assets\Garaje\Estadistica2.png" />
     <Content Include="Assets\Garaje\flecha.png" />
+    <Content Include="Assets\Garaje\flechaAtras.png" />
     <Content Include="Assets\Garaje\flechaL.png" />
     <Content Include="Assets\Garaje\fondo.png" />
     <Content Include="Assets\Garaje\lowPolyCar.png" />
+    <Content Include="Assets\Garaje\monedas.png" />
     <Content Include="Assets\Garaje\panel.png" />
     <Content Include="Assets\IconoBancoPos.png" />
     <Content Include="Assets\JugadorPos.png" />

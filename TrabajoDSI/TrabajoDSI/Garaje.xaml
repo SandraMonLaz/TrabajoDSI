@@ -30,9 +30,8 @@
             <TextBlock x:Name="Dinero" Text="20 523 $" VerticalAlignment="Bottom" FontSize="26" FontFamily="Berlin Sans FB Demi" ></TextBlock>
         </StackPanel>
         <Button x:Name="backButton" Grid.ColumnSpan="3"  Grid.Row="0" HorizontalAlignment="Right" VerticalAlignment="Stretch" Width="80" Click="backButton_Click" >
-            <Button.Background>
-                <ImageBrush ImageSource="ms-appx:///Assets/Garaje/flechaAtras.png"></ImageBrush>
-            </Button.Background>
+            <Image Source="Assets/Garaje/flechaAtras.png"/>
+
         </Button>
         <!-- Botones superiores  -->
         <Grid Grid.ColumnSpan="3" Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
