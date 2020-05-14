@@ -1,0 +1,255 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="TrabajoDSI.Postpartida"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TrabajoDSI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <ItemsPanelTemplate x:Key="ContenedorCoches_ItemsPanelTemplate">
+            <ItemsWrapGrid Orientation="Vertical"
+                           VerticalAlignment="Center" HorizontalAlignment="Stretch" />
+        </ItemsPanelTemplate>
+    </Page.Resources>
+
+    <Grid x:ConnectionId='2' x:Name="FondoDelantero">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/PostPartida/fondo.png" AlignmentY="Top" AlignmentX="Center"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!--PARTE SUPERIOR DE LA PANTALLA-->
+        <Grid x:ConnectionId='3' x:Name="dineroLadrones"  Grid.Column="0" >
+            <Grid.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroLadrones.png"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock x:ConnectionId='45' x:Name="DineroLadrones" Grid.Row="1" Grid.Column="1"                                      HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="60" Margin="0,0,0,0"></TextBlock>
+        </Grid>
+
+        <Image x:ConnectionId='4' x:Name="NombreGanador" Grid.Column="1" Stretch="Fill"                                        ></Image>
+
+
+        <Grid x:ConnectionId='5' x:Name="dineroPolicias" Grid.Column="2" Grid.Row="0" >
+            <Grid.Background>
+                <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroPolicias.png"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="1.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock x:ConnectionId='44' x:Name="Dineropolicias" Grid.Row="1" Grid.Column="0"                                     HorizontalAlignment="Right" FontSize="60"></TextBlock>
+        </Grid>
+
+
+
+        <!--BOTONES-->
+        <Grid x:ConnectionId='6' x:Name="ButtonsMenuRematch" Grid.Column="1" Grid.Row="2" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel x:ConnectionId='40' x:Name="menuButton" Grid.Row="1" VerticalAlignment="Top"  >
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonMenu.png"/>
+                </StackPanel.Background>
+                <Button x:ConnectionId='43' x:Name="MenuB" HorizontalAlignment="Center" VerticalAlignment="Center"  Width="200" Height="75"                     >
+                </Button>
+            </StackPanel>
+            <StackPanel x:ConnectionId='41' x:Name="rematchButton"  Margin="0,0,0,0" >
+                <StackPanel.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/BotonRematch.png"/>
+                </StackPanel.Background>
+                <Button x:ConnectionId='42' x:Name="rematchB" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Height="150"                        >
+                </Button>
+            </StackPanel>
+        </Grid>
+
+
+        <!--BANDO DE LOS LADRONES-->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Grid x:ConnectionId='20' x:Name="Player1"   Grid.Row="0" HorizontalAlignment="Stretch">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoLadrones.png"/>
+                </Grid.Background>
+                <Image x:ConnectionId='36'                             Grid.Column="0"></Image>
+                <TextBlock x:ConnectionId='37' x:Name="NombreJugador1"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White"                          ></TextBlock>
+                <TextBlock x:ConnectionId='38' x:Name="CocheJugador1"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White"                         ></TextBlock>
+                <TextBlock x:ConnectionId='39' x:Name="DineroJugador1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White"                          ></TextBlock>
+            </Grid>
+
+            <!--JUGADOR2-->
+            <Grid x:ConnectionId='21' x:Name="Player2"   Grid.Row="1" HorizontalAlignment="Stretch">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoLadrones.png"/>
+                </Grid.Background>
+                <Image x:ConnectionId='32'                             Grid.Column="0"></Image>
+                <TextBlock x:ConnectionId='33' x:Name="NombreJugador2"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White"                          ></TextBlock>
+                <TextBlock x:ConnectionId='34' x:Name="CocheJugador2"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White"                         ></TextBlock>
+                <TextBlock x:ConnectionId='35' x:Name="DineroJugador2" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White"                          ></TextBlock>
+            </Grid>
+
+            <!--JUGADOR3-->
+            <Grid x:ConnectionId='22' x:Name="Player3"   Grid.Row="2" HorizontalAlignment="Stretch">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoLadrones.png"/>
+                </Grid.Background>
+                <Image x:ConnectionId='28'                             Grid.Column="0"></Image>
+                <TextBlock x:ConnectionId='29' x:Name="NombreJugador3"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White"                          ></TextBlock>
+                <TextBlock x:ConnectionId='30' x:Name="CocheJugador3"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White"                         ></TextBlock>
+                <TextBlock x:ConnectionId='31' x:Name="DineroJugador3" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White"                          ></TextBlock>
+            </Grid>
+
+            <!--JUGADOR4-->
+            <Grid x:ConnectionId='23' x:Name="Player4"   Grid.Row="3" HorizontalAlignment="Stretch" >
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoLadrones.png"/>
+                </Grid.Background>
+                <Image x:ConnectionId='24'                             Grid.Column="0"></Image>
+                <TextBlock x:ConnectionId='25' x:Name="NombreJugador4"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White"                          ></TextBlock>
+                <TextBlock x:ConnectionId='26' x:Name="CocheJugador4"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Left"  FontSize="25" Foreground="White"                         ></TextBlock>
+                <TextBlock x:ConnectionId='27' x:Name="DineroJugador4" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Left"  FontSize="30" Foreground="White"                          ></TextBlock>
+            </Grid>
+        </Grid>
+
+        <!--BANDO DE LOS POLICIAS-->
+        <Grid Grid.Column="2" Grid.Row="1" >
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <!--JUGADOR5-->
+            <Grid x:ConnectionId='10' x:Name="Player5"  Grid.Row="1" >
+                <Grid.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoPolicias.png"/>
+                </Grid.Background>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:ConnectionId='16' x:Name="DineroJugador5" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"  FontSize="30" Foreground="White"                          ></TextBlock>
+                <TextBlock x:ConnectionId='17' x:Name="CocheJugador5"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Right"  FontSize="25" Foreground="White"                         ></TextBlock>
+                <TextBlock x:ConnectionId='18' x:Name="NombreJugador5"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Right"  FontSize="25" Foreground="White"                          ></TextBlock>
+                <Image x:ConnectionId='19'                              Grid.Column="3"></Image>
+            </Grid>
+
+            <!--JUGADOR6-->
+            <Grid x:ConnectionId='11' x:Name="Player6"   Grid.Row="2">
+                <Grid.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ContenedorinfoPolicias.png"/>
+                </Grid.Background>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock x:ConnectionId='12' x:Name="DineroJugador6" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"  FontSize="30" Foreground="White"                          ></TextBlock>
+                <TextBlock x:ConnectionId='13' x:Name="CocheJugador6"  Grid.Column="1" VerticalAlignment="Center"  HorizontalAlignment="Right"  FontSize="25" Foreground="White"                         ></TextBlock>
+                <TextBlock x:ConnectionId='14' x:Name="NombreJugador6"  Grid.Column="2" VerticalAlignment="Center"  HorizontalAlignment="Right"  FontSize="25" Foreground="White"                          ></TextBlock>
+                <Image x:ConnectionId='15'                              Grid.Column="3"></Image>
+            </Grid>
+        </Grid>
+
+        <Grid x:ConnectionId='7' Grid.Row="2" Grid.Column="0"                                   >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+
+
+            <ListView x:ConnectionId='8' x:Name="ListViewChat" Visibility="Collapsed" >
+                <ListView.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/ListViewBackground.png"/>
+                </ListView.Background>
+                <ListViewItem>
+                    <TextBlock Text="Pertu: Buena partida"></TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock Text="Yukilled: Bien Jugado chavales"></TextBlock>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock Text="Estrujillo: Tio, revancha"></TextBlock>
+                </ListViewItem>
+
+            </ListView>
+
+            <TextBox x:ConnectionId='9' x:Name="textBoxChat"                               Grid.Row="1" Grid.Column="0"                                                 FocusVisualPrimaryBrush="Transparent" RequestedTheme="Default">
+                <TextBox.Foreground>
+                    <ImageBrush  ImageSource="ms-appx:///Assets/PostPartida/TextboxBackground.png"/>
+                </TextBox.Foreground>
+                <TextBox.Background>
+                    <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/TextboxBackground.png"/>
+                </TextBox.Background>
+            </TextBox>
+        </Grid>
+    </Grid>
+</Page>
+
