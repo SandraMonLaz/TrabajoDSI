@@ -8151,24 +8151,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\czepi\\.nuget\\packages\\": {},
+    "C:\\Users\\PcCom\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Universidad\\DSI\\TrabajoFinal\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI.csproj",
+      "projectUniqueName": "F:\\Desarrollo de Videojuegos\\2 CURSO\\DSI\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI.csproj",
       "projectName": "TrabajoDSI",
-      "projectPath": "C:\\Universidad\\DSI\\TrabajoFinal\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI.csproj",
-      "packagesPath": "C:\\Users\\czepi\\.nuget\\packages\\",
-      "outputPath": "C:\\Universidad\\DSI\\TrabajoFinal\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI\\obj\\",
+      "projectPath": "F:\\Desarrollo de Videojuegos\\2 CURSO\\DSI\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI.csproj",
+      "packagesPath": "C:\\Users\\PcCom\\.nuget\\packages\\",
+      "outputPath": "F:\\Desarrollo de Videojuegos\\2 CURSO\\DSI\\TrabajoDSI\\TrabajoDSI\\TrabajoDSI\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\czepi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PcCom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
