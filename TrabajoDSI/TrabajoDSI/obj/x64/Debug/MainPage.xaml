@@ -14,7 +14,7 @@
         <!-- Grid general-->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*"></ColumnDefinition>
-            <ColumnDefinition Width="4*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
             <ColumnDefinition Width="1*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
@@ -24,19 +24,22 @@
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-            <Image Source="coins.png" Width="100" Height="100" HorizontalAlignment="Left"></Image>
-            <TextBlock Text="20.000" Width="146" Height="53" FontSize="48" ></TextBlock>
-        </StackPanel>
-
-        <StackPanel Orientation="Horizontal" Width="250" Height="100" Background="DarkOliveGreen">
-            <Image Source="/Assets/Friend4.png" HorizontalAlignment="Left" Width="100" Height="100"></Image>
-            <TextBlock Text="AloneFCP" FontSize="30" VerticalAlignment="Center"></TextBlock>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/Assets/Friend4.png" HorizontalAlignment="Left" Width="75" Height="75"></Image>
+                <StackPanel Orientation="Vertical">
+                    <TextBlock Text="AloneFCP" FontSize="30" Foreground="White" VerticalAlignment="Center"></TextBlock>
+                    <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <Image Source="coins.png" Width="50" Height="50" HorizontalAlignment="Left"></Image>
+                        <TextBlock Text="20.000" Width="146" Height="75" FontSize="48" Foreground="White" ></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
         </StackPanel>
 
         <SplitView x:ConnectionId='2' x:Name="FriendsSV" DisplayMode="CompactOverlay" Grid.Row="1" IsPaneOpen="False"                                                                                  >
             <SplitView.PaneBackground>
-                <SolidColorBrush Color="#FF8B0856" ></SolidColorBrush>
+                <SolidColorBrush Color="#7FFFFFFF"></SolidColorBrush>
             </SplitView.PaneBackground>
 
             <SplitView.Pane>
@@ -72,11 +75,11 @@
                 </Grid>
             </SplitView.Pane>
         </SplitView>
-        <Image x:ConnectionId='3' x:Name="flechasAmigos" Source="FlechaDesplegable.PNG" Width="100" Height="100" Grid.Row="1" Margin="-120, 0, 0, 0"></Image>
+        <Image x:ConnectionId='3' x:Name="flechasAmigos" Source="FlechaDesplegable.PNG" Width="100" Height="100" Grid.Row="1" Margin="-160, 0, 0, 0"></Image>
         
         <SplitView x:ConnectionId='4' x:Name="infoSV" DisplayMode="CompactOverlay" Grid.Row="1" Grid.Column="2" IsPaneOpen="False" PanePlacement="Right"                                                                            >
             <SplitView.PaneBackground>
-                <SolidColorBrush Color="#FF8B0856" ></SolidColorBrush>
+                <SolidColorBrush Color="#7FFFFFFF" ></SolidColorBrush>
             </SplitView.PaneBackground>
 
             <SplitView.Pane>
@@ -90,7 +93,7 @@
                 </Grid>
             </SplitView.Pane>
         </SplitView>
-        <Image x:ConnectionId='5' x:Name="flechasNews" Source="FlechaDesplegable.PNG" Width="100" Height="100" Grid.Row="1" Grid.Column="2" Margin="120, 0, 0, 0" RenderTransformOrigin="0.5,0.5">
+        <Image x:ConnectionId='5' x:Name="flechasNews" Source="FlechaDesplegable.PNG" Width="100" Height="100" Grid.Row="1" Grid.Column="2" Margin="160, 0, 0, 0" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <CompositeTransform Rotation="-180.0"/>
             </Image.RenderTransform>

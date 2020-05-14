@@ -116,38 +116,49 @@ namespace TrabajoDSI
 
         private void InitializePlayersInfo()
         {
-
-            DineroTotalLadrones = TeamsInfo.dineroLadrones + "$";
-            DineroTotalPolicias = TeamsInfo.dineroPolicias + "$";
             _nombreP1 = ListaLadrones.ElementAt(0).nombre;
             _cocheP1 = ListaLadrones.ElementAt(0).coche;
-            _dineroP1 = ListaLadrones.ElementAt(0).dinero;
+            _dineroP1 = ListaLadrones.ElementAt(0).dinero + "$";
             _imageP1 = ListaLadrones.ElementAt(0).image;
 
             _nombreP2 = ListaLadrones.ElementAt(1).nombre;
             _cocheP2 = ListaLadrones.ElementAt(1).coche;
-            _dineroP2 = ListaLadrones.ElementAt(1).dinero;
+            _dineroP2 = ListaLadrones.ElementAt(1).dinero + "$";
             _imageP2 = ListaLadrones.ElementAt(1).image;
 
             _nombreP3 = ListaLadrones.ElementAt(2).nombre;
             _cocheP3 = ListaLadrones.ElementAt(2).coche;
-            _dineroP3 = ListaLadrones.ElementAt(2).dinero;
+            _dineroP3 = ListaLadrones.ElementAt(2).dinero + "$";
             _imageP3 = ListaLadrones.ElementAt(2).image;
 
             _nombreP4 = ListaLadrones.ElementAt(3).nombre;
             _cocheP4 = ListaLadrones.ElementAt(3).coche;
-            _dineroP4 = ListaLadrones.ElementAt(3).dinero;
+            _dineroP4 = ListaLadrones.ElementAt(3).dinero + "$";
             _imageP4 = ListaLadrones.ElementAt(3).image;
 
             _nombreP5 = ListaPolicias.ElementAt(0).nombre;
             _cocheP5 = ListaPolicias.ElementAt(0).coche;
-            _dineroP5 = ListaPolicias.ElementAt(0).dinero;
+            _dineroP5 = ListaPolicias.ElementAt(0).dinero + "$";
             _imageP5 = ListaPolicias.ElementAt(0).image;
 
             _nombreP6 = ListaPolicias.ElementAt(1).nombre;
             _cocheP6 = ListaPolicias.ElementAt(1).coche;
-            _dineroP6 = ListaPolicias.ElementAt(1).dinero;
+            _dineroP6 = ListaPolicias.ElementAt(1).dinero + "$";
             _imageP6 = ListaPolicias.ElementAt(1).image;
+
+            int dineroLadrones = 0;
+            for (int i = 0; i < ListaLadrones.Count; i++)
+            {
+                dineroLadrones += ListaLadrones.ElementAt(i).dinero;
+            }
+            DineroTotalLadrones = dineroLadrones + "$";
+            int dineroPolicias = 0;
+            for (int i = 0; i < ListaPolicias.Count; i++)
+            {
+                dineroPolicias += ListaPolicias.ElementAt(i).dinero;
+            }
+            DineroTotalPolicias = dineroPolicias + "$";
+
         }
     }
 }

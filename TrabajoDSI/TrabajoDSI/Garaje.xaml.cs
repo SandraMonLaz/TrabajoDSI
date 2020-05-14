@@ -194,9 +194,7 @@ namespace TrabajoDSI
             NombreCoche.Text = ArrayGaraje[selectedCar].nombreCoche;
             color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
 
-            ImageBrush a = new ImageBrush();
-            a.ImageSource = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].estadistica));
-            estadistica.Background = a;
+            estadistica.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].estadistica));
         }
 
         private void LeftCar_Click(object sender, RoutedEventArgs e)
@@ -207,9 +205,7 @@ namespace TrabajoDSI
             NombreCoche.Text = ArrayGaraje[selectedCar].nombreCoche;
             color.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].color[ArrayGaraje[selectedCar].icolor]));
 
-            ImageBrush a = new ImageBrush();
-            a.ImageSource = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].estadistica));
-            estadistica.Background = a;
+            estadistica.Source = new BitmapImage(new Uri("ms-appx:///" + ArrayGaraje[selectedCar].estadistica));
         }
 
         private void RightButtonCar_Click(object sender, RoutedEventArgs e)

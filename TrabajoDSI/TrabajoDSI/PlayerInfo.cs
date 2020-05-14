@@ -8,7 +8,7 @@ namespace TrabajoDSI
 {
     public class PlayerInfo
     {
-        public string dinero { get; set; }
+        public int dinero { get; set; }
         public string nombre { get; set; }
         public string coche { get; set; }
         public string image { get; set; }
@@ -22,27 +22,23 @@ namespace TrabajoDSI
         public static List<PlayerInfo> Bandoladrones()
         {
             var listaCoches = new List<PlayerInfo>();
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono1.png", dinero = "2000$", coche = "BMW M2 CS", nombre = "Yukilled" });
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono2.png", dinero = "1500$", coche = "Audi-R8", nombre = "Alonefcp" });
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono3.png", dinero = "1000$", coche = "Audi-R8", nombre = "Pertur" });
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono4.png", dinero = "2700$", coche = "Jeep Compass", nombre = "Paulkmv" });
-            TeamsInfo.dineroLadrones = 2000 + 1500 + 1000 + 2700;
-            TeamsInfo.dineroPolicias = 2000 + 1500;
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono1.png", dinero = 2000, coche = "BMW M2 CS", nombre = "Yukilled" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono2.png", dinero = 1500, coche = "Audi-R8", nombre = "Alonefcp" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono3.png", dinero = 1000, coche = "Audi-R8", nombre = "Pertur" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono4.png", dinero = 2700, coche = "Jeep Compass", nombre = "Paulkmv" });
             return listaCoches;
         }
         public static List<PlayerInfo> BandoPolicias()
         {
             var listaCoches = new List<PlayerInfo>();
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono5.png", coche = "BMW Coupé", dinero = "2000$", nombre = "Estrujillo" });
-            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono6.png", coche = "Toyota Prius", dinero = "1500$", nombre = "Fenomen" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono5.png", coche = "BMW Coupé", dinero = 2000, nombre = "Estrujillo" });
+            listaCoches.Add(new PlayerInfo { image = "ms-appx:///Assets/PostPartida/Icono6.png", coche = "Toyota Prius", dinero = 3100, nombre = "Fenomen" });
 
             return listaCoches;
         }
     }
     public class TeamsInfo
     {
-        static public int dineroLadrones { get; set; }
-        static public int dineroPolicias { get; set; }
 
         static public string PlayerConnectedIcon() { return "ms-appx:///Assets/SeleccionCoche/PlayerConnected.png"; }
         static public string PlayerDisconnectedicon() { return "ms-appx:///Assets/SeleccionCoche/PlayerDisConnected.png"; }
