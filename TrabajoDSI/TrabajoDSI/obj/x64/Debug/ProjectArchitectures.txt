@@ -1,1 +1,1 @@
-C:\Universidad\DSI\TrabajoFinal\TrabajoDSI\TrabajoDSI\TrabajoDSI\TrabajoDSI.csproj;x64
+C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\TrabajoDSI.csproj;x64

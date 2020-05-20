@@ -31,7 +31,7 @@
         </Grid.RowDefinitions>
 
         <!--PARTE SUPERIOR DE LA PANTALLA-->
-        <Grid x:ConnectionId='3' x:Name="dineroLadrones"  Grid.Column="0" >
+        <Grid x:ConnectionId='3' x:Name="dineroLadrones"  Grid.Column="0" Margin="60,10,100,100">
             <Grid.Background>
                 <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroLadrones.png"/>
             </Grid.Background>
@@ -50,7 +50,7 @@
         <Image x:ConnectionId='4' x:Name="NombreGanador" Grid.Column="1" Stretch="Fill"                                        ></Image>
 
 
-        <Grid x:ConnectionId='5' x:Name="dineroPolicias" Grid.Column="2" Grid.Row="0" >
+        <Grid x:ConnectionId='5' x:Name="dineroPolicias" Grid.Column="2" Grid.Row="0" Margin="100,10,60,100">
             <Grid.Background>
                 <ImageBrush ImageSource="ms-appx:///Assets/PostPartida/DineroPolicias.png"/>
             </Grid.Background>

@@ -19,7 +19,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
             <RowDefinition Height="5*"></RowDefinition>
             <RowDefinition Height="1*"></RowDefinition>
         </Grid.RowDefinitions>
@@ -28,10 +28,10 @@
             <StackPanel Orientation="Horizontal">
                 <Image Source="/Assets/Friend4.png" HorizontalAlignment="Left" Width="75" Height="75"></Image>
                 <StackPanel Orientation="Vertical">
-                    <TextBlock Text="AloneFCP" FontSize="30" Foreground="White" VerticalAlignment="Center"></TextBlock>
+                    <TextBlock Text="AloneFCP" FontSize="30" Foreground="White" VerticalAlignment="Center" FontFamily="Jokerman"></TextBlock>
                     <StackPanel Orientation="Horizontal" Grid.Row="2" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                         <Image Source="coins.png" Width="50" Height="50" HorizontalAlignment="Left"></Image>
-                        <TextBlock Text="20.000" Width="146" Height="75" FontSize="48" Foreground="White" ></TextBlock>
+                        <TextBlock Text="20.000" Width="146" Height="75" FontSize="40" Foreground="White" FontFamily="Jokerman" ></TextBlock>
                     </StackPanel>
                 </StackPanel>
             </StackPanel>
@@ -49,14 +49,14 @@
                         <RowDefinition Height="30"></RowDefinition>
                         <RowDefinition Height="5*"></RowDefinition>
                     </Grid.RowDefinitions>
-                    <TextBlock Text="Friends" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="78,0,0,0"></TextBlock>
+                    <TextBlock Text="Friends" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="78,0,0,0" FontFamily="Jokerman" ></TextBlock>
                     <TextBox x:ConnectionId='19' Text="Search a friend" x:Name="SearchFriendsTextBox" Grid.Row="1"                                               ></TextBox>
                     <ListView x:ConnectionId='20' x:Name="FriendsList" Grid.Row="2"                                   >
                         <ListView.ItemTemplate>
                             <DataTemplate                          >
                                 <StackPanel x:ConnectionId='22' Orientation="Horizontal" Width="250">
                                     <Image x:ConnectionId='23' Width="50" Height="50"                             />
-                                    <TextBlock x:ConnectionId='24'                      Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"/>
+                                    <TextBlock x:ConnectionId='24'                      Width="95" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Bookman Old Style"  />
                                     <StackPanel x:Name="Bocadillo1" Width="50" Height="50">
                                         <StackPanel.Background>
                                             <ImageBrush ImageSource="/Assets/bocadillo.png"/>
@@ -133,10 +133,10 @@
             </Grid>
 
             <Image x:ConnectionId='15' x:Name="CarImage" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Source="/Assets/MenuPrincipal/lowPolyCar.png"                                                                                                                 />
-            <Image Width="1000" Height="200" VerticalAlignment="Center" Source="/Assets/playAs.png" />
+
         </Grid>
 
-        <Image HorizontalAlignment="Stretch" Grid.Column="1" VerticalAlignment="Stretch" Source="/Assets/LogoText.png"/>
+        <Image HorizontalAlignment="Stretch" Grid.Column="1" Stretch="Fill" VerticalAlignment="Top" Source="/Assets/LogoText.png"/>
 
         <Grid Grid.Row="2" Grid.Column="1">
             <Grid.ColumnDefinitions>

@@ -57,22 +57,20 @@
                 <ImageBrush ImageSource="Assets/Posicionamiento/Panel.png"/>
             </StackPanel.Background>
 
-            <TextBlock  Text="Posiciona tu coche" FontSize="25" HorizontalAlignment="Center"/>
+            <TextBlock  Text="Posiciona tu coche" FontSize="25" HorizontalAlignment="Center" FontFamily="Jokerman" />
 
             <ListView x:ConnectionId='6' x:Name="Lugares" SelectionMode="Extended" HorizontalAlignment="Center"                                                                                  >
                 <ListView.ItemTemplate>
                     <DataTemplate                         >
-
                         <Grid x:ConnectionId='8'>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="2*"/>
                                 <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
-                            <Image x:ConnectionId='9' Grid.Column="0" Width="20" Height="20"                         />
-                            <TextBlock x:ConnectionId='10' Grid.Column="1"                       />
+                            <Image x:ConnectionId='9' Grid.Column="0" Width="30" Height="20"                         />
+                            <TextBlock x:ConnectionId='10' Grid.Column="1"                        FontFamily="Agency FB" FontSize="30"/>
                         </Grid>
                     </DataTemplate>
-
                 </ListView.ItemTemplate>
 
             </ListView>
