@@ -298,6 +298,7 @@
     <Content Include="Assets\SeleccionCoche\StatsCar4.png" />
     <Content Include="Assets\SeleccionCoche\TituloLadrones.png" />
     <Content Include="Assets\SeleccionCoche\TituloPolicias.png" />
+    <Content Include="Assets\tutoBlender.jpg" />
     <Content Include="Assets\UIGame\BarraUI.png" />
     <Content Include="Assets\UIGame\BolsaDinero.png" />
     <Content Include="Assets\UIGame\FondoUI.png" />

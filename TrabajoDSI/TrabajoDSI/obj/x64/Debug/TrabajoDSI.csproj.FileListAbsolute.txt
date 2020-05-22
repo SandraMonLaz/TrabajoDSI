@@ -222,3 +222,4 @@ C:\Universidad\DSI\TrabajoFinal\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x64\Debug\P
 C:\Universidad\DSI\TrabajoFinal\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Universidad\DSI\TrabajoFinal\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 C:\Universidad\DSI\Trabajo final\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json

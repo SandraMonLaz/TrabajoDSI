@@ -89,6 +89,7 @@
                         <RowDefinition Height="5*"></RowDefinition>
                     </Grid.RowDefinitions>
                     <TextBlock Text="News" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" Margin="78,0,0,0"></TextBlock>
+                    <Image Source="/Assets/tutoBlender.jpg" Grid.Row="1"></Image>
 
                 </Grid>
             </SplitView.Pane>
