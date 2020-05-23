@@ -547,6 +547,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\news.jpg">
+      <PackagePath>Assets\news.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\tutoBlender.jpg">
       <PackagePath>Assets\tutoBlender.jpg</PackagePath>
     </AppxPackagedFile>

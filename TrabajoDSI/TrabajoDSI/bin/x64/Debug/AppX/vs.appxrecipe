@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-05-22T14:35:12.836</Modified>
+      <Modified>2020-05-23T14:36:13.785</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.exe">
       <PackagePath>entrypoint\TrabajoDSI.exe</PackagePath>
-      <Modified>2020-05-22T14:35:10.080</Modified>
+      <Modified>2020-05-23T14:36:12.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -728,6 +728,10 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-05-10T18:12:41.465</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\news.jpg">
+      <PackagePath>Assets\news.jpg</PackagePath>
+      <Modified>2020-05-23T14:35:34.780</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\Assets\tutoBlender.jpg">
       <PackagePath>Assets\tutoBlender.jpg</PackagePath>
       <Modified>2020-05-22T14:27:09.343</Modified>
@@ -738,39 +742,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\TrabajoDSI.xr.xml">
       <PackagePath>TrabajoDSI.xr.xml</PackagePath>
-      <Modified>2020-05-22T14:35:09.770</Modified>
+      <Modified>2020-05-22T14:39:35.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-05-22T14:35:09.840</Modified>
+      <Modified>2020-05-23T14:36:11.889</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Ajustes.xbf">
       <PackagePath>Ajustes.xbf</PackagePath>
-      <Modified>2020-05-22T14:35:09.840</Modified>
+      <Modified>2020-05-23T14:36:11.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Garaje.xbf">
       <PackagePath>Garaje.xbf</PackagePath>
-      <Modified>2020-05-22T14:35:09.818</Modified>
+      <Modified>2020-05-23T14:36:11.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-05-22T14:35:09.824</Modified>
+      <Modified>2020-05-23T14:36:11.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\MenuPosicionamiento.xbf">
       <PackagePath>MenuPosicionamiento.xbf</PackagePath>
-      <Modified>2020-05-22T14:35:09.841</Modified>
+      <Modified>2020-05-23T14:36:11.891</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Postpartida.xbf">
       <PackagePath>Postpartida.xbf</PackagePath>
-      <Modified>2020-05-22T14:35:09.835</Modified>
+      <Modified>2020-05-23T14:36:11.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\SeleccionCoche.xbf">
       <PackagePath>SeleccionCoche.xbf</PackagePath>
-      <Modified>2020-05-22T14:35:09.841</Modified>
+      <Modified>2020-05-23T14:36:11.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\UIGame.xbf">
       <PackagePath>UIGame.xbf</PackagePath>
-      <Modified>2020-05-22T14:35:09.842</Modified>
+      <Modified>2020-05-23T14:36:11.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -778,11 +782,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-05-22T14:35:11.056</Modified>
+      <Modified>2020-05-23T14:36:13.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub\TrabajoDSI\TrabajoDSI\TrabajoDSI\bin\x64\Debug\Core\TrabajoDSI.exe">
       <PackagePath>TrabajoDSI.exe</PackagePath>
-      <Modified>2020-05-22T14:35:12.823</Modified>
+      <Modified>2020-05-23T14:36:13.772</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
